@@ -1,0 +1,24 @@
+name = "tree"
+srcDir = "src"
+defaultTargets = ["Development", "ReciprocityTheory"]
+moreLeanArgs = ["--tstack=400000"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+maxSynthPendingDepth = 3
+pp.unicode.fun = true
+maxHeartbeats = 4000000
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "fc4f59e577feb1a4956671bc04ac18aaaf8cd842"
+
+[[lean_lib]]
+name = "Development"
+globs = ["Development.+"]
+
+[[lean_lib]]
+name = "ReciprocityTheory"
+globs = ["ReciprocityTheory.+"]

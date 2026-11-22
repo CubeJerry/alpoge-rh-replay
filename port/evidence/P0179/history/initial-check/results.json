@@ -1,0 +1,142 @@
+[
+  {
+    "exit_code": 0,
+    "started_utc": "2026-11-22T12:08:11.560232+00:00",
+    "ended_utc": "2026-11-22T12:17:01.907285+00:00",
+    "seconds": 530.35,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement:olean"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement:olean"
+    ],
+    "id": "M022910",
+    "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+    "successful": true,
+    "source_sha256": "c3dc5ee1c2b5f9a1a89cec2eb67e41177fe620e442e36030d6a05c2cbb44e6f6",
+    "built_source_sha256": "c3dc5ee1c2b5f9a1a89cec2eb67e41177fe620e442e36030d6a05c2cbb44e6f6",
+    "source_changed_during_build": false,
+    "patch_sha256": null,
+    "olean_sha256": "626a521a7730f2e442f5afd5d13260bf17a1b03c2ed7eed609f3da3d8332896b",
+    "log_sha256": "89ef38164553a684ae37e977687576ab5d4b525ac33242483f891d96e37781b9",
+    "sorry_diagnostic": false,
+    "reused_names": []
+  },
+  {
+    "exit_code": 0,
+    "started_utc": "2026-11-22T12:17:01.912483+00:00",
+    "ended_utc": "2026-11-22T12:30:52.021238+00:00",
+    "seconds": 830.11,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective:olean"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective:olean"
+    ],
+    "id": "M023055",
+    "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+    "successful": true,
+    "source_sha256": "252989d5ddac000e257d7fb1d5c98c787e73cb9f69cd891d492de1ac43b1c853",
+    "built_source_sha256": "252989d5ddac000e257d7fb1d5c98c787e73cb9f69cd891d492de1ac43b1c853",
+    "source_changed_during_build": false,
+    "patch_sha256": null,
+    "olean_sha256": "58e0431d25b1ee98a13c1402f4c0f36294e2229100ea8decc69dfce5fb51919c",
+    "log_sha256": "cbe93be3a5a39b7387847fbc8a1791f1929513ec97bb22a7aaaaa4e06f641e9b",
+    "sorry_diagnostic": false,
+    "reused_names": []
+  },
+  {
+    "exit_code": 0,
+    "started_utc": "2026-11-22T12:30:52.026304+00:00",
+    "ended_utc": "2026-11-22T12:59:35.001241+00:00",
+    "seconds": 1722.97,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup:olean"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup:olean"
+    ],
+    "id": "M026102",
+    "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+    "successful": true,
+    "source_sha256": "61954fb53d374d28c81fc4dc2bb980a1cf411709ef67d79421b0a391225aaf63",
+    "built_source_sha256": "61954fb53d374d28c81fc4dc2bb980a1cf411709ef67d79421b0a391225aaf63",
+    "source_changed_during_build": false,
+    "patch_sha256": null,
+    "olean_sha256": "35f41a047fb72cbc6e0068c2be124faf42e3cabf266d1c81423ff8a1a8ff5c7f",
+    "log_sha256": "40de1639ad1cf9a019dbf6e91c6efabff250db9daf15af6bd8750c421c7823a8",
+    "sorry_diagnostic": false,
+    "reused_names": []
+  },
+  {
+    "exit_code": 1,
+    "started_utc": "2026-11-22T12:59:35.006146+00:00",
+    "ended_utc": "2026-11-22T13:11:37.081023+00:00",
+    "seconds": 722.07,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean"
+    ],
+    "id": "M027599",
+    "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+    "successful": false,
+    "source_sha256": "6999fd07ee922b52446730a0397c83bc0d0778da446756208506a1572e3bd326",
+    "built_source_sha256": "6999fd07ee922b52446730a0397c83bc0d0778da446756208506a1572e3bd326",
+    "source_changed_during_build": false,
+    "patch_sha256": null,
+    "olean_sha256": null,
+    "log_sha256": "f05c9b7bd0dc0f968b10da212e301fbaaadfe0f4851df4db980b5fd8ef3ddca2",
+    "sorry_diagnostic": false,
+    "reused_names": []
+  }
+]

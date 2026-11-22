@@ -1,0 +1,101 @@
+== started_utc: 2026-11-22T12:17:01.912483+00:00
+== cwd: /workspace/scratch/1fdb83412789/port-work/lean
+== command: elan run leanprover/lean4:v4.36.0 lake --no-cache build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective:olean
+== execution_command: elan run leanprover/lean4:v4.36.0 lake --no-cache build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective:olean
+== LEAN_NUM_THREADS: 1
+⚠ [18250/18256] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity (162s)
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean:63:0: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.MultiplicationKernelIdentity.ev_lin`:
+  [DecidableEq S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean:166:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean:169:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18256] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference (159s)
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/QuotientEigenDifference.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/QuotientEigenDifference.lean:284:34: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/QuotientEigenDifference.lean:284:63: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/QuotientEigenDifference.lean:321:57: This simp argument is unused:
+  neg_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [e, hδ, hδm, hsw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18252/18256] Ran Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/QuotientEigenDifference.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff (200s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:36:30: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:50:47: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:67:17: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:80:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:104:0: automatically included section variable(s) unused in theorem `GlobalTheory.HerbrandBridge.evalVec_smul`:
+  [DecidableEq S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:109:0: automatically included section variable(s) unused in theorem `GlobalTheory.HerbrandBridge.evalVec_add`:
+  [DecidableEq S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:114:0: automatically included section variable(s) unused in theorem `GlobalTheory.HerbrandBridge.evalVec_sub`:
+  [DecidableEq S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean:119:0: automatically included section variable(s) unused in theorem `GlobalTheory.HerbrandBridge.comp_coe`:
+  [DecidableEq S]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq S] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18255/18256] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemAddValuationIntegerRingNormalizedIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective (287s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EvalQuotientRingVectorAtPointsInjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18256 jobs).
+
+== exit_code: 0
+== ended_utc: 2026-11-22T12:30:52.021238+00:00
+== seconds: 830.11

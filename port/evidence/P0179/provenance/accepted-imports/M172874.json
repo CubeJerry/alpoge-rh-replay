@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne",
+  "source_sha256": "93df8d90423f1dc33a77b1bf4c900804748e2535087541a93175e8c83730c581",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isPrime_bot for the existing proof that the zero ideal of a domain is prime."
+}

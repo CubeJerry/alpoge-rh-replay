@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+  "source_sha256": "ad1c2093b23fdf4e7cc3186210f25a3b096b07d4307c680196c699c3814433d2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TFAE indices are 1-based (.out 3 0 becomes .out 4 1); use Order.lt_one_iff for the renamed ENat lemma and drop the explicit side hypotheses of the now-unconditional ordFrac_eq_ord."
+}

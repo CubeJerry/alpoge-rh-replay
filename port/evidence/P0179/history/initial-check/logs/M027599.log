@@ -1,0 +1,147 @@
+== started_utc: 2026-11-22T12:59:35.006146+00:00
+== cwd: /workspace/scratch/1fdb83412789/port-work/lean
+== command: elan run leanprover/lean4:v4.36.0 lake --no-cache build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean
+== execution_command: elan run leanprover/lean4:v4.36.0 lake --no-cache build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean
+== LEAN_NUM_THREADS: 1
+⚠ [18250/18254] Replayed Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:32:0: automatically included section variable(s) unused in theorem `GlobalTheory.krullDimLE_one_of_height_eq_one`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:85:6: `ENat.one_le_iff_ne_zero` has been deprecated: Use `Order.one_le_iff_ne_zero` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} {x : α} [inst : PartialOrder α] [inst_1 : AddMonoidWithOne α] [NeZero 1] [SuccAddOrder α]
+    [IsBotZeroClass α], 1 ≤ x ↔ x ≠ 0
+instead of
+  ∀ {n : ℕ∞}, 1 ≤ n ↔ n ≠ 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_le_iff_ne_zero` to `Order.one_le_iff_ne_zero x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:199:0: automatically included section variable(s) unused in theorem `GlobalTheory.isTorsionFree_of_isLocalizedModule`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:326:0: automatically included section variable(s) unused in theorem `GlobalTheory.mem_range_algebraMap_atPrime_iff`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:463:28: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig
+warning: src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/LocalizationAtPrimeIsDiscreteValuationRingOfHeig.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/LocalizationAtPrimeIsDiscreteValuationRingOfHeig.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✖ [18254/18254] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne (688s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+trace: .> LEAN_PATH=/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/e92c8f71c3ad/port-work/lean/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/1fdb83412789/port-work/lean/.lake/build/lib/lean /workspace/scratch/e92c8f71c3ad/port-work/elan/toolchains/leanprover--lean4---v4.36.0/bin/lean --tstack=400000 /workspace/scratch/1fdb83412789/port-work/lean/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean -o /workspace/scratch/1fdb83412789/port-work/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.olean -i /workspace/scratch/1fdb83412789/port-work/lean/.lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.ilean -c /workspace/scratch/1fdb83412789/port-work/lean/.lake/build/ir/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.c --setup /workspace/scratch/1fdb83412789/port-work/lean/.lake/build/ir/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.setup.json --json
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: could not synthesize default value for parameter 'h₁' using tactics
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: Tactic `rfl` failed: The left-hand side
+  [IsDiscreteValuationRing R, ValuationRing R, IsDedekindDomain R, IsIntegrallyClosed R ∧ ∃! P_1, P_1 ≠ ⊥ ∧ P_1.IsPrime,
+      Submodule.IsPrincipal (maximalIdeal R), Module.finrank (ResidueField R) (CotangentSpace R) = 1,
+      ∀ (I : Ideal R), I ≠ ⊥ → ∃ n, I = maximalIdeal R ^ n][4 - 1]?
+is not definitionally equal to the right-hand side
+  some (Submodule.IsPrincipal (maximalIdeal R))
+
+O C : Type
+inst✝⁸ : CommRing O
+inst✝⁷ : IsDomain O
+inst✝⁶ : IsNoetherianRing O
+inst✝⁵ : IsIntegrallyClosed O
+inst✝⁴ : CommRing C
+inst✝³ : IsDomain C
+inst✝² : IsNoetherianRing C
+inst✝¹ : Algebra O C
+inst✝ : Module.FaithfullyFlat O C
+h : O
+hh : h ≠ 0
+p : Ideal O
+hp : p.IsPrime
+h1 : p.height = 1
+hP : (Ideal.map (algebraMap O C) p).IsPrime
+u : Cˣ
+g : C
+hg : (algebraMap O C) h = ↑u * g ^ 2
+π : O
+hπp : π ∈ p
+hπ0 : π ≠ 0
+hgen : ∀ y ∈ p, ∃ s ∉ p, π ∣ s * y
+n : ℕ
+b c : O
+hb : b ∉ p
+hc : c ∉ p
+hbc : b * h = c * π ^ n
+P : Ideal C := Ideal.map (algebraMap O C) p
+R : Type := Localization.AtPrime P
+φ : O →+* R := (algebraMap C R).comp (algebraMap O C)
+hcomap : Ideal.comap (algebraMap O C) P = p
+hinjR : Function.Injective ⇑(algebraMap C R)
+hinjC : Function.Injective ⇑(algebraMap O C)
+hinj : Function.Injective ⇑φ
+hunit : ∀ s ∉ p, IsUnit (φ s)
+hπR : φ π ≠ 0
+hmax : maximalIdeal R = Ideal.span {φ π}
+hnf : ¬IsField R
+⊢ [IsDiscreteValuationRing R, ValuationRing R, IsDedekindDomain R, IsIntegrallyClosed R ∧ ∃! P_1, P_1 ≠ ⊥ ∧ P_1.IsPrime,
+        Submodule.IsPrincipal (maximalIdeal R), Module.finrank (ResidueField R) (CotangentSpace R) = 1,
+        ∀ (I : Ideal R), I ≠ ⊥ → ∃ n, I = maximalIdeal R ^ n][4 - 1]? =
+    some (Submodule.IsPrincipal (maximalIdeal R))
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: could not synthesize default value for parameter 'x._@.Mathlib.Data.List.TFAE.4142160432._hygCtx._hyg.58' using tactics
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: TFAE indices start at 1.
+O C : Type
+inst✝⁸ : CommRing O
+inst✝⁷ : IsDomain O
+inst✝⁶ : IsNoetherianRing O
+inst✝⁵ : IsIntegrallyClosed O
+inst✝⁴ : CommRing C
+inst✝³ : IsDomain C
+inst✝² : IsNoetherianRing C
+inst✝¹ : Algebra O C
+inst✝ : Module.FaithfullyFlat O C
+h : O
+hh : h ≠ 0
+p : Ideal O
+hp : p.IsPrime
+h1 : p.height = 1
+hP : (Ideal.map (algebraMap O C) p).IsPrime
+u : Cˣ
+g : C
+hg : (algebraMap O C) h = ↑u * g ^ 2
+π : O
+hπp : π ∈ p
+hπ0 : π ≠ 0
+hgen : ∀ y ∈ p, ∃ s ∉ p, π ∣ s * y
+n : ℕ
+b c : O
+hb : b ∉ p
+hc : c ∉ p
+hbc : b * h = c * π ^ n
+P : Ideal C := Ideal.map (algebraMap O C) p
+R : Type := Localization.AtPrime P
+φ : O →+* R := (algebraMap C R).comp (algebraMap O C)
+hcomap : Ideal.comap (algebraMap O C) P = p
+hinjR : Function.Injective ⇑(algebraMap C R)
+hinjC : Function.Injective ⇑(algebraMap O C)
+hinj : Function.Injective ⇑φ
+hunit : ∀ s ∉ p, IsUnit (φ s)
+hπR : φ π ≠ 0
+hmax : maximalIdeal R = Ideal.span {φ π}
+hnf : ¬IsField R
+⊢ 0 ≠ 0
+Some required targets logged failures:
+- Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne
+error: build failed
+
+== exit_code: 1
+== ended_utc: 2026-11-22T13:11:37.081023+00:00
+== seconds: 722.07

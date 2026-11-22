@@ -1,0 +1,298 @@
+{
+  "schema": "rh-port-mirror-selection-v1",
+  "packet": "P0179",
+  "created_utc": "2026-11-22T12:08:02.516186+00:00",
+  "accepted_commit": "352bdee9ee3cab6cbdcd4a0653225e303c796d72",
+  "pins": {
+    "lean": "leanprover/lean4:v4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+    "replay_pins_unchanged": {
+      "lean": "leanprover/lean4:v4.33.1",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  },
+  "source_base_url": "https://raw.githubusercontent.com/leanprover-community/riemann-hypothesis/8ec38f92ac54b5c91bc07f4f6f88ea61691b7975/src",
+  "source_method": "Pinned GitHub source mirror; each source verified against tracker/modules.jsonl.gz. No full archive extraction is claimed.",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "target_sha256": "ec4d744ba850213e73cf4f3e2079994fd2acdb9c2d7a96ed348f44cd782bf57f",
+  "selected": [
+    {
+      "id": "M022910",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+      "source_sha256": "c3dc5ee1c2b5f9a1a89cec2eb67e41177fe620e442e36030d6a05c2cbb44e6f6",
+      "imports": [
+        "M022909"
+      ],
+      "depth": 2,
+      "packet": "P0179",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M023055",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+      "source_sha256": "252989d5ddac000e257d7fb1d5c98c787e73cb9f69cd891d492de1ac43b1c853",
+      "imports": [
+        "M002162",
+        "M002173",
+        "M043083"
+      ],
+      "depth": 2,
+      "packet": "P0179",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M026102",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+      "source_sha256": "61954fb53d374d28c81fc4dc2bb980a1cf411709ef67d79421b0a391225aaf63",
+      "imports": [
+        "M080701",
+        "M172874"
+      ],
+      "depth": 2,
+      "packet": "P0179",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M027599",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+      "source_sha256": "6999fd07ee922b52446730a0397c83bc0d0778da446756208506a1572e3bd326",
+      "imports": [
+        "M080701"
+      ],
+      "depth": 2,
+      "packet": "P0179",
+      "state": "open",
+      "wave": []
+    }
+  ],
+  "imports": [
+    {
+      "id": "M002162",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity",
+      "source_sha256": "d7a6c0cc7066506279cf640876bd35b572572e90d734f0eeb27f0c43fb2dd932",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0001",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M002173",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference",
+      "source_sha256": "8603715a94b3dfe5c0c39385da1f56fe5bb41bcdfd9287e44064c53a15f3bf1f",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0001",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M006336",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+      "source_sha256": "ad1c2093b23fdf4e7cc3186210f25a3b096b07d4307c680196c699c3814433d2",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0004",
+      "state": "assigned",
+      "wave": [
+        4
+      ]
+    },
+    {
+      "id": "M022909",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+      "source_sha256": "2e3027f76802f235d31545382e17c2a5070e94c18a7c88e56df25ea9bb32a735",
+      "imports": [
+        "M026561"
+      ],
+      "depth": 1,
+      "packet": "P0102",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M026561",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind",
+      "source_sha256": "4b1b994c233ec56a26bf4e708fb924eef6bd889a6e5cc411a36eed47f9e0e2ff",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0011",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M043083",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+      "source_sha256": "e671cdcf8a01b93794c8aa70742fa12c05788435e5413a3c17261ff6ecbbd512",
+      "imports": [
+        "M002162",
+        "M002173"
+      ],
+      "depth": 1,
+      "packet": "P0111",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M080701",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+      "source_sha256": "723c539df6d7ab97527f656f2b8b9b06c3a1a07258f91e2cf3bcbb5cfb81102e",
+      "imports": [
+        "M006336"
+      ],
+      "depth": 1,
+      "packet": "P0126",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M172874",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne",
+      "source_sha256": "93df8d90423f1dc33a77b1bf4c900804748e2535087541a93175e8c83730c581",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0091",
+      "state": "open",
+      "wave": []
+    }
+  ],
+  "accepted_import_records": [
+    {
+      "id": "M002162",
+      "record_sha256": "44f5fe024ce730cda541b47fe2f79543a5da0f5927871b26b5db61dc40d6e9a1",
+      "patch_sha256": "b86bedd09c3bd05b16f9c2e2628e9020a28ae3571b5eda26efe330e40c4c5ebd",
+      "built_source_sha256": "1bd4760eaf966c8c7b7930bdd5f561ed31598a6747889af03f11d2df40aa560c"
+    },
+    {
+      "id": "M002173",
+      "record_sha256": "c5a78efe90015a32c410b0d207e89dde10c01e64828a6024311964d5f427c2e0",
+      "patch_sha256": null,
+      "built_source_sha256": "8603715a94b3dfe5c0c39385da1f56fe5bb41bcdfd9287e44064c53a15f3bf1f"
+    },
+    {
+      "id": "M006336",
+      "record_sha256": "2f4ef038a919746b8a12ab554249a50be1352228febb3ecd8ede860b26fd6344",
+      "patch_sha256": "f37a88bc376dc360fa1e6b3b1f25f76b3fcdaec0f1cd16b2b4678d315fb2e4fb",
+      "built_source_sha256": "663c070dc388223b37bed2e36cb29ab0009874e7f3735747f4e93c028edcf1f0"
+    },
+    {
+      "id": "M022909",
+      "record_sha256": "fc38546ad6b07183787e7d6a31dd4888482b9db5de5a97c4ffd47c4c4cc8a603",
+      "patch_sha256": null,
+      "built_source_sha256": "2e3027f76802f235d31545382e17c2a5070e94c18a7c88e56df25ea9bb32a735"
+    },
+    {
+      "id": "M026561",
+      "record_sha256": "38822b4741e4feafa2b97a7194b6ddcf777ec2b82d64c0efb196d88a03c124d3",
+      "patch_sha256": "9df6276f39c789091d2e92ea6739a88eb8b8a5e0f64fcaca0a21e1e6856e4c31",
+      "built_source_sha256": "3fd8fd6f4dff21a9241329df565eeafe439b197984189db34ec34635ab09877f"
+    },
+    {
+      "id": "M043083",
+      "record_sha256": "87d85b89c91ff877df25ce621235127728eaefb3279b07caff7f76dd3bf8619e",
+      "patch_sha256": null,
+      "built_source_sha256": "e671cdcf8a01b93794c8aa70742fa12c05788435e5413a3c17261ff6ecbbd512"
+    },
+    {
+      "id": "M080701",
+      "record_sha256": "c762c4c8451ea0a49a051b2bd0ab517ecddd3aa1c858653e49a9e70ce1b24753",
+      "patch_sha256": null,
+      "built_source_sha256": "723c539df6d7ab97527f656f2b8b9b06c3a1a07258f91e2cf3bcbb5cfb81102e"
+    },
+    {
+      "id": "M172874",
+      "record_sha256": "fb8bd6c738b14472b4121b8928e90a98aac4bbd8a1f21f680f2900ca500d0e1c",
+      "patch_sha256": "4a3577bbb8dbb08f76d23c0c7c71bdf554fda1865c26cec31a6398eb42c88378",
+      "built_source_sha256": "0eedeac9018084d8ef305fe93b74e648555e5c953e2bc65d5eb8cf0db9be0716"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M022730",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayQuotientEqLocalization",
+      "missing_imports": [
+        "M042135",
+        "M042148"
+      ]
+    }
+  ],
+  "pruned": [
+    "M022885",
+    "M022990"
+  ],
+  "already_ported": [
+    "M022743",
+    "M022903",
+    "M022905",
+    "M022922",
+    "M022926",
+    "M022942",
+    "M023269",
+    "M023351",
+    "M023597",
+    "M023651",
+    "M023691",
+    "M023738",
+    "M023822",
+    "M023999",
+    "M024199",
+    "M024263",
+    "M024425",
+    "M024442",
+    "M024479",
+    "M024588",
+    "M024860",
+    "M024871",
+    "M024968",
+    "M024973",
+    "M024992",
+    "M024998",
+    "M025025",
+    "M025058",
+    "M025068",
+    "M025091",
+    "M025128",
+    "M025234",
+    "M025358",
+    "M025428",
+    "M025498",
+    "M025510",
+    "M025549",
+    "M026125",
+    "M026175",
+    "M026191",
+    "M026247",
+    "M026291",
+    "M026343",
+    "M026495",
+    "M026504",
+    "M026603",
+    "M026635",
+    "M026675",
+    "M026855",
+    "M026880",
+    "M027068",
+    "M027079",
+    "M027332",
+    "M027369",
+    "M027521",
+    "M027525",
+    "M027531"
+  ],
+  "helper_sha256": {
+    "tracker/port.py": "6db393b476a855e66df4df452a88a9db3ca2af4054b3f4ec4b7d463399f292bb",
+    "tracker/port_build.py": "6fce817ebba817a077f564e1a45a5af8aef53893bbf7f491d2ce39679d56d8e2",
+    "tracker/validate_ports.py": "5c5912ecd58ca37688e9f00a71cbb5125660e02ca2660e248d51c0358a235428",
+    "scripts/port-ci-build.py": "92b52a7ccaea6763de902eeb001089d4d44a14460402e38e1cd52498b7561086",
+    "port/islattice_audit.lean": "f94052a41bdca049b3e91c9077ccf940b0cc5fe36b3e2767f78a64567ac5aae7"
+  },
+  "project_config": {
+    "lean-toolchain": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+    "lakefile.toml": "4434b1e6c356f3a0721908ee3ba326c846195f67822667f6a08ad64aeaeaf0fe",
+    "lake-manifest.json": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df"
+  }
+}

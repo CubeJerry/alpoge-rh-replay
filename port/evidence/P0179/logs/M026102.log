@@ -1,0 +1,158 @@
+== started_utc: 2026-11-22T12:30:52.026304+00:00
+== cwd: /workspace/scratch/1fdb83412789/port-work/lean
+== command: elan run leanprover/lean4:v4.36.0 lake --no-cache build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup:olean
+== execution_command: elan run leanprover/lean4:v4.36.0 lake --no-cache build +Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup:olean
+== LEAN_NUM_THREADS: 1
+⚠ [18250/18256] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne (59s)
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Ideal.KrullsHeightTheorem` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Ideal.AssociatedPrime.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.IntegralClosure.IntegrallyClosed` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Ideal.MinimalPrime.Noetherian` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Localization.Integer` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:56:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:31:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.Out.KrullAlg.exists_assoc`:
+  [IsDomain A]
+  [IsFractionRing A K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] [IsFractionRing A K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:79:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:101:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:113:26: `ENat.one_le_iff_ne_zero` has been deprecated: Use `Order.one_le_iff_ne_zero` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} {x : α} [inst : PartialOrder α] [inst_1 : AddMonoidWithOne α] [NeZero 1] [SuccAddOrder α]
+    [IsBotZeroClass α], 1 ≤ x ↔ x ≠ 0
+instead of
+  ∀ {n : ℕ∞}, 1 ≤ n ↔ n ≠ 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_le_iff_ne_zero` to `Order.one_le_iff_ne_zero x`).
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:182:68: `ENat.lt_one_iff_eq_zero` has been deprecated: Use `Order.lt_one_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} {x : α} [inst : LinearOrder α] [inst_1 : AddMonoidWithOne α] [SuccAddOrder α] [IsBotZeroClass α]
+    [NeZero 1], x < 1 ↔ x = 0
+instead of
+  ∀ {n : ℕ∞}, n < 1 ↔ n = 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.lt_one_iff_eq_zero` to `Order.lt_one_iff x`).
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:184:22: `not_lt_zero'` has been deprecated: Use `not_lt_zero` instead
+
+Hint: Replace the deprecated name:
+  not_lt_zero'̵
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:167:8: Unused tactic linter: `(rw [Ideal.IsPrime.height_eq_primeHeight] at h1; exact h1)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:168:8: Unused tactic linter: `(rw [Ideal.height_eq_primeHeight_of_isPrime] at h1; exact h1)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:169:8: Unused tactic linter: `(rw [← Ideal.primeHeight_eq_height] at h1; exact h1)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:170:8: Unused tactic linter: `(rw [Ideal.IsPrime.height] at h1; exact h1)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:167:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:168:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:169:51: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean:170:42: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [18251/18256] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Ideal.KrullsHeightTheorem` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Ideal.AssociatedPrime.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.IntegralClosure.IntegrallyClosed` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Ideal.MinimalPrime.Noetherian` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ChartPullbacks/UniformBaseChange/MemRangeOfForallHeightOne.lean: imports `Mathlib.RingTheory.Localization.Integer` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Built Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive (482s)
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:32:0: automatically included section variable(s) unused in theorem `GlobalTheory.krullDimLE_one_of_height_eq_one`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:85:6: `ENat.one_le_iff_ne_zero` has been deprecated: Use `Order.one_le_iff_ne_zero` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} {x : α} [inst : PartialOrder α] [inst_1 : AddMonoidWithOne α] [NeZero 1] [SuccAddOrder α]
+    [IsBotZeroClass α], 1 ≤ x ↔ x ≠ 0
+instead of
+  ∀ {n : ℕ∞}, 1 ≤ n ↔ n ≠ 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_le_iff_ne_zero` to `Order.one_le_iff_ne_zero x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:199:0: automatically included section variable(s) unused in theorem `GlobalTheory.isTorsionFree_of_isLocalizedModule`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:326:0: automatically included section variable(s) unused in theorem `GlobalTheory.mem_range_algebraMap_atPrime_iff`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean:463:28: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18253/18256] Ran Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig (519s)
+warning: src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/LocalizationAtPrimeIsDiscreteValuationRingOfHeig.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/LocalizationAtPrimeIsDiscreteValuationRingOfHeig.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup (635s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsHeightOneValuationsControlSubgroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsHeightOneValuationsControlSubgroup.lean:24:45: `MonoidHom.coe_coe` has been deprecated: Use `MonoidHom.coe_ofClass` instead
+
+Hint: Replace the deprecated name:
+  M̵o̵n̵o̵i̵d̵H̵o̵m̵.̵c̵o̵e̵_̵c̵o̵e̵M̲o̲n̲o̲i̲d̲H̲o̲m̲.̲c̲o̲e̲_̲o̲f̲C̲l̲a̲s̲s̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsHeightOneValuationsControlSubgroup.lean:44:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsHeightOneValuationsControlSubgroup.lean:82:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18256 jobs).
+
+== exit_code: 0
+== ended_utc: 2026-11-22T12:59:35.001241+00:00
+== seconds: 1722.97

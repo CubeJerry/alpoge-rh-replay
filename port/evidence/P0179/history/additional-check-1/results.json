@@ -1,0 +1,37 @@
+[
+  {
+    "exit_code": 0,
+    "started_utc": "2026-11-22T13:12:02.347906+00:00",
+    "ended_utc": "2026-11-22T13:16:01.951947+00:00",
+    "seconds": 239.6,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-cache",
+      "build",
+      "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean"
+    ],
+    "id": "M027599",
+    "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+    "successful": true,
+    "source_sha256": "6999fd07ee922b52446730a0397c83bc0d0778da446756208506a1572e3bd326",
+    "built_source_sha256": "6beb9b8755b2f6c47421dca83c9720e0080e3d8b2d9abf0e3aed4e1d46d20df9",
+    "source_changed_during_build": false,
+    "patch_sha256": "6365ba0f49f243bf08d7ea3fa32c7e0c5f8ce704132003a2d1225c9c7e769648",
+    "olean_sha256": "4a0b3a96af18765d5496b1ad5b959a9eb24a9949b3410e0e3d281aaa9a2a4f50",
+    "log_sha256": "0b00eae3836a0957b41d6b90192323dc99ba3d2b4b59aa87c499ec9a2405f115",
+    "sorry_diagnostic": false,
+    "reused_names": []
+  }
+]

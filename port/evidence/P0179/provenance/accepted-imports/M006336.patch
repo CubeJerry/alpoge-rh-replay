@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/MemRangeOfForallHeightEqOneOfIsReflexive.lean
+@@ -16,7 +16,7 @@
+   by_contra hne
+   have hlt : q < p := lt_of_le_not_ge hqp hne
+   have h1 : q.height < p.height := Ideal.height_strict_mono_of_isPrime hlt
+-  rw [hp, ENat.lt_one_iff_eq_zero, Ideal.height_eq_zero_iff_eq_bot] at h1
++  rw [hp, Order.lt_one_iff, Ideal.height_eq_zero_iff_eq_bot] at h1
+   rw [h1, Ideal.span_singleton_le_iff_mem] at haq
+   exact ha haq
+ 
+@@ -46,7 +46,7 @@
+   have hd := krullDimLE_one_of_height_eq_one p hp B
+   have hf : ¬ IsField B := IsLocalization.AtPrime.not_isField A (p.ne_bot_of_height_eq_one hp) B
+   have hm : IsLocalRing.maximalIdeal B ≠ ⊥ := IsLocalRing.isField_iff_maximalIdeal_eq.not.mp hf
+-  have key := (IsDiscreteValuationRing.TFAE B hf).out 3 0
++  have key := (IsDiscreteValuationRing.TFAE B hf).out 4 1
+   refine key.mp ⟨hic, IsLocalRing.maximalIdeal B, ⟨hm, inferInstance⟩, fun P hP => ?_⟩
+   exact IsLocalRing.eq_maximalIdeal
+     (Ring.krullDimLE_one_iff_of_isPrime_bot.mp hd P hP.1 hP.2)
+@@ -391,7 +391,7 @@
+       (map_ne_zero_iff _ (IsLocalization.injective _ p.primeCompl_le_nonZeroDivisors)).mpr ha
+     conv_lhs => rw [IsScalarTower.algebraMap_apply A B K]
+     conv_rhs => rw [IsScalarTower.algebraMap_apply A (primeLocalSubalgebra K p) K]
+-    rw [heightOneOrdHom, Ring.ordFrac_eq_ord _ h1, Ring.ordFrac_eq_ord _ h2,
++    rw [heightOneOrdHom, Ring.ordFrac_eq_ord _, Ring.ordFrac_eq_ord _,
+       Ring.ordMonoidWithZeroHom_eq_ord (mem_nonZeroDivisors_of_ne_zero h1),
+       Ring.ordMonoidWithZeroHom_eq_ord (mem_nonZeroDivisors_of_ne_zero h2),
+       ← ord_map_ringEquiv e.toRingEquiv (algebraMap A B a)]

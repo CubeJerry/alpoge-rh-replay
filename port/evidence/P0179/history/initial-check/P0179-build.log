@@ -1,0 +1,16 @@
+Pinned GitHub source mirror; each source verified against tracker/modules.jsonl.gz. No full archive extraction is claimed.
+Toolchain: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release); Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+Targets: 4; accepted imports: 8
+START M022910 Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement
+M022910 build_exit=0 audit_exit=not run successful=True seconds=530.35
+START M023055 Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective
+M023055 build_exit=0 audit_exit=not run successful=True seconds=830.11
+START M026102 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup
+M026102 build_exit=0 audit_exit=not run successful=True seconds=1722.97
+START M027599 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne
+M027599 build_exit=1 audit_exit=not run successful=False seconds=722.07
+    error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: could not synthesize default value for parameter 'h₁' using tactics
+    error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: Tactic `rfl` failed: The left-hand side
+    error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: could not synthesize default value for parameter 'x._@.Mathlib.Data.List.TFAE.4142160432._hygCtx._hyg.58' using tactics
+    error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulEqMulSqOfFaithfullyFlatHeightOne.lean:84:5: TFAE indices start at 1.
+DONE 3/4 successful

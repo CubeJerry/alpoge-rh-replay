@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+  "source_sha256": "e671cdcf8a01b93794c8aa70742fa12c05788435e5413a3c17261ff6ecbbd512",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/rohanarun/alpoge-rh-replay/blob/main/port/transcripts/P0111.receipt.json"
+}

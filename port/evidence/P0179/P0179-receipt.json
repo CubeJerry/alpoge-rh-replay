@@ -1,0 +1,583 @@
+{
+  "schema": "rh-port-initial-fresh-tree-evidence-v1",
+  "target": "P0179",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/32377",
+  "all_successful": true,
+  "build_mode": "initial_check_in_manually_created_fresh_tree",
+  "initial_project_objects_reused": false,
+  "accepted_commit": "352bdee9ee3cab6cbdcd4a0653225e303c796d72",
+  "pins": {
+    "lean": "leanprover/lean4:v4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+    "replay_pins_unchanged": {
+      "lean": "leanprover/lean4:v4.33.1",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  },
+  "source_method": "Pinned GitHub source mirror; each source verified against tracker/modules.jsonl.gz. No full archive extraction is claimed.",
+  "source_base_url": "https://raw.githubusercontent.com/leanprover-community/riemann-hypothesis/8ec38f92ac54b5c91bc07f4f6f88ea61691b7975/src",
+  "selection_sha256": "e629d9135623bccc8fd858d2de05567caccdfc9f7bdc85e1a6a708d0acaa6a4d",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "target_sha256": "ec4d744ba850213e73cf4f3e2079994fd2acdb9c2d7a96ed348f44cd782bf57f",
+  "helper_sha256": {
+    "tracker/port.py": "6db393b476a855e66df4df452a88a9db3ca2af4054b3f4ec4b7d463399f292bb",
+    "tracker/port_build.py": "6fce817ebba817a077f564e1a45a5af8aef53893bbf7f491d2ce39679d56d8e2",
+    "tracker/validate_ports.py": "5c5912ecd58ca37688e9f00a71cbb5125660e02ca2660e248d51c0358a235428",
+    "scripts/port-ci-build.py": "92b52a7ccaea6763de902eeb001089d4d44a14460402e38e1cd52498b7561086",
+    "port/islattice_audit.lean": "f94052a41bdca049b3e91c9077ccf940b0cc5fe36b3e2767f78a64567ac5aae7"
+  },
+  "project_config": {
+    "lean-toolchain": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+    "lakefile.toml": "4434b1e6c356f3a0721908ee3ba326c846195f67822667f6a08ad64aeaeaf0fe",
+    "lake-manifest.json": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df"
+  },
+  "initial_fresh_tree_provenance": {
+    "tree": "/workspace/scratch/1fdb83412789/port-work/lean",
+    "pinned_project_sources": 12,
+    "selected_targets": 4,
+    "accepted_imports": 8,
+    "shared_dependency_packages": true,
+    "original_driver_mode": "check",
+    "original_receipts_preserved": true,
+    "observation": "The project was created empty during this session, with no project objects reused. All 12 original sources were SHA-256 verified before accepted import patches were applied. Only the exact target dependency packages were shared.",
+    "observation_limit": "This records the session's setup observation. No saved pre-build inventory is claimed. Static checks corroborate it using frozen sources/configuration and actual producing Built lines for all 12 project modules.",
+    "original_fresh_flag_explanation": "The initial driver's fresh_project_objects=false denotes check mode, not reuse of earlier project outputs. Original receipts are preserved byte-for-byte. Any repair runs are continuations of the same initially fresh tree."
+  },
+  "original_runs": [
+    {
+      "label": "initial-check",
+      "receipt": "history/initial-check/P0179-receipt.json",
+      "receipt_sha256": "91e68a0af654299e12c36207c5e1bedde228406e9d527ec90c11d72fa71bf5a4",
+      "original_fresh_project_objects": false,
+      "original_all_successful": false,
+      "driver_sha256": "0e65754dad51a6e48ffc4b01772b51d03bd255ac5c55f8b4924f4026dd22ad62",
+      "started_utc": "2026-11-22T12:08:11.559889+00:00",
+      "ended_utc": "2026-11-22T13:11:37.084474+00:00",
+      "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/32377"
+    },
+    {
+      "label": "additional-check-1",
+      "receipt": "history/additional-check-1/P0179-receipt.json",
+      "receipt_sha256": "5e5e87731b90398ed4a7c463fc96759cf7f179b97c0b97f1d3a02405522b9449",
+      "original_fresh_project_objects": false,
+      "original_all_successful": true,
+      "driver_sha256": "0e65754dad51a6e48ffc4b01772b51d03bd255ac5c55f8b4924f4026dd22ad62",
+      "started_utc": "2026-11-22T13:12:02.347668+00:00",
+      "ended_utc": "2026-11-22T13:16:01.957279+00:00",
+      "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/32377"
+    }
+  ],
+  "modules": [
+    {
+      "id": "M022910",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+      "source_sha256": "c3dc5ee1c2b5f9a1a89cec2eb67e41177fe620e442e36030d6a05c2cbb44e6f6",
+      "built_source_sha256": "c3dc5ee1c2b5f9a1a89cec2eb67e41177fe620e442e36030d6a05c2cbb44e6f6",
+      "patch_sha256": null,
+      "olean_sha256": "626a521a7730f2e442f5afd5d13260bf17a1b03c2ed7eed609f3da3d8332896b",
+      "source_patch_roundtrip_verified": true,
+      "successful": true,
+      "log": "logs/M022910.log",
+      "log_sha256": "89ef38164553a684ae37e977687576ab5d4b525ac33242483f891d96e37781b9",
+      "original_history_log": "history/initial-check/logs/M022910.log",
+      "built_lines": [
+        "⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement (147s)"
+      ],
+      "completion_lines": [
+        "Build completed successfully (18254 jobs)."
+      ],
+      "command": [
+        "elan",
+        "run",
+        "leanprover/lean4:v4.36.0",
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement:olean"
+      ],
+      "exit_code": 0,
+      "producing_record_patch_sha256": null,
+      "patch_provenance": "The final patch is roundtrip-verified against pinned bytes and the compiled current source. Its file may have been generated after compilation; the original record's patch hash is retained separately.",
+      "started_utc": "2026-11-22T12:08:11.560232+00:00",
+      "ended_utc": "2026-11-22T12:17:01.907285+00:00"
+    },
+    {
+      "id": "M023055",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+      "source_sha256": "252989d5ddac000e257d7fb1d5c98c787e73cb9f69cd891d492de1ac43b1c853",
+      "built_source_sha256": "252989d5ddac000e257d7fb1d5c98c787e73cb9f69cd891d492de1ac43b1c853",
+      "patch_sha256": null,
+      "olean_sha256": "58e0431d25b1ee98a13c1402f4c0f36294e2229100ea8decc69dfce5fb51919c",
+      "source_patch_roundtrip_verified": true,
+      "successful": true,
+      "log": "logs/M023055.log",
+      "log_sha256": "cbe93be3a5a39b7387847fbc8a1791f1929513ec97bb22a7aaaaa4e06f641e9b",
+      "original_history_log": "history/initial-check/logs/M023055.log",
+      "built_lines": [
+        "⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective (287s)"
+      ],
+      "completion_lines": [
+        "Build completed successfully (18256 jobs)."
+      ],
+      "command": [
+        "elan",
+        "run",
+        "leanprover/lean4:v4.36.0",
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective:olean"
+      ],
+      "exit_code": 0,
+      "producing_record_patch_sha256": null,
+      "patch_provenance": "The final patch is roundtrip-verified against pinned bytes and the compiled current source. Its file may have been generated after compilation; the original record's patch hash is retained separately.",
+      "started_utc": "2026-11-22T12:17:01.912483+00:00",
+      "ended_utc": "2026-11-22T12:30:52.021238+00:00"
+    },
+    {
+      "id": "M026102",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+      "source_sha256": "61954fb53d374d28c81fc4dc2bb980a1cf411709ef67d79421b0a391225aaf63",
+      "built_source_sha256": "61954fb53d374d28c81fc4dc2bb980a1cf411709ef67d79421b0a391225aaf63",
+      "patch_sha256": null,
+      "olean_sha256": "35f41a047fb72cbc6e0068c2be124faf42e3cabf266d1c81423ff8a1a8ff5c7f",
+      "source_patch_roundtrip_verified": true,
+      "successful": true,
+      "log": "logs/M026102.log",
+      "log_sha256": "40de1639ad1cf9a019dbf6e91c6efabff250db9daf15af6bd8750c421c7823a8",
+      "original_history_log": "history/initial-check/logs/M026102.log",
+      "built_lines": [
+        "⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup (635s)"
+      ],
+      "completion_lines": [
+        "Build completed successfully (18256 jobs)."
+      ],
+      "command": [
+        "elan",
+        "run",
+        "leanprover/lean4:v4.36.0",
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup:olean"
+      ],
+      "exit_code": 0,
+      "producing_record_patch_sha256": null,
+      "patch_provenance": "The final patch is roundtrip-verified against pinned bytes and the compiled current source. Its file may have been generated after compilation; the original record's patch hash is retained separately.",
+      "started_utc": "2026-11-22T12:30:52.026304+00:00",
+      "ended_utc": "2026-11-22T12:59:35.001241+00:00"
+    },
+    {
+      "id": "M027599",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+      "source_sha256": "6999fd07ee922b52446730a0397c83bc0d0778da446756208506a1572e3bd326",
+      "built_source_sha256": "6beb9b8755b2f6c47421dca83c9720e0080e3d8b2d9abf0e3aed4e1d46d20df9",
+      "patch_sha256": "6365ba0f49f243bf08d7ea3fa32c7e0c5f8ce704132003a2d1225c9c7e769648",
+      "olean_sha256": "4a0b3a96af18765d5496b1ad5b959a9eb24a9949b3410e0e3d281aaa9a2a4f50",
+      "source_patch_roundtrip_verified": true,
+      "successful": true,
+      "log": "logs/M027599.log",
+      "log_sha256": "0b00eae3836a0957b41d6b90192323dc99ba3d2b4b59aa87c499ec9a2405f115",
+      "original_history_log": "history/additional-check-1/logs/M027599.log",
+      "built_lines": [
+        "⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne (218s)"
+      ],
+      "completion_lines": [
+        "Build completed successfully (18254 jobs)."
+      ],
+      "command": [
+        "elan",
+        "run",
+        "leanprover/lean4:v4.36.0",
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne:olean"
+      ],
+      "exit_code": 0,
+      "producing_record_patch_sha256": "6365ba0f49f243bf08d7ea3fa32c7e0c5f8ce704132003a2d1225c9c7e769648",
+      "patch_provenance": "The final patch is roundtrip-verified against pinned bytes and the compiled current source. Its file may have been generated after compilation; the original record's patch hash is retained separately.",
+      "started_utc": "2026-11-22T13:12:02.347906+00:00",
+      "ended_utc": "2026-11-22T13:16:01.951947+00:00"
+    }
+  ],
+  "imports": [
+    {
+      "id": "M002162",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity",
+      "source_sha256": "d7a6c0cc7066506279cf640876bd35b572572e90d734f0eeb27f0c43fb2dd932",
+      "built_source_sha256": "1bd4760eaf966c8c7b7930bdd5f561ed31598a6747889af03f11d2df40aa560c",
+      "patch_sha256": "b86bedd09c3bd05b16f9c2e2628e9020a28ae3571b5eda26efe330e40c4c5ebd",
+      "olean_sha256": "8c848e02a0a01fe0376b72b911e70aaff79a2c2ce0009d0841f8bc46a8d44ea3",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "44f5fe024ce730cda541b47fe2f79543a5da0f5927871b26b5db61dc40d6e9a1",
+      "producing_history_log": "history/initial-check/logs/M023055.log",
+      "producing_log_sha256": "cbe93be3a5a39b7387847fbc8a1791f1929513ec97bb22a7aaaaa4e06f641e9b",
+      "built_lines": [
+        "⚠ [18250/18256] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity (162s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M002173",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference",
+      "source_sha256": "8603715a94b3dfe5c0c39385da1f56fe5bb41bcdfd9287e44064c53a15f3bf1f",
+      "built_source_sha256": "8603715a94b3dfe5c0c39385da1f56fe5bb41bcdfd9287e44064c53a15f3bf1f",
+      "patch_sha256": null,
+      "olean_sha256": "f676a45df82e7f32d0134c95bbf03ebaa7e7105c59021644e86efc3d87d61b9b",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "c5a78efe90015a32c410b0d207e89dde10c01e64828a6024311964d5f427c2e0",
+      "producing_history_log": "history/initial-check/logs/M023055.log",
+      "producing_log_sha256": "cbe93be3a5a39b7387847fbc8a1791f1929513ec97bb22a7aaaaa4e06f641e9b",
+      "built_lines": [
+        "⚠ [18251/18256] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference (159s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M006336",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+      "source_sha256": "ad1c2093b23fdf4e7cc3186210f25a3b096b07d4307c680196c699c3814433d2",
+      "built_source_sha256": "663c070dc388223b37bed2e36cb29ab0009874e7f3735747f4e93c028edcf1f0",
+      "patch_sha256": "f37a88bc376dc360fa1e6b3b1f25f76b3fcdaec0f1cd16b2b4678d315fb2e4fb",
+      "olean_sha256": "a5d5b9695f6ae0c229d7787d1f0936dcefaebdad359269d0ce4ca875af8d05b9",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "2f4ef038a919746b8a12ab554249a50be1352228febb3ecd8ede860b26fd6344",
+      "producing_history_log": "history/initial-check/logs/M026102.log",
+      "producing_log_sha256": "40de1639ad1cf9a019dbf6e91c6efabff250db9daf15af6bd8750c421c7823a8",
+      "built_lines": [
+        "⚠ [18252/18256] Built Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive (482s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M022909",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+      "source_sha256": "2e3027f76802f235d31545382e17c2a5070e94c18a7c88e56df25ea9bb32a735",
+      "built_source_sha256": "2e3027f76802f235d31545382e17c2a5070e94c18a7c88e56df25ea9bb32a735",
+      "patch_sha256": null,
+      "olean_sha256": "9669686a362bf743e0997f5e444d59ba40e910b49237f60cea214c720e3fa55f",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "fc38546ad6b07183787e7d6a31dd4888482b9db5de5a97c4ffd47c4c4cc8a603",
+      "producing_history_log": "history/initial-check/logs/M022910.log",
+      "producing_log_sha256": "89ef38164553a684ae37e977687576ab5d4b525ac33242483f891d96e37781b9",
+      "built_lines": [
+        "⚠ [18252/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic (178s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M026561",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind",
+      "source_sha256": "4b1b994c233ec56a26bf4e708fb924eef6bd889a6e5cc411a36eed47f9e0e2ff",
+      "built_source_sha256": "3fd8fd6f4dff21a9241329df565eeafe439b197984189db34ec34635ab09877f",
+      "patch_sha256": "9df6276f39c789091d2e92ea6739a88eb8b8a5e0f64fcaca0a21e1e6856e4c31",
+      "olean_sha256": "4e02cf97e4734a5f8d5ed81c5562316aa37d1f672c7d8600661cef865482ea37",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "38822b4741e4feafa2b97a7194b6ddcf777ec2b82d64c0efb196d88a03c124d3",
+      "producing_history_log": "history/initial-check/logs/M022910.log",
+      "producing_log_sha256": "89ef38164553a684ae37e977687576ab5d4b525ac33242483f891d96e37781b9",
+      "built_lines": [
+        "⚠ [18250/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind (185s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M043083",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+      "source_sha256": "e671cdcf8a01b93794c8aa70742fa12c05788435e5413a3c17261ff6ecbbd512",
+      "built_source_sha256": "e671cdcf8a01b93794c8aa70742fa12c05788435e5413a3c17261ff6ecbbd512",
+      "patch_sha256": null,
+      "olean_sha256": "aa8e95b5bce5b7e2aac8ca643ca1fd5a63282737e738e6300c14dbd727af3997",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "87d85b89c91ff877df25ce621235127728eaefb3279b07caff7f76dd3bf8619e",
+      "producing_history_log": "history/initial-check/logs/M023055.log",
+      "producing_log_sha256": "cbe93be3a5a39b7387847fbc8a1791f1929513ec97bb22a7aaaaa4e06f641e9b",
+      "built_lines": [
+        "⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff (200s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M080701",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+      "source_sha256": "723c539df6d7ab97527f656f2b8b9b06c3a1a07258f91e2cf3bcbb5cfb81102e",
+      "built_source_sha256": "723c539df6d7ab97527f656f2b8b9b06c3a1a07258f91e2cf3bcbb5cfb81102e",
+      "patch_sha256": null,
+      "olean_sha256": "75aed11a0630493c4f2c87d9da92a18ff0ba242384aa1d7b116727a8e20bcffa",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "c762c4c8451ea0a49a051b2bd0ab517ecddd3aa1c858653e49a9e70ce1b24753",
+      "producing_history_log": "history/initial-check/logs/M026102.log",
+      "producing_log_sha256": "40de1639ad1cf9a019dbf6e91c6efabff250db9daf15af6bd8750c421c7823a8",
+      "built_lines": [
+        "⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig (519s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    },
+    {
+      "id": "M172874",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne",
+      "source_sha256": "93df8d90423f1dc33a77b1bf4c900804748e2535087541a93175e8c83730c581",
+      "built_source_sha256": "0eedeac9018084d8ef305fe93b74e648555e5c953e2bc65d5eb8cf0db9be0716",
+      "patch_sha256": "4a3577bbb8dbb08f76d23c0c7c71bdf554fda1865c26cec31a6398eb42c88378",
+      "olean_sha256": "c207f2e97678bca4669afc7a3b63d8a1b028c8837cfc8c31221754a9e9aad5a6",
+      "source_patch_roundtrip_verified": true,
+      "accepted_record_sha256": "fb8bd6c738b14472b4121b8928e90a98aac4bbd8a1f21f680f2900ca500d0e1c",
+      "producing_history_log": "history/initial-check/logs/M026102.log",
+      "producing_log_sha256": "40de1639ad1cf9a019dbf6e91c6efabff250db9daf15af6bd8750c421c7823a8",
+      "built_lines": [
+        "⚠ [18250/18256] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne (59s)"
+      ],
+      "output_hash_basis": "Current stable object hash; the original check receipt records target output hashes only."
+    }
+  ],
+  "audits": {
+    "islattice": {
+      "successful": true,
+      "command": [
+        "elan",
+        "run",
+        "leanprover/lean4:v4.36.0",
+        "lake",
+        "--no-ansi",
+        "env",
+        "lean",
+        "--run",
+        "/workspace/scratch/1fdb83412789/port-publication/files/islattice_audit.lean",
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity",
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference",
+        "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+        "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+        "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne"
+      ],
+      "exit_code": 0,
+      "module_count": 12,
+      "modules": [
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity",
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference",
+        "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+        "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+        "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne"
+      ],
+      "source": "islattice_audit.lean",
+      "source_sha256": "f94052a41bdca049b3e91c9077ccf940b0cc5fe36b3e2767f78a64567ac5aae7",
+      "accepted_commit": "352bdee9ee3cab6cbdcd4a0653225e303c796d72",
+      "source_matches_accepted_commit": true,
+      "source_hash_in_frozen_selection": true,
+      "log": "islattice-audit.log",
+      "log_sha256": "1e102beda12b29e07917e9ce6687c82e5546719879ab90bd318e5fba3b4ba542",
+      "summary": "islattice-audit: 12 module(s), 0 hit(s)",
+      "started_utc": "2026-11-22T13:16:09.287129+00:00",
+      "ended_utc": "2026-11-22T13:21:56.247746+00:00"
+    },
+    "reused": {
+      "successful": true,
+      "command": [
+        "elan",
+        "run",
+        "leanprover/lean4:v4.36.0",
+        "lake",
+        "--no-ansi",
+        "env",
+        "lean",
+        "--run",
+        "/workspace/scratch/1fdb83412789/port-publication/files/reused_audit.lean",
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity",
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference",
+        "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+        "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+        "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne"
+      ],
+      "exit_code": 0,
+      "module_count": 12,
+      "modules": [
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity",
+        "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference",
+        "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+        "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff",
+        "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+        "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne"
+      ],
+      "source": "reused_audit.lean",
+      "source_sha256": "2e72631b47fccd5b8f7f41f17c634e708566e96f17d8ebc53c86f592745ab5d1",
+      "accepted_commit": "352bdee9ee3cab6cbdcd4a0653225e303c796d72",
+      "source_matches_accepted_commit": true,
+      "source_hash_in_frozen_selection": false,
+      "log": "reused-audit.log",
+      "log_sha256": "7d06f79576be12d1e98561525bf08f7cfa8a088cfd3e133729ec37f569c2c99a",
+      "summary": "reused-audit: 12 module(s), 0 hit(s)",
+      "started_utc": "2026-11-22T13:16:09.287133+00:00",
+      "ended_utc": "2026-11-22T13:21:56.248127+00:00"
+    }
+  },
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "manifest_revision": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+      "head": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "manifest_revision": "054b228ce0ac61d767c6e71ba73a24728f191b72",
+      "head": "054b228ce0ac61d767c6e71ba73a24728f191b72",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "manifest_revision": "4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9",
+      "head": "4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "manifest_revision": "8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0",
+      "head": "8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "manifest_revision": "2f0f3520daeac2d9310ff25b7a877a0e5cdaa203",
+      "head": "2f0f3520daeac2d9310ff25b7a877a0e5cdaa203",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "manifest_revision": "66ff77cf0c4c898799e4b94d14db55f7a02d0c5a",
+      "head": "66ff77cf0c4c898799e4b94d14db55f7a02d0c5a",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "manifest_revision": "ff055a2fcc835935e0ae607339b455a5f5896b4b",
+      "head": "ff055a2fcc835935e0ae607339b455a5f5896b4b",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "manifest_revision": "b4b25a3886a16daacaf6615c2eea7170a6e8f458",
+      "head": "b4b25a3886a16daacaf6615c2eea7170a6e8f458",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "manifest_revision": "50810f72af7618bee62fe9800dc26e806c188703",
+      "head": "50810f72af7618bee62fe9800dc26e806c188703",
+      "tracked_files_clean": true
+    }
+  ],
+  "all_12_project_source_patch_roundtrips_verified": true,
+  "all_12_project_object_hashes_recorded": true,
+  "remaining": [
+    {
+      "id": "M022730",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayQuotientEqLocalization",
+      "missing_imports": [
+        "M042135",
+        "M042148"
+      ]
+    }
+  ],
+  "pruned": [
+    "M022885",
+    "M022990"
+  ],
+  "already_ported": [
+    "M022743",
+    "M022903",
+    "M022905",
+    "M022922",
+    "M022926",
+    "M022942",
+    "M023269",
+    "M023351",
+    "M023597",
+    "M023651",
+    "M023691",
+    "M023738",
+    "M023822",
+    "M023999",
+    "M024199",
+    "M024263",
+    "M024425",
+    "M024442",
+    "M024479",
+    "M024588",
+    "M024860",
+    "M024871",
+    "M024968",
+    "M024973",
+    "M024992",
+    "M024998",
+    "M025025",
+    "M025058",
+    "M025068",
+    "M025091",
+    "M025128",
+    "M025234",
+    "M025358",
+    "M025428",
+    "M025498",
+    "M025510",
+    "M025549",
+    "M026125",
+    "M026175",
+    "M026191",
+    "M026247",
+    "M026291",
+    "M026343",
+    "M026495",
+    "M026504",
+    "M026603",
+    "M026635",
+    "M026675",
+    "M026855",
+    "M026880",
+    "M027068",
+    "M027079",
+    "M027332",
+    "M027369",
+    "M027521",
+    "M027525",
+    "M027531"
+  ],
+  "finalizer_sha256": "6fc70640aa89e49283e80ed1eef87738994a852e43a6efed2030b63e1f037387",
+  "no_build_or_audit_invoked_by_finalizer": true
+}

@@ -1,0 +1,9 @@
+{
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+  "replay_pins_unchanged": {
+    "lean": "leanprover/lean4:v4.33.1",
+    "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+  }
+}
