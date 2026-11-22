@@ -1,0 +1,7 @@
+M131764 Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing
+Target excerpt from one shared continuation build; this is not an independent invocation.
+Full command and transcript: ../batch-build.log (SHA-256 7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67)
+Shared build exit: 1
+Aggregate audit over all 63 packet targets exit: None; transcript: ../islattice-audit.log
+All retained outputs/sources/configuration preserved: True
+Module evidence successful: False

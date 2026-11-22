@@ -1,14 +1,17 @@
 # P0208 port build evidence
 
-This evidence covers **48 of 64 live packet modules** on Lean 4.36.0 and Mathlib `fc4f59e577feb1a4956671bc04ac18aaaf8cd842` (v4.36.0). All 48 submitted builds and their required audits passed. 45 target sources are unchanged from their pinned bytes. No replay pins or replay credit are affected.
+This evidence covers **63 of 64 live packet modules** on Lean 4.36.0 and Mathlib `fc4f59e577feb1a4956671bc04ac18aaaf8cd842` (v4.36.0). All 63 submitted builds and their required audits passed. 58 target sources are unchanged from their pinned bytes. No replay pins or replay credit are affected.
 
 Claim: [Port P0208, issue 28141](https://github.com/rohanarun/alpoge-rh-replay/issues/28141).
 
 ## Build phases
 
 - **phase-1**: 48 targets; [receipt](phase-1/P0208-receipt.json), [full build transcript](phase-1/batch-build.log), [audit transcript](phase-1/islattice-audit.log).
+- **phase-2**: 15 targets; [receipt](phase-2/P0208-extension-receipt.json), [full build transcript](phase-2/batch-build.log), [audit transcript](phase-2/islattice-audit.log).
 
-Phase 1 began with no project objects. Only the exact target dependency packages and their Mathlib cache were shared. The original fresh batch found mechanical proof errors. Its complete failed transcript and receipt are retained within phase 1. The corrected targets were rebuilt in the same tree; successful outputs were retained with before/after digests. A successful invocation requesting all 48 targets and the 48-target audit then established the repaired result. A later continuation, when present, retains the verified first-phase project objects and records their before/after hashes. It does not claim a second fresh build of the whole packet. Earlier receipts and transcripts remain unchanged.
+Phase 1 began with no project objects. Only the exact target dependency packages and their Mathlib cache were shared. The original fresh batch found mechanical proof errors. Its [complete failed transcript](phase-1/original-attempt/batch-build.log) and [receipt](phase-1/original-attempt/P0208-receipt.json) are retained within phase 1. The corrected targets were rebuilt in the same tree; successful outputs were retained with before/after digests. A successful invocation requesting all 48 targets and the 48-target audit then established the repaired result. A later continuation, when present, retains the verified first-phase project objects and records their before/after hashes. It does not claim a second fresh build of the whole packet. Earlier receipts and transcripts remain unchanged.
+
+The continuation's initial batch built 35 new imports and 13 target modules, then failed on two targets. Its [complete failed receipt](phase-2/original-attempt/P0208-extension-receipt.json) and [transcript](phase-2/original-attempt/batch-build.log) are retained. A successful retry requested all 15 continuation targets, rebuilt the two corrected targets, retained 160 successful project outputs with matching before/after hashes, and passed the combined 63-target audit.
 
 Sources were obtained through the repository's pinned source-mirror helper, with every file's SHA-256 checked against `tracker/modules.jsonl.gz`. Accepted import patches were applied without offsets or fuzz. The receipts identify their accepted upstream commits and all source, patch, object and log digests. No full archive extraction is claimed.
 
@@ -19,6 +22,8 @@ The full shared transcripts contain every compiler diagnostic. Each module log b
 [packet-index.json](packet-index.json) maps every target to its receipt, module excerpt, full transcript, audit and digests. [SHA256SUMS](SHA256SUMS) covers every evidence file except itself. The receipts preserve exact commands, times, pins, helper identities and resource measurements. A reported largest-child RSS is not a sum of simultaneous process memory.
 
 The `provenance/` directory contains the executed driver sources, the independent evidence verifier, frozen Lean/Lake configuration and dependency manifest, target pins, and the verifier's successful transcript. Driver defaults refer to the original workspace; pass the recorded workspace arguments or recreate that directory structure when checking the retained build tree. The phase selections and input manifests identify exactly which pinned sources and accepted patches were used.
+
+The [upstream compatibility report](provenance/upstream-compatibility.json) verifies all 99 imported records and their 18 patches against submission base `60cddc3384d83fccb05a1a77638c08ef36277d04`. The source ledger, target pins, pruning rules and port policy also match the frozen build baselines.
 
 The elaborated audit covers the submitted packet targets. The repository-wide `Main` build, full axiom audit, statement comparison and independent checker run remain separate maintainer work.
 
@@ -48,11 +53,14 @@ The elaborated audit covers the submitted packet targets. The repository-wide `M
 | M131394 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct` | [phase-1 log](phase-1/logs/M131394.log) |
 | M131396 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement` | [phase-1 log](phase-1/logs/M131396.log) |
 | M131415 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement` | [phase-1 log](phase-1/logs/M131415.log) |
+| M131597 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero` | [phase-2 log](phase-2/logs/M131597.log) |
 | M131739 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement` | [phase-1 log](phase-1/logs/M131739.log) |
 | M131755 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint` | [phase-1 log](phase-1/logs/M131755.log) |
+| M131764 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing` | [phase-2 log](phase-2/logs/M131764.log) |
 | M131849 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization` | [phase-1 log](phase-1/logs/M131849.log) |
 | M131856 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian` | [phase-1 log](phase-1/logs/M131856.log) |
 | M131860 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate` | [phase-1 log](phase-1/logs/M131860.log) |
+| M131872 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree` | [phase-2 log](phase-2/logs/M131872.log) |
 | M131897 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement` | [phase-1 log](phase-1/logs/M131897.log) |
 | M132049 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement` | [phase-1 log](phase-1/logs/M132049.log) |
 | M132121 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk` | [phase-1 log](phase-1/logs/M132121.log) |
@@ -74,26 +82,23 @@ The elaborated audit covers the submitted packet targets. The repository-wide `M
 | M133020 | `Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder` | [phase-1 log](phase-1/logs/M133020.log) |
 | M133031 | `Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar` | [phase-1 log](phase-1/logs/M133031.log) |
 | M133247 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry` | [phase-1 log](phase-1/logs/M133247.log) |
+| M133286 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement` | [phase-2 log](phase-2/logs/M133286.log) |
+| M133296 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement` | [phase-2 log](phase-2/logs/M133296.log) |
+| M133354 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq` | [phase-2 log](phase-2/logs/M133354.log) |
+| M133390 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement` | [phase-2 log](phase-2/logs/M133390.log) |
+| M133750 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement` | [phase-2 log](phase-2/logs/M133750.log) |
+| M133896 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement` | [phase-2 log](phase-2/logs/M133896.log) |
+| M133979 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement` | [phase-2 log](phase-2/logs/M133979.log) |
+| M134003 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement` | [phase-2 log](phase-2/logs/M134003.log) |
+| M134040 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform` | [phase-2 log](phase-2/logs/M134040.log) |
+| M134090 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement` | [phase-2 log](phase-2/logs/M134090.log) |
+| M134230 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement` | [phase-2 log](phase-2/logs/M134230.log) |
+| M134329 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement` | [phase-2 log](phase-2/logs/M134329.log) |
 
 ## Remaining packet members at the final phase baseline
 
 | ID | Module | Missing accepted imports |
 |---|---|---|
-| M131597 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero` | M119671, M120428 |
-| M131764 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing` | M005021 |
-| M131872 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree` | M140454 |
-| M133286 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement` | M133285 |
-| M133296 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement` | M133295 |
-| M133354 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq` | M134362 |
-| M133390 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement` | M133389 |
 | M133708 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GapEqWeightSubNext` | M139479, M163509 |
-| M133750 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement` | M133749 |
-| M133896 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement` | M133895 |
-| M133979 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement` | M133978 |
-| M134003 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement` | M134002 |
-| M134040 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform` | M139471 |
-| M134090 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement` | M134089 |
-| M134230 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement` | M134229 |
-| M134329 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement` | M134328 |
 
 Pruned packet IDs: none. This is a partial packet result; its remaining state is recorded at each phase's frozen upstream baseline.

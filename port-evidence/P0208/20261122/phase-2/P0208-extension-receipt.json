@@ -1,0 +1,2022 @@
+{
+  "schema": "rh-port-repaired-continuation-receipt-v1",
+  "target": "P0208",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28141",
+  "source_method": "Repair continuation in the same verified tree: 160 retained project objects, two reviewed target patches reconstructed strictly from pinned mirror bytes, and an all-15 retry followed by the all-63 audit.",
+  "source_base_url": "https://raw.githubusercontent.com/leanprover-community/riemann-hypothesis/8ec38f92ac54b5c91bc07f4f6f88ea61691b7975/src",
+  "accepted_commit": "82f522b09a3e0ef920716dada3753e9b30f385bf",
+  "fresh_project_objects": false,
+  "new_project_module_count": 50,
+  "retained_project_module_count": 160,
+  "phase1": {
+    "receipt_path": "/workspace/scratch/e92c8f71c3ad/port-P0208-verified/evidence-repaired/P0208-receipt.json",
+    "receipt_sha256": "b8606d32e463d252fed3bc6ede558d13a021056a080125c70c739c77a1c0c606",
+    "batch_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "audit_log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a",
+    "target_ids": [
+      "M130308",
+      "M130315",
+      "M130338",
+      "M130356",
+      "M130366",
+      "M130382",
+      "M130443",
+      "M130458",
+      "M130720",
+      "M130746",
+      "M131100",
+      "M131172",
+      "M131186",
+      "M131193",
+      "M131210",
+      "M131213",
+      "M131214",
+      "M131255",
+      "M131257",
+      "M131394",
+      "M131396",
+      "M131415",
+      "M131739",
+      "M131755",
+      "M131849",
+      "M131856",
+      "M131860",
+      "M131897",
+      "M132049",
+      "M132121",
+      "M132228",
+      "M132281",
+      "M132301",
+      "M132392",
+      "M132411",
+      "M132453",
+      "M132510",
+      "M132602",
+      "M132683",
+      "M132758",
+      "M132797",
+      "M132864",
+      "M132983",
+      "M132996",
+      "M133005",
+      "M133020",
+      "M133031",
+      "M133247"
+    ]
+  },
+  "toolchain": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "project_config": {
+    "lean-toolchain": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+    "lakefile.toml": "2ea72011439a7fbab1c0f836f9cf6b0c83a16c8adebb969ef68334bae52f3de3",
+    "lake-manifest.json": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df"
+  },
+  "lean_num_threads_environment": 4,
+  "concurrency_note": "LEAN_NUM_THREADS is the Lake worker budget, not the per-compiler thread count.",
+  "started_utc": "2026-11-22T03:35:05.277985+00:00",
+  "ended_utc": "2026-11-22T03:38:46.634495+00:00",
+  "host": {
+    "cpu_count": 9,
+    "mem_total_kib": 10206472,
+    "peak_child_rss_kib": 5121740
+  },
+  "batch_build": {
+    "exit_code": 0,
+    "started_utc": "2026-11-22T03:35:05.277985+00:00",
+    "ended_utc": "2026-11-22T03:37:20.844752+00:00",
+    "seconds": 135.57,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-ansi",
+      "--no-cache",
+      "build",
+      "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero:olean",
+      "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing:olean",
+      "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement:olean"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-ansi",
+      "--no-cache",
+      "build",
+      "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero:olean",
+      "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing:olean",
+      "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement:olean",
+      "+Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement:olean"
+    ],
+    "resources": {
+      "user_seconds": 59.437,
+      "system_seconds": 78.046,
+      "cumulative_max_child_rss_kib": 4609136,
+      "note": "Largest child RSS, not aggregate concurrent memory; getrusage maximum is cumulative for this driver process."
+    },
+    "log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f"
+  },
+  "aggregate_islattice_audit": {
+    "exit_code": 0,
+    "started_utc": "2026-11-22T03:37:20.936134+00:00",
+    "ended_utc": "2026-11-22T03:38:46.374786+00:00",
+    "seconds": 85.44,
+    "command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-ansi",
+      "env",
+      "lean",
+      "--run",
+      "/workspace/scratch/e92c8f71c3ad/evidence-extension-repaired/islattice_audit.lean",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement"
+    ],
+    "execution_command": [
+      "elan",
+      "run",
+      "leanprover/lean4:v4.36.0",
+      "lake",
+      "--no-ansi",
+      "env",
+      "lean",
+      "--run",
+      "/workspace/scratch/e92c8f71c3ad/evidence-extension-repaired/islattice_audit.lean",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique",
+      "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement",
+      "Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder",
+      "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement",
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement"
+    ],
+    "resources": {
+      "user_seconds": 8.101,
+      "system_seconds": 28.22,
+      "cumulative_max_child_rss_kib": 5121740,
+      "note": "Largest child RSS, not aggregate concurrent memory; getrusage maximum is cumulative for this driver process."
+    },
+    "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8",
+    "complete_zero_hit_summary": true,
+    "sorry_diagnostic": false
+  },
+  "modules": [
+    {
+      "id": "M131597",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "retry",
+      "compilation_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "compilation_batch_exit_code": 0,
+      "built_lines": [
+        "⚠ [18338/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero (126s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "0a9d52611596b41a5928fc609ed54d6fe11619d4be19062f6588045c18b7e1ac",
+      "built_source_sha256": "96a1bde728e071515294b80594380ccc1d02399c15b7b460fe9bf8a24593b670",
+      "patch_sha256": "003329f205f8ae7c3e39b5aade276fa34f9ee030b424be9f19e769df541d2cc8",
+      "olean_sha256": "0510b74ec808eddeedbc79bb73ff38ddcfdfe9a09f0b616f3397221aef890ea2",
+      "log_sha256": "a047bd1f12adca55c338732e4b431b9c06798c8ba8e6c0c7b2fe51571a06b0a2",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M131764",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "retry",
+      "compilation_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "compilation_batch_exit_code": 0,
+      "built_lines": [
+        "⚠ [18337/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing (125s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "6e54cbb0fbd6e056155e66328795bcc7402538b658013da311e307cb5098d79f",
+      "built_source_sha256": "4418b89ba4a10bd7af44260e5d009f8b4a3ede46cfc8def2ddc74ce213279740",
+      "patch_sha256": "705c4923859625f24ac72ca0b8711ec2954a621aeb47245a3c3538bdf288812a",
+      "olean_sha256": "dd7cf9aa528ec2d60f9aefc5c2363113164742e5f829f281c6c1eb2343636b7a",
+      "log_sha256": "d6ee3cb6fb3fbc85f695dd6b995be9653d0b2d725e5b43484dd1ffcc1bb99d4f",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M131872",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18336/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree (263s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "f982336269676f758a52d6efac07d216f1e9184623cfe4428db91c756605cb2e",
+      "built_source_sha256": "f982336269676f758a52d6efac07d216f1e9184623cfe4428db91c756605cb2e",
+      "patch_sha256": null,
+      "olean_sha256": "de6a55b3322540fc40ba6632b77fc40ebf65201fb77150d711026b385e822788",
+      "log_sha256": "ef31dfb5134359e13672c76b784901d77b75c208e2746941d7c1807b1a3ee33a",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133286",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18322/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement (190s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "8878a1dc3ee63e41701dd942c8c0eb3706b59e7204f6d5283d318768060bb89b",
+      "built_source_sha256": "8878a1dc3ee63e41701dd942c8c0eb3706b59e7204f6d5283d318768060bb89b",
+      "patch_sha256": null,
+      "olean_sha256": "d502c3f3f90a73d17a5cf7589fc966e423d1e6e4eedd91dfc1562c1920d03015",
+      "log_sha256": "44d74429fc399fa00b560a3f81d554b13fcda16ad78fa5e90c0362f94c322064",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133296",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18331/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement (189s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "b2bd3578d9ceebe8301e4ed9e7331fc76dd32598ad19976dd627187f43de6e9f",
+      "built_source_sha256": "b2bd3578d9ceebe8301e4ed9e7331fc76dd32598ad19976dd627187f43de6e9f",
+      "patch_sha256": null,
+      "olean_sha256": "4fcba6d54aa3b794496896d4e4a9e4952a3ac5af61df9a9c0d8cefe48b6b84c2",
+      "log_sha256": "b86be74c3cf92b3cc58173d5aa76830e3dfaf39c56a6c9c95ebae25f1a4412bd",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133354",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18335/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq (304s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "62d25dfb9e3eadb34cfbbe2d2f643d7009dc58066af2d23fedf7b3c90836a28e",
+      "built_source_sha256": "62d25dfb9e3eadb34cfbbe2d2f643d7009dc58066af2d23fedf7b3c90836a28e",
+      "patch_sha256": null,
+      "olean_sha256": "a02a1e83b1711372584bd470e3f570a9a801343d8fcfca65cd7e7b8494a9fa8e",
+      "log_sha256": "3ed0e5dd81db698ef8216847a6dffa6830a4f68b9be5a9deed31a171d279e93c",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133390",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18314/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement (163s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "4f10d4890c57c26c1631faedae44a4b0cb76e1878d3cfc52f210c0706fbee0bf",
+      "built_source_sha256": "4f10d4890c57c26c1631faedae44a4b0cb76e1878d3cfc52f210c0706fbee0bf",
+      "patch_sha256": null,
+      "olean_sha256": "552e837b7f6e134d182cbf9ccf8c7d533f87d2aabb300a512749513fe312dc4f",
+      "log_sha256": "88c6df047edc298b881df61c191d49f01d56c91ae1c3e7ac4a46929c4a6ef66e",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133750",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18332/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement (368s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "1d95972e9bcc3507d31e81442a8f0387137375c13681152aa933c4032e95627c",
+      "built_source_sha256": "1d95972e9bcc3507d31e81442a8f0387137375c13681152aa933c4032e95627c",
+      "patch_sha256": null,
+      "olean_sha256": "29b0d93d911702aab4825479afbe8b51b64e432c479a061f5b563491f76a78c6",
+      "log_sha256": "8dfdce176cc7e7c78f9d5ca696bf58894fa64887e7dbecfc1d524ba525d00ff7",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133896",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18318/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement (169s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "93349f70d640319e127a2bca0b2f5f52a4f16707807792035d956077927072ca",
+      "built_source_sha256": "93349f70d640319e127a2bca0b2f5f52a4f16707807792035d956077927072ca",
+      "patch_sha256": null,
+      "olean_sha256": "4477080c08311bca261864a7c821b026641a89ebd9f9c3381e37dd266433d6a2",
+      "log_sha256": "d4864fecb19b2d846da457ea381ceb422c9ad6e54205f3a8b73fcb68186dd720",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M133979",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18333/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement (304s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "fa95cdd29c067ba56247ab43331f60da5967af5f6fb3ed76bb1ba4941999da6b",
+      "built_source_sha256": "fa95cdd29c067ba56247ab43331f60da5967af5f6fb3ed76bb1ba4941999da6b",
+      "patch_sha256": null,
+      "olean_sha256": "8e645491113667b740e70d9a5fa7dd38f2bdc9bab06698db5a92ef3c4f5e7ce7",
+      "log_sha256": "4a5e1d2ff0189221691f63534a31f2bbb9a464b6e5546f3f9cf9b7c4fbf8c1b8",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M134003",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18319/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement (170s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "8dd6d01f743f5904ed2d7e86bdbec20708a2c0bb2b16e63c942149d289a036e8",
+      "built_source_sha256": "8dd6d01f743f5904ed2d7e86bdbec20708a2c0bb2b16e63c942149d289a036e8",
+      "patch_sha256": null,
+      "olean_sha256": "f4f881e8f4441c90dfe32c5dfdafbd337809a733208c530ff30591dc3a8d3d8b",
+      "log_sha256": "4ddb8823ccc39efa7f292c213fd6979cb352626acda1f248300ac01eaa97c7b3",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M134040",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18320/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform (167s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "0b918e3a41b7d2b6f3ea3cf68209dd9fdcb9894f433e431c451fa4e8eefc460b",
+      "built_source_sha256": "0b918e3a41b7d2b6f3ea3cf68209dd9fdcb9894f433e431c451fa4e8eefc460b",
+      "patch_sha256": null,
+      "olean_sha256": "108ba1c54955c070370be7667403dfbfa63047cad40d3efe0aa43afb9e32b693",
+      "log_sha256": "07c37fd0fb14a906a08db52581a3bbb543a9fa5f7aa2804ac22f4c0c483ad9cf",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M134090",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18315/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement (162s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "464ba71a955d745b7821d9a214db15c4f0ed9e3421051eef1e5ac33c5c323ca0",
+      "built_source_sha256": "464ba71a955d745b7821d9a214db15c4f0ed9e3421051eef1e5ac33c5c323ca0",
+      "patch_sha256": null,
+      "olean_sha256": "63110f863f6676e81e13947487b923c3434afdd26f3a6248c1c1dbf16525d912",
+      "log_sha256": "cbf2de85f6969a040faac20cd534f47f9982843681283869b9195c818382e3ac",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M134230",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18334/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement (304s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "c1e48a9021528284e5502f8e841e59f118ed9342be05c23511fe38f40bbfa2fd",
+      "built_source_sha256": "c1e48a9021528284e5502f8e841e59f118ed9342be05c23511fe38f40bbfa2fd",
+      "patch_sha256": null,
+      "olean_sha256": "28b7bbff9fa890cec58d5732eaa56e30d49624cf8494e8b79cc051e740485c23",
+      "log_sha256": "1fd1129df89ca326652bc7140526a97c23dda3de95220b039978185ac2d858a2",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    },
+    {
+      "id": "M134329",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement",
+      "successful": true,
+      "build_mode": "shared_repaired_continuation_batch",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1,
+      "built_lines": [
+        "⚠ [18323/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement (190s)"
+      ],
+      "shared_build_exit_code": 0,
+      "shared_log_sha256": "9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f",
+      "source_sha256": "1bbc6e6779f718452f99fbafe40326f239c8a4b1978f71c96bcb09ef5d5aa96a",
+      "built_source_sha256": "1bbc6e6779f718452f99fbafe40326f239c8a4b1978f71c96bcb09ef5d5aa96a",
+      "patch_sha256": null,
+      "olean_sha256": "ffc05e865ab13f8ebcdb80876bad0075e465b9310ed7939fbc3b3227f60e2309",
+      "log_sha256": "0de12b474fb4b868d625cf74daa6d7877262a12d39999edcca4543945fdcee1f",
+      "source_changed_during_build": false,
+      "patch_changed_during_build": false,
+      "sorry_diagnostic": false,
+      "reused_names": [],
+      "islattice_audit": {
+        "scope": "all 63 packet targets",
+        "exit_code": 0,
+        "successful": true,
+        "log_sha256": "ebf7b0f45ec4130c183f249cc17c39d23b5092e14e661ec37eabf3996eae81e8"
+      }
+    }
+  ],
+  "accepted_imports": [
+    {
+      "id": "M005021",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem",
+      "source_sha256": "4fdf00c4518e06894dbfa187cf17bf6150993414684bf1e0464bdd35c3db4039",
+      "record_sha256": "4f1d9a4372f9af013273dd612fd7b6b793f85a542da0d1d98e25bf728d332592",
+      "patch_sha256": "3ec12276dbc994bd28d4757dce38fe67ffe1cdc251ba3438545b9b189e867518"
+    },
+    {
+      "id": "M006406",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn",
+      "source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "record_sha256": "821bbe93f03eba02b2e8af6fa75a624eebced2e81f5c99bd309b8f129d4a27c9",
+      "patch_sha256": null
+    },
+    {
+      "id": "M115007",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.GeneralBFact",
+      "source_sha256": "3297e7909638532d27974ec99e783474fbcfcefd7c4b60da5a48c33b52f6b56f",
+      "record_sha256": "9956785e46d7b49520b747e16c8b986337ea745b1587a68985ee28f3c33beab2",
+      "patch_sha256": null
+    },
+    {
+      "id": "M119658",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor",
+      "source_sha256": "a7c8161c8b0f87e2b6058273bd5f736f50732c9a19390aae7ad95261c186a83d",
+      "record_sha256": "973e098227f480f0f750624e8de4c134d3c9b77510d52f91fbb2ef6237173af7",
+      "patch_sha256": null
+    },
+    {
+      "id": "M119671",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData",
+      "source_sha256": "078271d892f0a856f68bce9649424d4f67d1c884fb6b617178b0ec0263651660",
+      "record_sha256": "da63f8571bfaa2b4f29c3508debb21fcced203bbf71ac62537ae9dfd43a944e1",
+      "patch_sha256": "797bbb42060a842304685c8dea52b25b97f1c7046681b7ca8378d05a3036d0ac"
+    },
+    {
+      "id": "M119679",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder",
+      "source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd",
+      "record_sha256": "14091243f3dae6b374817e0ac200bdb553fdc3767303f6adcf91aa5d2b802818",
+      "patch_sha256": null
+    },
+    {
+      "id": "M119822",
+      "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne",
+      "source_sha256": "3d9e5a60191008331d74e684cbfc260f7471a97ee0a12734dafc2e90bb2b2178",
+      "record_sha256": "98e4832239ffb2eed422c6993a1bfa65e2bca4722b5e779f870678a380ea3a48",
+      "patch_sha256": null
+    },
+    {
+      "id": "M120151",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank",
+      "source_sha256": "cff14ab8e12dcda1a3cfc7d0c946acac7e94d2095b4476c26d9f8e0351a11992",
+      "record_sha256": "1d0798ee0fc73f9914e029c6bc8ab484e219028459de2a28680a78cf75ab3383",
+      "patch_sha256": null
+    },
+    {
+      "id": "M120428",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeOfFiniteProjective",
+      "source_sha256": "3acf0428874b6e2434386e843627e9c4c751eac0287c8f325464dec80f1abcc8",
+      "record_sha256": "a6590f41ff93cb79853be17c9853daef90857fec9b4daaf2f6aa8be41726cb72",
+      "patch_sha256": "a5d25b3d06cf8f27204db77b22056046d1cab905c43c45c860e1fe1abff44ed1"
+    },
+    {
+      "id": "M130608",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement",
+      "source_sha256": "e1c3aff58fffd579869a1ac8a54424b43df75e179d786ec9f668a7e396a55602",
+      "record_sha256": "d15cdbb56929e6933d6a503ff318185e8bd16ff592eeeb7db5a0a4a61261126f",
+      "patch_sha256": null
+    },
+    {
+      "id": "M130609",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElementStatement",
+      "source_sha256": "c695b7197e28125d10a26d03c077ce499fda5c0ef5c64e05015f4d6b30e51445",
+      "record_sha256": "d70b7bb5bcc5272086765057e6d09bd1f3c27033463f94fea73c77a5c23ae40d",
+      "patch_sha256": null
+    },
+    {
+      "id": "M131610",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank",
+      "source_sha256": "1ed641b7c265f55c5062dc5f405a50b82ae857cbd638c712b990adfd46cbc2cf",
+      "record_sha256": "b880d4ae8035e989ec9b71f3ea345cea22a0ebd7d30eb2ee1f2e4c2a5b5f9d0b",
+      "patch_sha256": "1d97556619de891640172a5b7e7ddf3395efa61e9c4f0f728761920137dfd1d5"
+    },
+    {
+      "id": "M131611",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRankStatement",
+      "source_sha256": "2b1fea28e5962d2559c600080d5ac51de50378e9c458f2ffa87e04134e00d414",
+      "record_sha256": "63256f5e112f771bbe5e2fec835b86957324fce7cee8a97da4cfc643ad219f06",
+      "patch_sha256": null
+    },
+    {
+      "id": "M131616",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRank",
+      "source_sha256": "de037d360f21251e17c186882f9483867fc362bcebfa71a7ee8332d1f8d8ee17",
+      "record_sha256": "66274d9783a20dc05f84d3249086542df7bc9586256242504ba1bd95d5f83ef3",
+      "patch_sha256": null
+    },
+    {
+      "id": "M131617",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRankStatement",
+      "source_sha256": "c83e328279d96cb861ca960d37a3e6a0320346a75480dda3bdcae274d942bcf3",
+      "record_sha256": "15548716928baf84a2cb892cc9170ddac9cf69ab32f160f77d063b608c4c2cb6",
+      "patch_sha256": null
+    },
+    {
+      "id": "M131766",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndep",
+      "source_sha256": "756316c4d6a062e1af7fb42c9636f08ed34fe45c5b5d59a813973acd22d43403",
+      "record_sha256": "29b6baded602c73cc53c54e97f5f1abbb87bbdbd0512bab7f6f0252641d9c017",
+      "patch_sha256": null
+    },
+    {
+      "id": "M131767",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndepStatement",
+      "source_sha256": "eb26a28d57e860927c7b86d1231532b9f58f4733bc748d7502fb589c7d87e711",
+      "record_sha256": "327fb3192b3d8534df210815b458e573951bdf00dd923389408aeb731173def3",
+      "patch_sha256": null
+    },
+    {
+      "id": "M132136",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnit",
+      "source_sha256": "3b349243e089b1c7fa3a4db896fe343f50c500642888119159c4f38469b6c41c",
+      "record_sha256": "972d66e6e68e625d31e674a2dcc69f4632993eb083a3507693edfdbb54f242c4",
+      "patch_sha256": null
+    },
+    {
+      "id": "M132137",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnitStatement",
+      "source_sha256": "e870107a0edc02bb451c21bc56d01f5ac16bafbfa7160282eabc5eeb8c38feb4",
+      "record_sha256": "a7fe7d0365be1f0a2b409f61fa35f56fb1acf1c93fc2794da4231a68ffc4d808",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133285",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorus",
+      "source_sha256": "eaf0e00b5302033360037f1ba8890c30b03c890b1ef18e6f30380852d1771dcf",
+      "record_sha256": "effd62492672acf5e224f82cdacc35f46ba04b5d7e9451f0f3ebc58e611fc0ae",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133295",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithm",
+      "source_sha256": "4ef518685705704d2b5212d7085f7c986972b8f3985a2a4fdb74c41735cb645f",
+      "record_sha256": "d0a5e4c84ed6d7ab435eb37e6ff5756de2b0e836836f14ddf8ca39175a7a5695",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133389",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrame",
+      "source_sha256": "3933b56e1135657ed3b8f422eb794b4fcf76b9e9b03114ca5769238e09cf7ce5",
+      "record_sha256": "79521dc0b579d0fcf4b574667a232d85d811626fafb4fba6e9f238976b941ec2",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133749",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple",
+      "source_sha256": "c1c0de75eb5f36452d279eb002bd4dde35c8ddf0878e241a4ddc820e77d57516",
+      "record_sha256": "14cf6ab7627200f9c9ef2153582936b06cb23897b784ecd48d53959db0e5282f",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133853",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas",
+      "source_sha256": "1eae3b96b2833d6443b1b9667207f0080d9bc60871fa7cb65d1035e765944f2e",
+      "record_sha256": "f8f5cc3f5b443b85a2a33155ecce41803f19474cb04fe6856c4d46cd6e231530",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133895",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors",
+      "source_sha256": "a614208a16db4ce8b26f5a25f2a259f01a09d3b115d4b37a7968cba50f0c6202",
+      "record_sha256": "3f71781a8549dd9dff8a1fb663e0c2eae221f495740e6f72e95f74dd9a99cda0",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133914",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IterDifferentiableOn",
+      "source_sha256": "86ad6edce5da960ebef0889940d2159919ff229e199a4b1dc403450d2f73637a",
+      "record_sha256": "16461134e48e404c8ca645e4e07dc009d2b2e718fbe27b9035d5d9c7de9e92ee",
+      "patch_sha256": null
+    },
+    {
+      "id": "M133978",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphism",
+      "source_sha256": "db4812f494736eaed98cb80d6a080d89b4a2aaa24b0e0090cf21282458bd548a",
+      "record_sha256": "a9ded705825e927e6cd910bcfae4f24870160251bcbd73ca5b8d258ff4975b79",
+      "patch_sha256": null
+    },
+    {
+      "id": "M134002",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound",
+      "source_sha256": "9d7a73364a4a0a5bbf9a57840d78567b53933ae1bb5164f61c2b55de4aa02ce4",
+      "record_sha256": "503a7f3dbb0fcf037bc8c9eb2a9b42b375740fffade8d5badbe0cc91f4d727f1",
+      "patch_sha256": null
+    },
+    {
+      "id": "M134089",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverse",
+      "source_sha256": "74c6b3bc40a399c68e5ec1d14a25618696be59bcdf54258ab784d7ba93a70822",
+      "record_sha256": "232d1b907c25705e29861c10806dc53f993afd4728943e4c04cdd0662ed21187",
+      "patch_sha256": null
+    },
+    {
+      "id": "M134229",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmooth",
+      "source_sha256": "28cc3c0a1bffafcbc387330974fdc411a7933771f07cf57a71e193db1ec8ab23",
+      "record_sha256": "395818574f640e5c05b9311737945fe83c43850c5465570fc388e6a0f9b7ddf7",
+      "patch_sha256": "db9e2a30bc276eccfe80d9a095e94d8fc4a903a21ff2220beb9fb55e52e82685"
+    },
+    {
+      "id": "M134328",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound",
+      "source_sha256": "be63258ef4a750184f5f2afeadb303d512ed09d45d1db6336bbccb15dbef5311",
+      "record_sha256": "9618fd2ea242d1f68315d821528ddc9af6037825539be5f5de9830874d9892bb",
+      "patch_sha256": null
+    },
+    {
+      "id": "M134362",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.SectionTensorPullbackRingHomBijective",
+      "source_sha256": "d95b8d51c3c5c59b74c793ca12c93e54a494da2c083823daf3067d00aeeffe59",
+      "record_sha256": "fb569e4627256eabd06b8a4c68eaef8b03099865234cc43d102333f114e98bb2",
+      "patch_sha256": null
+    },
+    {
+      "id": "M139432",
+      "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv",
+      "source_sha256": "c440f0b7f7886400e243e321aab4ed5c0c21c49492d0903820bfbfa63de48e24",
+      "record_sha256": "8323bc77ef8a310f831b3e8be91049ecbefeeec5b3e602c5e39a9888f79f3ed5",
+      "patch_sha256": null
+    },
+    {
+      "id": "M139471",
+      "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramGrad",
+      "source_sha256": "5e84bc853223dcbd7f042657f76f6afc3d298dcb9387b2305c7037350ae41b8a",
+      "record_sha256": "7cf5c97d2ed6cdedbe24422528bdb4de20f30b0b321582d7c2c78eee48dbef6e",
+      "patch_sha256": null
+    },
+    {
+      "id": "M140454",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra",
+      "source_sha256": "4c870248384b0d83b408ca099bd5ae7bf9ee05481c46efa7596217ba8310dea4",
+      "record_sha256": "0dc3d906b3d8b5906145c80e4e6144057189242b23f45a48436980d25ea0f384",
+      "patch_sha256": "6681540362d7e7b59c181a595c8c1d66b28ee2cb76d67cc7041db9015b7a6aa4"
+    },
+    {
+      "id": "M171833",
+      "module": "ReciprocityTheory.DualLattices.RidConvolutionDerivation",
+      "source_sha256": "83438a95f5a92d5e4e698eb1466c0d353871b448034be42f3c49ed340f6ae47b",
+      "record_sha256": "5c0e1b35863b07f2cd4ebc9c37a131472c3c0b2be649ee2aa4cd59e853f2b82a",
+      "patch_sha256": "881670f7b1860e39099ab88e25b05cff651eade57f770251167a2a1ca88f7a15"
+    },
+    {
+      "id": "M171925",
+      "module": "ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt",
+      "source_sha256": "ebe39b12fc0098aac7790a86742eb5f1dbd773148d778363e7563526b753ee7b",
+      "record_sha256": "30ae0bd7d69017eaf0a57fe7576483318547c2244777b7e6d23dba4b3223e88a",
+      "patch_sha256": "9ca9f7e4bb9bb9294f07fa96aa793c566b57f6e0919ee0c9b1a2865ba3320147"
+    }
+  ],
+  "built_imports": [
+    {
+      "id": "M005021",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem",
+      "built_lines": [
+        "⚠ [18321/18338] Built Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem (202s)"
+      ],
+      "built_source_sha256": "2a4264ed0a833a2669a5154d83233b71615472ba535fdabcf8ccf0c6031626c2",
+      "olean_sha256": "ec8b497e621c140688f68202ab2916299e873761f6207d1f799594eb76444fb9",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M006406",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn",
+      "built_lines": [
+        "⚠ [18259/18338] Built Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn (176s)"
+      ],
+      "built_source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "olean_sha256": "35bdc6aa5db3fd4012ccdc7544e2c938ffa5049d80e4ed4747b27ea239852c40",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M115007",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.GeneralBFact",
+      "built_lines": [
+        "⚠ [18251/18338] Built Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.GeneralBFact (187s)"
+      ],
+      "built_source_sha256": "3297e7909638532d27974ec99e783474fbcfcefd7c4b60da5a48c33b52f6b56f",
+      "olean_sha256": "3c75070de26fe43bc279bd0f67fde885eb0f470efce796fed65eb820ce352f3d",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M119658",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor",
+      "built_lines": [
+        "⚠ [18278/18338] Built Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor (172s)"
+      ],
+      "built_source_sha256": "a7c8161c8b0f87e2b6058273bd5f736f50732c9a19390aae7ad95261c186a83d",
+      "olean_sha256": "a1c44248995b84a08826718ffe7ee17b935c563b9842f154d480ac97c15cb2b8",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M119671",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData",
+      "built_lines": [
+        "⚠ [18313/18338] Built Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData (164s)"
+      ],
+      "built_source_sha256": "e5e899e1807a69bbe430fc127c66d5eb7fbce4be2377b294aa3a2587c78ef1e4",
+      "olean_sha256": "5586139302924eb1c77d0f7b65efc6416ec029f0881098a5d0559d460a07ea56",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M120151",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank",
+      "built_lines": [
+        "⚠ [18253/18338] Built Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank (187s)"
+      ],
+      "built_source_sha256": "cff14ab8e12dcda1a3cfc7d0c946acac7e94d2095b4476c26d9f8e0351a11992",
+      "olean_sha256": "d6facc7d1da4d5df53f3d756152a9a7a61c7bfe3e82ce65d58bd43500e4e7c39",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M120428",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeOfFiniteProjective",
+      "built_lines": [
+        "⚠ [18317/18338] Built Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeOfFiniteProjective (166s)"
+      ],
+      "built_source_sha256": "692b6359e8c09df64933d46cf827ef41efa7dffcb4fc06798135fc3cef10d17c",
+      "olean_sha256": "333d87db8588d5a019d77e1406050e43ea095e0df9b6a5cc088a2a2cb81fac01",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M130608",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement",
+      "built_lines": [
+        "⚠ [18261/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement (162s)"
+      ],
+      "built_source_sha256": "e1c3aff58fffd579869a1ac8a54424b43df75e179d786ec9f668a7e396a55602",
+      "olean_sha256": "aba8eddf44067020eaeee054a49b4b9e363314aaa760fe34e6e21cf90d195184",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M130609",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElementStatement",
+      "built_lines": [
+        "⚠ [18310/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElementStatement (164s)"
+      ],
+      "built_source_sha256": "c695b7197e28125d10a26d03c077ce499fda5c0ef5c64e05015f4d6b30e51445",
+      "olean_sha256": "6d5ec2f3df12a579f6162bcef6b91b81adfc41dcdc94763d4c531d3d1e1ede46",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M131610",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank",
+      "built_lines": [
+        "⚠ [18276/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank (164s)"
+      ],
+      "built_source_sha256": "40bcd947e04c715e2a9359f71061902a91b8176fb8c2d45ae09baaecd69a5f17",
+      "olean_sha256": "f7abfc851b8a8e3a91751bc812d25611a81081afa4a2216ff095f7b48e465530",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M131611",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRankStatement",
+      "built_lines": [
+        "⚠ [18312/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRankStatement (163s)"
+      ],
+      "built_source_sha256": "2b1fea28e5962d2559c600080d5ac51de50378e9c458f2ffa87e04134e00d414",
+      "olean_sha256": "d13f95498158f1107c55234a9803d6c9f95de6ba5960d4c248ca81bae0874539",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M131616",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRank",
+      "built_lines": [
+        "⚠ [18266/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRank (163s)"
+      ],
+      "built_source_sha256": "de037d360f21251e17c186882f9483867fc362bcebfa71a7ee8332d1f8d8ee17",
+      "olean_sha256": "9714311b3afe339ac2f3520353554a0c1b141e4db4d16118fc5edce2f051267d",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M131617",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRankStatement",
+      "built_lines": [
+        "⚠ [18311/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRankStatement (164s)"
+      ],
+      "built_source_sha256": "c83e328279d96cb861ca960d37a3e6a0320346a75480dda3bdcae274d942bcf3",
+      "olean_sha256": "8c155138085d64d82dcadbab9b3932ca5c30171e6d1710d4ff969b6e87aebd56",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M131766",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndep",
+      "built_lines": [
+        "⚠ [18258/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndep (175s)"
+      ],
+      "built_source_sha256": "756316c4d6a062e1af7fb42c9636f08ed34fe45c5b5d59a813973acd22d43403",
+      "olean_sha256": "38e739867bf70a945572117204a93022af296a1b657d3752544252967c9b4831",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M131767",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndepStatement",
+      "built_lines": [
+        "⚠ [18291/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndepStatement (150s)"
+      ],
+      "built_source_sha256": "eb26a28d57e860927c7b86d1231532b9f58f4733bc748d7502fb589c7d87e711",
+      "olean_sha256": "444473c1372fb14b9a0e59fe15c375bc72960ee7343ff801b282ca43e11d5c36",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M132136",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnit",
+      "built_lines": [
+        "⚠ [18260/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnit (163s)"
+      ],
+      "built_source_sha256": "3b349243e089b1c7fa3a4db896fe343f50c500642888119159c4f38469b6c41c",
+      "olean_sha256": "aba925dd791caf1d061450fe2d6d060f7c216863b0c32058841b89d38384f9ad",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M132137",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnitStatement",
+      "built_lines": [
+        "⚠ [18290/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnitStatement (147s)"
+      ],
+      "built_source_sha256": "e870107a0edc02bb451c21bc56d01f5ac16bafbfa7160282eabc5eeb8c38feb4",
+      "olean_sha256": "37c0a654c321ca47a9ff89a131fb74c9c8ce2883b3545e45e1a15b303a437a1e",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133285",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorus",
+      "built_lines": [
+        "✔ [18286/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorus (161s)"
+      ],
+      "built_source_sha256": "eaf0e00b5302033360037f1ba8890c30b03c890b1ef18e6f30380852d1771dcf",
+      "olean_sha256": "caa24cab26fdd68163b4d8bd3c36fbb6b2267ae041f7cef393a290e7c941f3be",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133295",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithm",
+      "built_lines": [
+        "⚠ [18287/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithm (161s)"
+      ],
+      "built_source_sha256": "4ef518685705704d2b5212d7085f7c986972b8f3985a2a4fdb74c41735cb645f",
+      "olean_sha256": "b67211dca23dc5047d13169d45e88984735912c8fe3fe8fa2f59235d3025cbe0",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133389",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrame",
+      "built_lines": [
+        "⚠ [18279/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrame (173s)"
+      ],
+      "built_source_sha256": "3933b56e1135657ed3b8f422eb794b4fcf76b9e9b03114ca5769238e09cf7ce5",
+      "olean_sha256": "6b7c13e47b642448b446002950d72c40b97cb3a414e9cbab09009f8bdf730294",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133749",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple",
+      "built_lines": [
+        "⚠ [18288/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple (163s)"
+      ],
+      "built_source_sha256": "c1c0de75eb5f36452d279eb002bd4dde35c8ddf0878e241a4ddc820e77d57516",
+      "olean_sha256": "0fa25b905fdc5e01264c657645b346a0fabc5feb8392b8c673af614c972cc241",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133853",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas",
+      "built_lines": [
+        "⚠ [18256/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas (174s)"
+      ],
+      "built_source_sha256": "1eae3b96b2833d6443b1b9667207f0080d9bc60871fa7cb65d1035e765944f2e",
+      "olean_sha256": "1fca58dc280979598be5ea2ad987fae906ceab126551c17f5014ad0b0df54f94",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133895",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors",
+      "built_lines": [
+        "⚠ [18283/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors (167s)"
+      ],
+      "built_source_sha256": "a614208a16db4ce8b26f5a25f2a259f01a09d3b115d4b37a7968cba50f0c6202",
+      "olean_sha256": "0ed55f15b0b260dc80828c6fa871819e9df8528be39d43651bd8a05d950221dc",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133914",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IterDifferentiableOn",
+      "built_lines": [
+        "⚠ [18257/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.IterDifferentiableOn (175s)"
+      ],
+      "built_source_sha256": "86ad6edce5da960ebef0889940d2159919ff229e199a4b1dc403450d2f73637a",
+      "olean_sha256": "db8abc706884609243178cd1710069fdbe2dac5813cd43009c9b155044e3b124",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M133978",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphism",
+      "built_lines": [
+        "⚠ [18308/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphism (151s)"
+      ],
+      "built_source_sha256": "db4812f494736eaed98cb80d6a080d89b4a2aaa24b0e0090cf21282458bd548a",
+      "olean_sha256": "714a6553f5c3741b16c32e1874df4722ab17b8992453a5d8b6923865ef1fc655",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M134002",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound",
+      "built_lines": [
+        "⚠ [18282/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound (165s)"
+      ],
+      "built_source_sha256": "9d7a73364a4a0a5bbf9a57840d78567b53933ae1bb5164f61c2b55de4aa02ce4",
+      "olean_sha256": "745bee700423f34f45c69cdc749fee10f29095397350204eb886865ddf1a9ebd",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M134089",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverse",
+      "built_lines": [
+        "⚠ [18280/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverse (173s)"
+      ],
+      "built_source_sha256": "74c6b3bc40a399c68e5ec1d14a25618696be59bcdf54258ab784d7ba93a70822",
+      "olean_sha256": "02677890c99cb42110fb59ccb312d20f4ee9ee6fc058fa4c2d2eb38c14cd85e0",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M134229",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmooth",
+      "built_lines": [
+        "⚠ [18289/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmooth (164s)"
+      ],
+      "built_source_sha256": "67afce6a6bc78a2292954f1a543f6710a6a3fb7ab1e3bb93cd1bca24ebd40d7b",
+      "olean_sha256": "50ee62314e81fad7263eea108a454dfe4d47581ae87ad599a573c6acdf399334",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M134328",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound",
+      "built_lines": [
+        "⚠ [18285/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound (167s)"
+      ],
+      "built_source_sha256": "be63258ef4a750184f5f2afeadb303d512ed09d45d1db6336bbccb15dbef5311",
+      "olean_sha256": "7d9ee5ae315bf7a0cdf1cf0c7e4d1389b651a4a9d5592cf72d9d7ddcde78cfd9",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M134362",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.SectionTensorPullbackRingHomBijective",
+      "built_lines": [
+        "⚠ [18298/18338] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.SectionTensorPullbackRingHomBijective (150s)"
+      ],
+      "built_source_sha256": "d95b8d51c3c5c59b74c793ca12c93e54a494da2c083823daf3067d00aeeffe59",
+      "olean_sha256": "24a1e936d5cf615eee9fa7c7693fa35a5058e9fc78cb24b910c3b22d627ff711",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M139432",
+      "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv",
+      "built_lines": [
+        "⚠ [18254/18338] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv (187s)"
+      ],
+      "built_source_sha256": "c440f0b7f7886400e243e321aab4ed5c0c21c49492d0903820bfbfa63de48e24",
+      "olean_sha256": "3113f0d740725732b521c31039fdb5236732017056b4710728bae1a9924f4957",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M139471",
+      "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramGrad",
+      "built_lines": [
+        "⚠ [18284/18338] Built Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramGrad (166s)"
+      ],
+      "built_source_sha256": "5e84bc853223dcbd7f042657f76f6afc3d298dcb9387b2305c7037350ae41b8a",
+      "olean_sha256": "e5b963843759ffa7d4c698ab9789a34f4274686fa997c6d1ff606dc07b4b164b",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M140454",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra",
+      "built_lines": [
+        "⚠ [18316/18338] Built Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra (164s)"
+      ],
+      "built_source_sha256": "30d353f679ec3b4becd19bb1e842fa7413f8f014bd038decba2e8409072077cb",
+      "olean_sha256": "8a645702c13e11221682fa7f7f3d88be28b9e5eff93d06aaf008d871645b57b6",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M171833",
+      "module": "ReciprocityTheory.DualLattices.RidConvolutionDerivation",
+      "built_lines": [
+        "⚠ [18281/18338] Built ReciprocityTheory.DualLattices.RidConvolutionDerivation (174s)"
+      ],
+      "built_source_sha256": "4fdcfcca450bc3358db033ad163c7f2948b17bbbfb0c50bc2f7c7105919d30a6",
+      "olean_sha256": "ba5b0404b82bfa18a39c5d1467d6d0f20868fc29075660456e0c3b32d957b747",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    },
+    {
+      "id": "M171925",
+      "module": "ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt",
+      "built_lines": [
+        "⚠ [18255/18338] Built ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt (187s)"
+      ],
+      "built_source_sha256": "deb1b4be1e53634ac5ee74cdd7d908b55a923e9c477d030169e0705c4a473139",
+      "olean_sha256": "3a213f80a05e66a18c8360d19a3b10e7763ac13ba4f11ccfafb3c99518226a4b",
+      "compilation_attempt": "original",
+      "compilation_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+      "compilation_batch_exit_code": 1
+    }
+  ],
+  "applied_patches": [
+    {
+      "id": "M005021",
+      "patch_sha256": "3ec12276dbc994bd28d4757dce38fe67ffe1cdc251ba3438545b9b189e867518"
+    },
+    {
+      "id": "M119671",
+      "patch_sha256": "797bbb42060a842304685c8dea52b25b97f1c7046681b7ca8378d05a3036d0ac"
+    },
+    {
+      "id": "M120428",
+      "patch_sha256": "a5d25b3d06cf8f27204db77b22056046d1cab905c43c45c860e1fe1abff44ed1"
+    },
+    {
+      "id": "M131610",
+      "patch_sha256": "1d97556619de891640172a5b7e7ddf3395efa61e9c4f0f728761920137dfd1d5"
+    },
+    {
+      "id": "M134229",
+      "patch_sha256": "db9e2a30bc276eccfe80d9a095e94d8fc4a903a21ff2220beb9fb55e52e82685"
+    },
+    {
+      "id": "M140454",
+      "patch_sha256": "6681540362d7e7b59c181a595c8c1d66b28ee2cb76d67cc7041db9015b7a6aa4"
+    },
+    {
+      "id": "M171833",
+      "patch_sha256": "881670f7b1860e39099ab88e25b05cff651eade57f770251167a2a1ca88f7a15"
+    },
+    {
+      "id": "M171925",
+      "patch_sha256": "9ca9f7e4bb9bb9294f07fa96aa793c566b57f6e0919ee0c9b1a2865ba3320147"
+    }
+  ],
+  "unexpected_rebuilt_existing": [],
+  "changed_reused_outputs": [],
+  "changed_sources": [],
+  "changed_configuration": [],
+  "changed_patches": [],
+  "mathlib_unchanged": true,
+  "remaining": [
+    {
+      "id": "M133708",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.GapEqWeightSubNext",
+      "missing_imports": [
+        "M139479",
+        "M163509"
+      ]
+    }
+  ],
+  "combined_target_count": 63,
+  "packet_complete": false,
+  "input_manifest_sha256": "fe8ff1fad25cd2d0c365d680566129f70be755572a98ffc087ffa1380641efdd",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "compatibility": {
+    "baseline_commit": "5a067f8d23e12b7c98be83b12add05a724e8177a",
+    "accepted_commit": "82f522b09a3e0ef920716dada3753e9b30f385bf",
+    "files": {
+      "port/islattice_audit.lean": {
+        "identical": true,
+        "sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b"
+      },
+      "port/pruned.txt": {
+        "identical": true,
+        "sha256": "11f26aee3d8d0890c83aa7693c167175695a51af5ba24837c78e72fbbfa33154"
+      },
+      "port/target.json": {
+        "identical": true,
+        "sha256": "ec4d744ba850213e73cf4f3e2079994fd2acdb9c2d7a96ed348f44cd782bf57f"
+      },
+      "scripts/port-ci-build.py": {
+        "identical": true,
+        "sha256": "92b52a7ccaea6763de902eeb001089d4d44a14460402e38e1cd52498b7561086"
+      },
+      "tracker/modules.jsonl.gz": {
+        "identical": true,
+        "sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74"
+      },
+      "tracker/port.py": {
+        "identical": true,
+        "sha256": "6db393b476a855e66df4df452a88a9db3ca2af4054b3f4ec4b7d463399f292bb"
+      },
+      "tracker/port_build.py": {
+        "identical": true,
+        "sha256": "adc8fe5e60c6db51c13d8d6d01dcfb9d7f2228a83e77e9caf4c42f5891f7ea64"
+      },
+      "tracker/validate_ports.py": {
+        "identical": true,
+        "sha256": "5c5912ecd58ca37688e9f00a71cbb5125660e02ca2660e248d51c0358a235428"
+      }
+    },
+    "existing_import_records": [
+      {
+        "id": "M003617",
+        "identical": true,
+        "record_sha256": "8af2cdb801578ffbb8049ab5d4d61f9652bd096e1a6cba39d98f11ec12dd67ea",
+        "patch_sha256": null
+      },
+      {
+        "id": "M004105",
+        "identical": true,
+        "record_sha256": "8a587159934adb139132cade5ec9cf5053ef6abda6356cec8c0b434439967523",
+        "patch_sha256": null
+      },
+      {
+        "id": "M006184",
+        "identical": true,
+        "record_sha256": "1ca75a2c7e4741cf0125d2cac446e87be0cd11f41b529f598e36cdb5bd154f1c",
+        "patch_sha256": "5d20d8715cf737103371827827603fb5359c85a4fb5d1e79ce44c7d115c46067"
+      },
+      {
+        "id": "M006225",
+        "identical": true,
+        "record_sha256": "5918acd252c762f431314c7611b6c25f7eb6eee21396b445a5f258316b9752ac",
+        "patch_sha256": null
+      },
+      {
+        "id": "M010383",
+        "identical": true,
+        "record_sha256": "14b7ce6ee47228e577f089036f9b35c7e742b8b7e46f0fadcb02aea8e94bf59c",
+        "patch_sha256": null
+      },
+      {
+        "id": "M027934",
+        "identical": true,
+        "record_sha256": "a2890a8a1a71204898c1d7a329bd14ecf5e0648092897ef67eab231186a045a0",
+        "patch_sha256": null
+      },
+      {
+        "id": "M086138",
+        "identical": true,
+        "record_sha256": "631441e4bd828c90e574a0b63c190b095a64a211e0d423107fddaf317177cff9",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119655",
+        "identical": true,
+        "record_sha256": "016f9161cc5a53508874ae65b6843ef441e4a8a8594c2d3cfffd9a304ef95e49",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119672",
+        "identical": true,
+        "record_sha256": "d12a729ad067bdbe569e54fcecf58f31cd0921f6f1e20b551383ea127e5ae9d2",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119679",
+        "identical": true,
+        "record_sha256": "14091243f3dae6b374817e0ac200bdb553fdc3767303f6adcf91aa5d2b802818",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119709",
+        "identical": true,
+        "record_sha256": "425684ac713f7f882f28b197637aa196316b44d6fb01150d1a006e635067e656",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119721",
+        "identical": true,
+        "record_sha256": "48901520f1e8ac8de6d9094f60b1890237acac60654c72515380377667b7e69d",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119737",
+        "identical": true,
+        "record_sha256": "c685a8118775d2d06ddc98aef149da191c6d9f09ed128b87c84fe5482ce34e45",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119741",
+        "identical": true,
+        "record_sha256": "3970d25b2b033a61381be58309150b1289ae02942b57dfedfba97a40360ea69c",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119742",
+        "identical": true,
+        "record_sha256": "bacaf8c4de5290bc7758da183984153696c48989860173be168c5c295a377719",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119750",
+        "identical": true,
+        "record_sha256": "1b7857f3791b6ccb2a733454eaa8758f97281e1cde341286f1444912fa2d0e5e",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119770",
+        "identical": true,
+        "record_sha256": "0fcda7464b2dade6ca57cb554befe8e19fa895ea1ad625d9076d17c1aaa3a7e8",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119804",
+        "identical": true,
+        "record_sha256": "a2602c0fa08819167cb029a27331d773ff073d2856e6cdac6a4da7e94b04a41c",
+        "patch_sha256": null
+      },
+      {
+        "id": "M119805",
+        "identical": true,
+        "record_sha256": "47fc46b3d631114154a094e2136291974c247dda6bff3238330d4cbc89ab57ca",
+        "patch_sha256": "5e65ca3feaff9991eb8db65b38ddfa802b46205309b5a4dca94043190c57eb79"
+      },
+      {
+        "id": "M119822",
+        "identical": true,
+        "record_sha256": "98e4832239ffb2eed422c6993a1bfa65e2bca4722b5e779f870678a380ea3a48",
+        "patch_sha256": null
+      },
+      {
+        "id": "M120115",
+        "identical": true,
+        "record_sha256": "3b48631332411ae393bc55a23a3a0a5ccc65d304fa4bf8c8d9ac37d1d8f6593e",
+        "patch_sha256": "61be4962a0997468b2503bf1077fde4a60662cfcd29497ec0dc37a7ed143a4f0"
+      },
+      {
+        "id": "M129538",
+        "identical": true,
+        "record_sha256": "80310457ee1c590f272e2a7262a66359e905750eaa4c67f958a42c645d7c6ea2",
+        "patch_sha256": null
+      },
+      {
+        "id": "M129539",
+        "identical": true,
+        "record_sha256": "bdb858e664db809a0e3f40ce12a2bc85344646f80c26a1a9d9507a5f25923e20",
+        "patch_sha256": null
+      },
+      {
+        "id": "M130307",
+        "identical": true,
+        "record_sha256": "e98b4dc37e95d6891b8f6de297ae46d8dee744f9760696ae75aaba319500af18",
+        "patch_sha256": null
+      },
+      {
+        "id": "M130337",
+        "identical": true,
+        "record_sha256": "36065df2ad9ef046e328330d0382564f6cb411dbbda657359b981225632a59aa",
+        "patch_sha256": null
+      },
+      {
+        "id": "M130381",
+        "identical": true,
+        "record_sha256": "633b5fc3ae6cc69c6139313e9d90e47e7960f1b38cf3492721237aba637c644a",
+        "patch_sha256": null
+      },
+      {
+        "id": "M130719",
+        "identical": true,
+        "record_sha256": "68623468fe1ec1d646875893f024a7e63bb7b04dba4968488063d21c87fec4f6",
+        "patch_sha256": null
+      },
+      {
+        "id": "M130745",
+        "identical": true,
+        "record_sha256": "b95c4fa719498e313dd59b64b41f56df512bc8b1c01adfb663427261243e4ee2",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131099",
+        "identical": true,
+        "record_sha256": "daf309246da8f626220c18f27cdf5cdc67555369af0c938cb1bccf5f6e0abd18",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131171",
+        "identical": true,
+        "record_sha256": "cc49be4a17f522bc69837bda22b3ab20b4c69f9eff612741f813d560d239307d",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131185",
+        "identical": true,
+        "record_sha256": "c32a70014f41e275cf99f363de2d0d55b9ddb4de56a1c6a12162ab7397685d9c",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131249",
+        "identical": true,
+        "record_sha256": "52d03c1dd5d56a74240185a4ea5ab58a479cb8b228f49f133cbb6890fa9a7c97",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131250",
+        "identical": true,
+        "record_sha256": "4c2757e1286e26e6cbdfc0d4c6f109713c95d309255a206322bc700c088bcc7d",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131253",
+        "identical": true,
+        "record_sha256": "ad897ee03884a244d325b0e51a0933920852f8d366508542918648d9ba1cdf51",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131254",
+        "identical": true,
+        "record_sha256": "7f77fe3b16f041c7c37b70d33599f227048277ac4dc2bd211b824ea09ec31921",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131395",
+        "identical": true,
+        "record_sha256": "3ea091e134f6d891fe58202060e5faf9bccd1bb16694f6d4e5ae6ff176186562",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131414",
+        "identical": true,
+        "record_sha256": "fcd5eb39cbbe3b8865b2d9ceb95261ec6b178725f8b4e8638bf109ec44f4cc9c",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131521",
+        "identical": true,
+        "record_sha256": "62b68b7ee612912aeb99766bb23f357e70f2df8340304d9c2bdfa526a6dfb4fa",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131522",
+        "identical": true,
+        "record_sha256": "91cbd478dca0b1927059251cfc63cd12fde1f359ae74f915e5f84a2a5732a012",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131738",
+        "identical": true,
+        "record_sha256": "d61d2e1078727a53126689743f885b9957be156315b244cbe8b097fe01f35079",
+        "patch_sha256": null
+      },
+      {
+        "id": "M131896",
+        "identical": true,
+        "record_sha256": "8a3a14fb365b8243a753f72e4dc834a00f74b042f4798230dd503afc1886f8ca",
+        "patch_sha256": "d0c9d46b8b33fddb58b2ede0955bd84307ec2d19241e97ffca3d14511f03c1b8"
+      },
+      {
+        "id": "M132048",
+        "identical": true,
+        "record_sha256": "f12f978b4964c3c7ae2559e677b48624fb4b3bfa0df5db3c8731846cc908ac8a",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132227",
+        "identical": true,
+        "record_sha256": "76b9ec0447f0bcbf3153f9bdb07e14aef48f3cff4f01b048d4114c8d6b2a0b7d",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132280",
+        "identical": true,
+        "record_sha256": "17e1c7c117786489afe422ff07394db5d345b0349e36401c84288e7c899ba47d",
+        "patch_sha256": "b48b0d75fb332614070dada90f35ac951233fa9b99aed43f1076f222307f3dc0"
+      },
+      {
+        "id": "M132300",
+        "identical": true,
+        "record_sha256": "2db3c6b80d67075f4da3b69bb59ae5965a5b300afe08681f78cbc35615d072ae",
+        "patch_sha256": "e730bde9531235c8f5dc399a132860b62dca251b98c434c0d98c540d32e48b59"
+      },
+      {
+        "id": "M132509",
+        "identical": true,
+        "record_sha256": "d5c4b1fca4b6d32ed8d02f5a893bcfd197fef0e0b9ecd3adf4586faa2274d2ed",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132601",
+        "identical": true,
+        "record_sha256": "4b830e1b9ae8f2e19cc2343331b7d3fbfb369a74e5174a17edd0cace3be6ff69",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132603",
+        "identical": true,
+        "record_sha256": "a5d8b31f7153c0aa0537f8f45c13057735cc3e5c6c6bae1de6d2f437418f9355",
+        "patch_sha256": "5abf461c95054404df9ca25cb10e48d310377835ebf83b012470ed70a2069908"
+      },
+      {
+        "id": "M132682",
+        "identical": true,
+        "record_sha256": "20b3f395d5a5bc9cd02c14373dd2f8c5357ed84fe9483d2772513be2e35c9392",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132757",
+        "identical": true,
+        "record_sha256": "0a83130a66b64a99dbf8e4519f857c36a0aeea3815f44ac2d38345cc0886de90",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132796",
+        "identical": true,
+        "record_sha256": "f304e5e6f1d57aa99148c579ac87de0b31f4d7d2f48272a6489b8578e1b11bbe",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132947",
+        "identical": true,
+        "record_sha256": "423805b67212b2114c299e1409c2b30ab7e880478a4fbb2992666cb8f5619793",
+        "patch_sha256": null
+      },
+      {
+        "id": "M132948",
+        "identical": true,
+        "record_sha256": "93ff180f184fe5dbea4ceff995eff572be422f551c0d19b42a152db737da5fae",
+        "patch_sha256": null
+      },
+      {
+        "id": "M134148",
+        "identical": true,
+        "record_sha256": "a79786ed10bc305966a4ed7bfe936fecff88ba7fb4a12dfe6ef64e51349e2700",
+        "patch_sha256": "998822db5b23cfb3f74caa45442d995236de765db715976d5df16b92cbc200eb"
+      },
+      {
+        "id": "M138027",
+        "identical": true,
+        "record_sha256": "34c36eb91585543a52e9df92243c808b8bf02f2206ac506cae61da9f044b2809",
+        "patch_sha256": null
+      },
+      {
+        "id": "M138584",
+        "identical": true,
+        "record_sha256": "e9dca4b9520a37c22b6e4b65843e42387540645fc98268f5f9bd5c93e6609a7a",
+        "patch_sha256": null
+      },
+      {
+        "id": "M138590",
+        "identical": true,
+        "record_sha256": "81592584f61623f619c0f052473cbb97ac36754e34149c307ed19127178ccceb",
+        "patch_sha256": null
+      },
+      {
+        "id": "M170081",
+        "identical": true,
+        "record_sha256": "76a99b85a421d67677587cf7aec738ad1b9b94ccf27e7bf443dbb60b3f7535af",
+        "patch_sha256": null
+      },
+      {
+        "id": "M171344",
+        "identical": true,
+        "record_sha256": "f0ea08c8c78505e8a0dd0030fa3940f6980abfce22b296409c7f243fd1e008fe",
+        "patch_sha256": null
+      },
+      {
+        "id": "M171345",
+        "identical": true,
+        "record_sha256": "013161876899d8492d1205206daa83c45bc05ced603dcd2a7abcf2772ff33a23",
+        "patch_sha256": null
+      },
+      {
+        "id": "M172691",
+        "identical": true,
+        "record_sha256": "c4178f51739456eb04885b98883a7bed7a650464d50d86c702e76e15ea8181ff",
+        "patch_sha256": null
+      },
+      {
+        "id": "M173167",
+        "identical": true,
+        "record_sha256": "028fa2ce3e0a5498db6ac40008c1328cd4fff8ed1a877d45b04bfbb480184451",
+        "patch_sha256": null
+      },
+      {
+        "id": "M173277",
+        "identical": true,
+        "record_sha256": "e92ee046cf315b05188a9a0784f265bf8ed42fb9415e3ef50600e96090faddfe",
+        "patch_sha256": "cbce3c78c787b1f6e838ee724898a9b610746c99b0eb277e0fd4eba1f96d5bb9"
+      },
+      {
+        "id": "M173924",
+        "identical": true,
+        "record_sha256": "052efde92603d05eb848dafce778b676fcc5051736f36f1aa413b3902c1d223f",
+        "patch_sha256": "783f99b7e657382a0bfe5efd0e13b17f6fd2040e78dd922a2eb6939ae5d27162"
+      }
+    ],
+    "all_compatible": true,
+    "existing_import_count": 64,
+    "extension_import_count": 37,
+    "new_source_count": 50,
+    "reused_extension_import_ids": [
+      "M119679",
+      "M119822"
+    ],
+    "new_import_patch_ids": [
+      "M005021",
+      "M119671",
+      "M120428",
+      "M131610",
+      "M134229",
+      "M140454",
+      "M171833",
+      "M171925"
+    ]
+  },
+  "compatibility_sha256": "5c21c6e201cda4605954acbcc9adaa782d0a92c1aa976bf83a5876465e57f38f",
+  "reuse_before_sha256": "e1fce6dab68c0b8e616f06b4e176977195decdb18cbccfa06d32a9cf485f5f6f",
+  "reuse_after_sha256": "e1fce6dab68c0b8e616f06b4e176977195decdb18cbccfa06d32a9cf485f5f6f",
+  "islattice_audit_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+  "driver_sha256": "0e65754dad51a6e48ffc4b01772b51d03bd255ac5c55f8b4924f4026dd22ad62",
+  "extension_driver_sha256": "34bf5673ead7a67ee0eb9f9d1e495baad8a5bf8a32171702ae64d80129330421",
+  "all_successful": true,
+  "phase1_project_module_count": 112,
+  "project_source_count": 162,
+  "accepted_import_count": 99,
+  "original_attempt": {
+    "receipt_path": "/workspace/scratch/e92c8f71c3ad/evidence-extension/P0208-extension-receipt.json",
+    "archived_receipt_path": "original-attempt/P0208-extension-receipt.json",
+    "receipt_sha256": "6d4bc8573d4a076f90668522a8c3ef01902fd4bfbf1c9cee67b0eba5f18d249e",
+    "batch_log_path": "original-attempt/batch-build.log",
+    "batch_log_sha256": "7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67",
+    "batch_exit_code": 1,
+    "fresh_project_objects": false
+  },
+  "original_attempt_unchanged": true,
+  "phase1_unchanged": true,
+  "retained_target_ids": [
+    "M131872",
+    "M133286",
+    "M133296",
+    "M133354",
+    "M133390",
+    "M133750",
+    "M133896",
+    "M133979",
+    "M134003",
+    "M134040",
+    "M134090",
+    "M134230",
+    "M134329"
+  ],
+  "rebuilt_target_ids": [
+    "M131597",
+    "M131764"
+  ],
+  "repaired_target_ids": [
+    "M131597",
+    "M131764"
+  ],
+  "target_dependency_edges": [],
+  "unexpected_rebuilt_retained": [],
+  "changed_retained_outputs": [],
+  "changed_config": [],
+  "proof_only_reviews": {
+    "M131597": {
+      "notes": "Replace the removed deprecated alias LinearMap.exists_monic_and_coeff_mem_pow_and_aeval_eq_zero_of_range_le_smul with LinearMap.exists_monic_and_natDegree_eq_and_coeff_mem_pow_and_aeval_eq_zero in the proof of det_trick. At replay Mathlib commit 0df444a360eaa60ab8c11dca51a86af692955474 the old name is an alias of this same theorem. The explicit arguments B, fJ, J and hrange and the destructured monicity, discarded degree equality, coefficient-power membership and annihilation equality remain unchanged. This is one identifier substitution in a theorem proof; every definition and theorem statement remains byte-identical to the pinned source.",
+      "nonproof_skeleton_sha256": "8429dcbb4c565256fcf46d8f2e8d5da00235a61b0dfa8de18063d27666816844",
+      "statement_and_definition_text_unchanged": true,
+      "source_sha256": "0a9d52611596b41a5928fc609ed54d6fe11619d4be19062f6588045c18b7e1ac",
+      "built_source_sha256": "96a1bde728e071515294b80594380ccc1d02399c15b7b460fe9bf8a24593b670",
+      "patch_sha256": "003329f205f8ae7c3e39b5aade276fa34f9ee030b424be9f19e769df541d2cc8"
+    },
+    "M131764": {
+      "notes": "Remove the two obsolete zero alternatives from tensor-product inductions. Mathlib v4.36.0 registers TensorProduct.inductionOn with only tmul and add cases; its zero case follows from tmul 0 0, so the existing pure-tensor and addition proofs cover the same proposition. One deletion is inside dualDer: its Derivation.mk' linear-map argument remains byte-identical, and only the Prop-valued Leibniz-law proof changes. Derivation.mk' retains that exact linear map as its data and derives only proof fields from the law, so proof irrelevance (or derivation extensionality) gives the same derivation. The other deletion is inside the proof of isCocomm_quot. All theorem statements, declared types, and nonproof definition data remain unchanged.",
+      "nonproof_skeleton_sha256": "8ec315ca335e88c1a47d573bc0f37f3aa9a3ef7cb3d35076cebfabac5f9c75c4",
+      "statement_and_definition_text_unchanged": false,
+      "source_sha256": "6e54cbb0fbd6e056155e66328795bcc7402538b658013da311e307cb5098d79f",
+      "built_source_sha256": "4418b89ba4a10bd7af44260e5d009f8b4a3ede46cfc8def2ddc74ce213279740",
+      "patch_sha256": "705c4923859625f24ac72ca0b8711ec2954a621aeb47245a3c3538bdf288812a",
+      "review_method": "exact_reviewed_line_deletions",
+      "reviewed_deletions": [
+        {
+          "original_line": 32,
+          "text": "      | zero => simp\n"
+        },
+        {
+          "original_line": 263,
+          "text": "  | zero => simp\n"
+        }
+      ],
+      "equivalence_note": "The dualDer data map and declared type remain byte-identical. Only the Prop-valued Leibniz-law proof passed to Derivation.mk' changes, so proof irrelevance preserves the derivation. TensorProduct.inductionOn now provides tmul and add cases and obtains zero from 0 tensor 0; deleting the obsolete zero alternatives preserves the theorem statements and definition data.",
+      "theorem_statement_text_unchanged": true,
+      "definition_and_instance_data_unchanged": true,
+      "patched_nonproof_skeleton_sha256": "909b326b06625ec2f8c891e6fdcb9a1ee136e18b9f88734576cc82dd4e0acdbd"
+    }
+  },
+  "proof_only_reviews_sha256": "94313cbbde979bac6934eded545ef4907e68b02a0fcefae2b8bc8fd2b2ddfaec",
+  "patch_notes_sha256": "096f473bbcdeb9a223312e7b34cb226cfa24b8911a10653c423d1e1469f13223",
+  "sources_original_sha256": "03a6db7871910b87c6cc8b13d1e0ce1ff23b37182f801ff34bb90f50913676e3",
+  "sources_before_sha256": "568c4b5e310a6888349849b106c5f536ddaf62d8058ca3d029a1e7e0a87f10a1",
+  "sources_after_sha256": "568c4b5e310a6888349849b106c5f536ddaf62d8058ca3d029a1e7e0a87f10a1",
+  "source_changes_for_repair": [
+    "M131597",
+    "M131764"
+  ],
+  "helper_sha256": {
+    "tracker/port.py": "6db393b476a855e66df4df452a88a9db3ca2af4054b3f4ec4b7d463399f292bb",
+    "tracker/port_build.py": "adc8fe5e60c6db51c13d8d6d01dcfb9d7f2228a83e77e9caf4c42f5891f7ea64",
+    "tracker/validate_ports.py": "5c5912ecd58ca37688e9f00a71cbb5125660e02ca2660e248d51c0358a235428",
+    "scripts/port-ci-build.py": "92b52a7ccaea6763de902eeb001089d4d44a14460402e38e1cd52498b7561086",
+    "port/islattice_audit.lean": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b"
+  },
+  "repair_driver_sha256": "19a642c41d19de1d106f11743f5c29ae43b1189e57d10d1b697706acbd5bab4a",
+  "extension_repair_driver_sha256": "386bd04f04c62a8a91462e98288adb00e6a280e2148ac16f20f534911c6f8ab6"
+}

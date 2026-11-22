@@ -1,0 +1,13 @@
+Module: M131872 Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree
+Target excerpt from shared continuation attempts, not an independent invocation.
+Producing attempt: original (retained)
+Full producing transcript: ../original-attempt/batch-build.log (SHA-256 7e3ec546e83c81463eb6a4e57ecf3c8b15c104b4359059b54b66dc3f1569bb67)
+⚠ [18336/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree (263s)
+Producing batch exit: 1
+The original shared batch failed on other targets; this successful output is retained unchanged.
+The all-15 retry: ../batch-build.log (SHA-256 9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f)
+Build completed successfully (18338 jobs).
+Shared retry exit: 0
+Aggregate audit over all 63 targets exit: 0; ../islattice-audit.log
+All 160 retained source/object snapshots and configuration preserved: True
+Module evidence successful: True

@@ -1,0 +1,502 @@
+{
+  "schema": "rh-port-extension-inputs-v1",
+  "upstream_commit": "82f522b09a3e0ef920716dada3753e9b30f385bf",
+  "created_utc": "2026-11-22T01:24:33.126826+00:00",
+  "source_base_url": "https://raw.githubusercontent.com/leanprover-community/riemann-hypothesis/8ec38f92ac54b5c91bc07f4f6f88ea61691b7975/src",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "target_ids": [
+    "M131597",
+    "M131764",
+    "M131872",
+    "M133286",
+    "M133296",
+    "M133354",
+    "M133390",
+    "M133750",
+    "M133896",
+    "M133979",
+    "M134003",
+    "M134040",
+    "M134090",
+    "M134230",
+    "M134329"
+  ],
+  "source_count": 52,
+  "reused_count": 2,
+  "fetched_count": 50,
+  "all_source_hashes_match": true,
+  "files": [
+    {
+      "id": "M005021",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem",
+      "relative_path": "src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean",
+      "source_sha256": "4fdf00c4518e06894dbfa187cf17bf6150993414684bf1e0464bdd35c3db4039",
+      "bytes": 69159,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M006406",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn",
+      "relative_path": "src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean",
+      "source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "bytes": 24806,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M115007",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.GeneralBFact",
+      "relative_path": "src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/GeneralBFact.lean",
+      "source_sha256": "3297e7909638532d27974ec99e783474fbcfcefd7c4b60da5a48c33b52f6b56f",
+      "bytes": 854,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M119658",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor",
+      "relative_path": "src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/FlagMinor.lean",
+      "source_sha256": "a7c8161c8b0f87e2b6058273bd5f736f50732c9a19390aae7ad95261c186a83d",
+      "bytes": 1333,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M119671",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData",
+      "relative_path": "src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/LieLatticeData.lean",
+      "source_sha256": "078271d892f0a856f68bce9649424d4f67d1c884fb6b617178b0ec0263651660",
+      "bytes": 8220,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M119679",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder",
+      "relative_path": "src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/TranslateMemIndOrder.lean",
+      "source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd",
+      "bytes": 3479,
+      "role": "import",
+      "acquired": "verified-local-reuse"
+    },
+    {
+      "id": "M119822",
+      "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne",
+      "relative_path": "src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.lean",
+      "source_sha256": "3d9e5a60191008331d74e684cbfc260f7471a97ee0a12734dafc2e90bb2b2178",
+      "bytes": 1952,
+      "role": "import",
+      "acquired": "verified-local-reuse"
+    },
+    {
+      "id": "M120151",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/FcIndepDetNeZeroOfRank.lean",
+      "source_sha256": "cff14ab8e12dcda1a3cfc7d0c946acac7e94d2095b4476c26d9f8e0351a11992",
+      "bytes": 1776,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M120428",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeOfFiniteProjective",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean",
+      "source_sha256": "3acf0428874b6e2434386e843627e9c4c751eac0287c8f325464dec80f1abcc8",
+      "bytes": 7897,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M130608",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean",
+      "source_sha256": "e1c3aff58fffd579869a1ac8a54424b43df75e179d786ec9f668a7e396a55602",
+      "bytes": 4681,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M130609",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElementStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean",
+      "source_sha256": "c695b7197e28125d10a26d03c077ce499fda5c0ef5c64e05015f4d6b30e51445",
+      "bytes": 788,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131597",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean",
+      "source_sha256": "0a9d52611596b41a5928fc609ed54d6fe11619d4be19062f6588045c18b7e1ac",
+      "bytes": 17258,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131610",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean",
+      "source_sha256": "1ed641b7c265f55c5062dc5f405a50b82ae857cbd638c712b990adfd46cbc2cf",
+      "bytes": 8614,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131611",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRankStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean",
+      "source_sha256": "2b1fea28e5962d2559c600080d5ac51de50378e9c458f2ffa87e04134e00d414",
+      "bytes": 1084,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131616",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRank",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRank.lean",
+      "source_sha256": "de037d360f21251e17c186882f9483867fc362bcebfa71a7ee8332d1f8d8ee17",
+      "bytes": 8675,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131617",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRankStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean",
+      "source_sha256": "c83e328279d96cb861ca960d37a3e6a0320346a75480dda3bdcae274d942bcf3",
+      "bytes": 1010,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131764",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean",
+      "source_sha256": "6e54cbb0fbd6e056155e66328795bcc7402538b658013da311e307cb5098d79f",
+      "bytes": 22501,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131766",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndep",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndep.lean",
+      "source_sha256": "756316c4d6a062e1af7fb42c9636f08ed34fe45c5b5d59a813973acd22d43403",
+      "bytes": 6372,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131767",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndepStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean",
+      "source_sha256": "eb26a28d57e860927c7b86d1231532b9f58f4733bc748d7502fb589c7d87e711",
+      "bytes": 843,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M131872",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegularLatticeLocalFree.lean",
+      "source_sha256": "f982336269676f758a52d6efac07d216f1e9184623cfe4428db91c756605cb2e",
+      "bytes": 1270,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M132136",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnit",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean",
+      "source_sha256": "3b349243e089b1c7fa3a4db896fe343f50c500642888119159c4f38469b6c41c",
+      "bytes": 2295,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M132137",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnitStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean",
+      "source_sha256": "e870107a0edc02bb451c21bc56d01f5ac16bafbfa7160282eabc5eeb8c38feb4",
+      "bytes": 734,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133285",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorus",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorus.lean",
+      "source_sha256": "eaf0e00b5302033360037f1ba8890c30b03c890b1ef18e6f30380852d1771dcf",
+      "bytes": 574,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133286",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorusStatement.lean",
+      "source_sha256": "8878a1dc3ee63e41701dd942c8c0eb3706b59e7204f6d5283d318768060bb89b",
+      "bytes": 680,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133295",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithm",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithm.lean",
+      "source_sha256": "4ef518685705704d2b5212d7085f7c986972b8f3985a2a4fdb74c41735cb645f",
+      "bytes": 4742,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133296",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean",
+      "source_sha256": "b2bd3578d9ceebe8301e4ed9e7331fc76dd32598ad19976dd627187f43de6e9f",
+      "bytes": 1252,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133354",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsConstAddEquivOfRangeEq.lean",
+      "source_sha256": "62d25dfb9e3eadb34cfbbe2d2f643d7009dc58066af2d23fedf7b3c90836a28e",
+      "bytes": 1858,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133389",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrame",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrame.lean",
+      "source_sha256": "3933b56e1135657ed3b8f422eb794b4fcf76b9e9b03114ca5769238e09cf7ce5",
+      "bytes": 3774,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133390",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrameStatement.lean",
+      "source_sha256": "4f10d4890c57c26c1631faedae44a4b0cb76e1878d3cfc52f210c0706fbee0bf",
+      "bytes": 1114,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133749",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrinciple.lean",
+      "source_sha256": "c1c0de75eb5f36452d279eb002bd4dde35c8ddf0878e241a4ddc820e77d57516",
+      "bytes": 4688,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133750",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrincipleStatement.lean",
+      "source_sha256": "1d95972e9bcc3507d31e81442a8f0387137375c13681152aa933c4032e95627c",
+      "bytes": 963,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133853",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IntegralAngMeas.lean",
+      "source_sha256": "1eae3b96b2833d6443b1b9667207f0080d9bc60871fa7cb65d1035e765944f2e",
+      "bytes": 1586,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133895",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean",
+      "source_sha256": "a614208a16db4ce8b26f5a25f2a259f01a09d3b115d4b37a7968cba50f0c6202",
+      "bytes": 16229,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133896",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinorsStatement.lean",
+      "source_sha256": "93349f70d640319e127a2bca0b2f5f52a4f16707807792035d956077927072ca",
+      "bytes": 878,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133914",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IterDifferentiableOn",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IterDifferentiableOn.lean",
+      "source_sha256": "86ad6edce5da960ebef0889940d2159919ff229e199a4b1dc403450d2f73637a",
+      "bytes": 5134,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133978",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphism",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphism.lean",
+      "source_sha256": "db4812f494736eaed98cb80d6a080d89b4a2aaa24b0e0090cf21282458bd548a",
+      "bytes": 3446,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M133979",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean",
+      "source_sha256": "fa95cdd29c067ba56247ab43331f60da5967af5f6fb3ed76bb1ba4941999da6b",
+      "bytes": 1539,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134002",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBound.lean",
+      "source_sha256": "9d7a73364a4a0a5bbf9a57840d78567b53933ae1bb5164f61c2b55de4aa02ce4",
+      "bytes": 4996,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134003",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBoundStatement.lean",
+      "source_sha256": "8dd6d01f743f5904ed2d7e86bdbec20708a2c0bb2b16e63c942149d289a036e8",
+      "bytes": 932,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134040",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogSineMobiusTransform.lean",
+      "source_sha256": "0b918e3a41b7d2b6f3ea3cf68209dd9fdcb9894f433e431c451fa4e8eefc460b",
+      "bytes": 1156,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134089",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverse",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverse.lean",
+      "source_sha256": "74c6b3bc40a399c68e5ec1d14a25618696be59bcdf54258ab784d7ba93a70822",
+      "bytes": 5864,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134090",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverseStatement.lean",
+      "source_sha256": "464ba71a955d745b7821d9a214db15c4f0ed9e3421051eef1e5ac33c5c323ca0",
+      "bytes": 1343,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134229",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmooth",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmooth.lean",
+      "source_sha256": "28cc3c0a1bffafcbc387330974fdc411a7933771f07cf57a71e193db1ec8ab23",
+      "bytes": 10438,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134230",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmoothStatement.lean",
+      "source_sha256": "c1e48a9021528284e5502f8e841e59f118ed9342be05c23511fe38f40bbfa2fd",
+      "bytes": 818,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134328",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBound.lean",
+      "source_sha256": "be63258ef4a750184f5f2afeadb303d512ed09d45d1db6336bbccb15dbef5311",
+      "bytes": 7156,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134329",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean",
+      "source_sha256": "1bbc6e6779f718452f99fbafe40326f239c8a4b1978f71c96bcb09ef5d5aa96a",
+      "bytes": 1084,
+      "role": "target",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M134362",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.SectionTensorPullbackRingHomBijective",
+      "relative_path": "src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean",
+      "source_sha256": "d95b8d51c3c5c59b74c793ca12c93e54a494da2c083823daf3067d00aeeffe59",
+      "bytes": 2099,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M139432",
+      "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv",
+      "relative_path": "src/Development/WeilBound/CoreStatements/PluriharmonicCharts/TripleDeriv.lean",
+      "source_sha256": "c440f0b7f7886400e243e321aab4ed5c0c21c49492d0903820bfbfa63de48e24",
+      "bytes": 1481,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M139471",
+      "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramGrad",
+      "relative_path": "src/Development/WeilBound/CoreStatements/PluriharmonicCharts/XGramGrad.lean",
+      "source_sha256": "5e84bc853223dcbd7f042657f76f6afc3d298dcb9387b2305c7037350ae41b8a",
+      "bytes": 6932,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M140454",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra",
+      "relative_path": "src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/LatticeSectionAlgebra.lean",
+      "source_sha256": "4c870248384b0d83b408ca099bd5ae7bf9ee05481c46efa7596217ba8310dea4",
+      "bytes": 8721,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M171833",
+      "module": "ReciprocityTheory.DualLattices.RidConvolutionDerivation",
+      "relative_path": "src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean",
+      "source_sha256": "83438a95f5a92d5e4e698eb1466c0d353871b448034be42f3c49ed340f6ae47b",
+      "bytes": 12958,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    },
+    {
+      "id": "M171925",
+      "module": "ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt",
+      "relative_path": "src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean",
+      "source_sha256": "ebe39b12fc0098aac7790a86742eb5f1dbd773148d778363e7563526b753ee7b",
+      "bytes": 7070,
+      "role": "import",
+      "acquired": "pinned-source-mirror"
+    }
+  ],
+  "source_review": {
+    "reused_names": [],
+    "forbidden_features": []
+  }
+}

@@ -3,6 +3,7 @@
 
 Default: verify both completed phases. --phase1-only verifies the first checkpoint.
 --phase1-evidence selects either the original successful or repaired evidence directory.
+--extension-evidence selects either the original successful or repaired continuation.
 No Lean/Lake commands, writes, imports of the drivers, or network requests are made.
 """
 from __future__ import annotations
@@ -30,6 +31,9 @@ M130315_REPLACEMENTS = (
     (b"Polynomial.coeff_monomial", b"Polynomial.coeff_monomial_apply", 7),
     (b"AddSubmonoidClass.coe_finset_sum", b"AddSubmonoidClass.coe_finsetSum", 1),
 )
+EXT_REPAIRS = {"M131597", "M131764"}
+M131764_SOURCE = "6e54cbb0fbd6e056155e66328795bcc7402538b658013da311e307cb5098d79f"
+M131764_DELETIONS = ((32, b"      | zero => simp\n"), (263, b"  | zero => simp\n"))
 
 
 def require(condition, message):
@@ -124,6 +128,18 @@ def verify_m130315_transform(original, built):
     require(built == expected, "M130315 contains changes beyond the eight reviewed proof-lemma substitutions")
 
 
+def verify_m131764_transform(original, built):
+    """Delete only the two reviewed obsolete induction branches; preserve every other byte."""
+    require(sha(original) == M131764_SOURCE, "M131764 exception requires the reviewed pinned source")
+    lines = original.splitlines(keepends=True)
+    for number, expected in M131764_DELETIONS:
+        require(len(lines) >= number and lines[number - 1] == expected,
+                f"M131764 reviewed deletion differs at original line {number}")
+    removed = {number for number, _ in M131764_DELETIONS}
+    expected = b"".join(line for number, line in enumerate(lines, 1) if number not in removed)
+    require(built == expected, "M131764 contains changes beyond the two reviewed induction-branch deletions")
+
+
 class Gate:
     def __init__(self, args):
         self.root = args.workspace.resolve()
@@ -131,7 +147,7 @@ class Gate:
         self.run = self.root / "port-P0208-verified"
         self.tree = self.run / "lean"
         self.ev = (args.phase1_evidence or self.run / "evidence").resolve()
-        self.ext = self.root / "evidence-extension"
+        self.ext = (args.extension_evidence or self.root / "evidence-extension").resolve()
         self.drivers = (args.drivers or self.root / "port-tools").resolve()
         self.patches = (args.patches or self.root / "alpoge-rh-replay/port/patches").resolve()
         self.blobs, self.tracked, self.sources, self.patch_hashes = {}, {}, {}, {}
@@ -432,10 +448,186 @@ class Gate:
         print("PASS phase1: 48 target receipts/objects/logs, 112 verified project sources, exact 48-module audit")
         return r, selected
 
+    def reuse_chain(self, ev, receipt, expected_ids):
+        check(ev / "reuse-before.json", receipt["reuse_before_sha256"])
+        check(ev / "reuse-after.json", receipt["reuse_after_sha256"])
+        before, after = load(ev / "reuse-before.json"), load(ev / "reuse-after.json")
+        require(before == after and set(before) == set(expected_ids), f"Retained-output chain changed: {ev}")
+        for mid, snap in before.items():
+            require(snap["module"] == self.ledger[mid]["module"] and snap["source_sha256"] == self.sources[mid],
+                    f"Reused source mismatch: {mid}")
+            paths = [self.object(mid)] + [Path(str(self.object(mid)) + suffix) for suffix in (".private", ".server")
+                                         if Path(str(self.object(mid)) + suffix).is_file()]
+            require(set(snap["artifacts"]) == {p.relative_to(self.tree).as_posix() for p in paths},
+                    f"Reused artifact scope mismatch: {mid}")
+            for relative, value in snap["artifacts"].items(): check(self.tree / relative, value)
+        return before
+
+    def failed_extension(self, r, ev, new_ids):
+        info = r["original_attempt"]
+        path = Path(info["receipt_path"]).resolve()
+        require(path == self.root / "evidence-extension/P0208-extension-receipt.json" and path.parent != ev,
+                "Original continuation path must identify the untouched failed receipt")
+        check(path, info["receipt_sha256"])
+        raw, raw_ev = load(path), path.parent
+        require(info["archived_receipt_path"] == "original-attempt/P0208-extension-receipt.json"
+                and info["batch_log_path"] == "original-attempt/batch-build.log"
+                and info["fresh_project_objects"] is False and r["original_attempt_unchanged"] is True,
+                "Original continuation archive/freshness metadata differs")
+        archive = ev / "original-attempt"
+        raw_files = {p.relative_to(raw_ev).as_posix(): sha(p.read_bytes()) for p in raw_ev.rglob("*") if p.is_file()}
+        archived_files = {p.relative_to(archive).as_posix(): sha(p.read_bytes()) for p in archive.rglob("*") if p.is_file()}
+        require(raw_files == archived_files, "Original continuation archive is incomplete or changed")
+        require(raw["schema"] == "rh-port-continuation-receipt-v1" and raw["fresh_project_objects"] is False
+                and raw["all_successful"] is False and raw["retained_project_module_count"] == 112
+                and raw["combined_target_count"] == 48,
+                "Original continuation is not the completed failed 112-output continuation")
+        for key in ("target", "issue", "accepted_commit", "source_base_url", "phase1", "toolchain", "mathlib",
+                    "project_config", "accepted_imports", "applied_patches", "new_project_module_count",
+                    "packet_complete", "remaining", "input_manifest_sha256", "ledger_sha256",
+                    "compatibility", "compatibility_sha256", "islattice_audit_sha256", "driver_sha256", "extension_driver_sha256"):
+            require(raw[key] == r[key], f"Continuation repair changed original provenance: {key}")
+        require(raw["mathlib_unchanged"] is True, "Original continuation changed Mathlib")
+        for key in ("unexpected_rebuilt_existing", "changed_reused_outputs", "changed_sources", "changed_configuration", "changed_patches"):
+            require(not raw[key], f"Original continuation changed its inputs: {key}")
+        for name in ("phase1-receipt.json", "phase1-selection.json", "inputs-manifest.json", "compatibility.json", "islattice_audit.lean"):
+            require((raw_ev / name).read_bytes() == (ev / name).read_bytes(), f"Continuation repair changed frozen file: {name}")
+        audit = raw["aggregate_islattice_audit"]
+        require(audit["exit_code"] is None and not audit.get("command") and not audit.get("log_sha256")
+                and not (raw_ev / "islattice-audit.log").exists(), "Failed continuation must not claim an audit")
+        batch = raw["batch_build"]
+        require(batch["exit_code"] == info["batch_exit_code"] == 1
+                and batch["log_sha256"] == info["batch_log_sha256"], "Original continuation failure provenance differs")
+        command = ["elan", "run", LEAN, "lake", "--no-ansi", "--no-cache", "build"] + [
+            f"+{self.ledger[mid]['module']}:olean" for mid in sorted(NEW)]
+        text = self.log(raw_ev, "batch-build.log", batch, command, expected_exit=1, allow_errors=True)
+        require(re.search(r"^error:", text, re.M) and not any(line.startswith("Build completed successfully") for line in text.splitlines()),
+                "Original continuation failure transcript is inconsistent")
+        require(f"== LEAN_NUM_THREADS: {raw['lean_num_threads_environment']}" in text.splitlines(),
+                "Original continuation worker-budget metadata differs")
+        require(not any(self.built_lines(text, mid) for mid in self.old_ids), "Original continuation rebuilt a phase1 output")
+        modules = index(raw["modules"])
+        require(set(modules) == NEW and load(raw_ev / "results.json") == raw["modules"], "Original continuation target scope differs")
+        retained = NEW - EXT_REPAIRS
+        for mid, m in modules.items():
+            require(m["module"] == self.ledger[mid]["module"] and m["source_sha256"] == self.ledger[mid]["source_sha256"]
+                    and m["built_source_sha256"] == m["source_sha256"] and m["patch_sha256"] is None,
+                    f"Original continuation target source differs: {mid}")
+            require(m["successful"] is False and m["build_mode"] == "shared_continuation_batch"
+                    and m["shared_build_exit_code"] == 1 and m["shared_log_sha256"] == batch["log_sha256"]
+                    and m["built_lines"] == self.built_lines(text, mid) and not m["reused_names"],
+                    f"Original continuation target transcript differs: {mid}")
+            require(bool(m["built_lines"]) == (mid in retained) and bool(m["olean_sha256"]) == (mid in retained),
+                    f"Original continuation producing-target set differs: {mid}")
+            a = m["islattice_audit"]
+            require(a["exit_code"] is None and a["successful"] is False and a["log_sha256"] is None,
+                    f"Original continuation target claimed an audit: {mid}")
+            check(raw_ev / "logs" / f"{mid}.log", m["log_sha256"])
+            require("Module evidence successful: False" in (raw_ev / "logs" / f"{mid}.log").read_text(),
+                    f"Original continuation excerpt conceals failure: {mid}")
+            if mid in retained: check(self.object(mid), m["olean_sha256"])
+        imports = index(raw["built_imports"])
+        require(set(imports) == new_ids - NEW and len(imports) == 35, "Original continuation import-output scope differs")
+        for mid, row in imports.items():
+            require(row["module"] == self.ledger[mid]["module"] and row["built_lines"]
+                    and row["built_lines"] == self.built_lines(text, mid) and row["built_source_sha256"] == self.sources[mid],
+                    f"Original continuation import evidence differs: {mid}")
+            check(self.object(mid), row["olean_sha256"])
+        reuse = self.reuse_chain(raw_ev, raw, self.old_ids)
+        return {"receipt": raw, "text": text, "retained": retained, "rebuilt": EXT_REPAIRS, "reuse": reuse}
+
+    def extension_repair_reviews(self, r, ev, modules):
+        check(ev / "patch-notes.json", r["patch_notes_sha256"])
+        check(ev / "proof-only-reviews.json", r["proof_only_reviews_sha256"])
+        notes, reviews = load(ev / "patch-notes.json"), load(ev / "proof-only-reviews.json")
+        require(set(notes) == set(reviews) == EXT_REPAIRS and reviews == r["proof_only_reviews"],
+                "Continuation repair notes/review scope differs")
+        require({p.stem for p in (ev / "patches").glob("*.patch")} == EXT_REPAIRS,
+                "Continuation frozen target-patch scope differs")
+        for mid in EXT_REPAIRS:
+            require(isinstance(notes[mid], str) and "proof" in notes[mid].lower() and "statement" in notes[mid].lower(),
+                    f"Continuation repair notes are incomplete: {mid}")
+            check(ev / "patches" / f"{mid}.patch", modules[mid]["patch_sha256"])
+            relative = "src/" + self.rel(mid) + ".lean"
+            pinned = (self.root / "port-extension-inputs" / relative).read_bytes()
+            built = (self.tree / relative).read_bytes()
+            before, after = nonproof_text(pinned), nonproof_text(built)
+            expected = dict(notes=notes[mid], nonproof_skeleton_sha256=sha(before),
+                            statement_and_definition_text_unchanged=True, source_sha256=modules[mid]["source_sha256"],
+                            built_source_sha256=modules[mid]["built_source_sha256"], patch_sha256=modules[mid]["patch_sha256"])
+            if mid == "M131764":
+                require(modules[mid]["source_sha256"] == M131764_SOURCE, "M131764 ledger source differs from reviewed pin")
+                verify_m131764_transform(pinned, built)
+                require(all(term in notes[mid] for term in ("dualDer", "Derivation.mk'", "proof irrelevance")),
+                        "M131764 notes must explain the data-map/proof-field equivalence")
+                expected.update(review_method="exact_reviewed_line_deletions",
+                    reviewed_deletions=[dict(original_line=number, text=line.decode()) for number, line in M131764_DELETIONS],
+                    statement_and_definition_text_unchanged=False, theorem_statement_text_unchanged=True,
+                    definition_and_instance_data_unchanged=True, patched_nonproof_skeleton_sha256=sha(after),
+                    equivalence_note="The dualDer data map and declared type remain byte-identical. Only the Prop-valued Leibniz-law proof passed to Derivation.mk' changes, so proof irrelevance preserves the derivation. TensorProduct.inductionOn now provides tmul and add cases and obtains zero from 0 tensor 0; deleting the obsolete zero alternatives preserves the theorem statements and definition data.")
+            else:
+                require(before == after, f"Continuation repair changed declaration text: {mid}")
+            require(reviews[mid] == expected, f"Continuation proof review differs from source/patch evidence: {mid}")
+
+    def repaired_extension_outputs(self, r, ev, original, text, new_ids):
+        check(self.drivers / "packet_extension_repair.py", r["extension_repair_driver_sha256"])
+        check(self.drivers / "packet_repair.py", r["repair_driver_sha256"])
+        require(r["phase1_unchanged"] is True and r["helper_sha256"] == self.selection["helper_sha256"],
+                "Continuation repair changed phase1 evidence or helper identities")
+        for key in ("unexpected_rebuilt_retained", "changed_retained_outputs", "changed_config"):
+            require(not r[key], f"Continuation repair changed retained inputs: {key}")
+        require(set(r["retained_target_ids"]) == NEW - EXT_REPAIRS and len(r["retained_target_ids"]) == 13
+                and set(r["rebuilt_target_ids"]) == set(r["repaired_target_ids"]) == EXT_REPAIRS
+                and len(r["rebuilt_target_ids"]) == len(r["repaired_target_ids"]) == 2,
+                "Continuation repair target partition differs")
+        all_ids = self.old_ids | new_ids
+        edges = [[mid, dep] for mid in sorted(all_ids) for dep in sorted(self.closure(self.ledger[mid]["imports"]) & EXT_REPAIRS)]
+        require(r["target_dependency_edges"] == edges == [], "A retained project output depends on a repaired continuation target")
+        retained = all_ids - EXT_REPAIRS
+        require(len(all_ids) == r["project_source_count"] == 162 and len(retained) == r["retained_project_module_count"] == 160
+                and r["phase1_project_module_count"] == len(self.old_ids) == 112 and r["accepted_import_count"] == 99,
+                "Continuation repair project counts differ")
+        for name in ("original", "before", "after"):
+            check(ev / f"sources-{name}.json", r[f"sources_{name}_sha256"])
+        original_sources = load(ev / "sources-original.json")
+        before_sources, after_sources = load(ev / "sources-before.json"), load(ev / "sources-after.json")
+        expected_sources = {mid: self.sources[mid] for mid in all_ids}
+        expected_original = {mid: self.ledger[mid]["source_sha256"] if mid in EXT_REPAIRS else value
+                             for mid, value in expected_sources.items()}
+        require(original_sources == expected_original and before_sources == after_sources == expected_sources
+                and r["source_changes_for_repair"] == sorted(EXT_REPAIRS), "Continuation repair source-hash chain differs")
+        require(not any(self.built_lines(text, mid) for mid in retained), "Continuation retry rebuilt a retained output")
+        snapshots = self.reuse_chain(ev, r, retained)
+        require({mid: snapshots[mid] for mid in self.old_ids} == original["reuse"],
+                "Continuation repair broke the original 112-output reuse chain")
+        modules, old_modules = index(r["modules"]), index(original["receipt"]["modules"])
+        changed = {mid for mid in NEW if modules[mid]["built_source_sha256"] != old_modules[mid]["built_source_sha256"]}
+        require(changed == EXT_REPAIRS and {mid for mid in NEW if modules[mid]["patch_sha256"]} == EXT_REPAIRS,
+                "Continuation target patch/source scope differs")
+        for mid in NEW - EXT_REPAIRS:
+            relative = self.object(mid).relative_to(self.tree).as_posix()
+            require(modules[mid]["olean_sha256"] == old_modules[mid]["olean_sha256"] == snapshots[mid]["artifacts"][relative]
+                    and modules[mid]["built_source_sha256"] == old_modules[mid]["built_source_sha256"]
+                    and modules[mid]["patch_sha256"] is None, f"Retained continuation target differs: {mid}")
+        for mid in EXT_REPAIRS: require(self.built_lines(text, mid), f"Missing fresh continuation retry output: {mid}")
+        imports, old_imports = index(r["built_imports"]), index(original["receipt"]["built_imports"])
+        require(set(imports) == set(old_imports) == new_ids - NEW, "Continuation repaired import scope differs")
+        producer = original["receipt"]["batch_build"]
+        for mid, row in imports.items():
+            expected = {**old_imports[mid], "compilation_attempt": "original",
+                        "compilation_log_sha256": producer["log_sha256"], "compilation_batch_exit_code": producer["exit_code"]}
+            relative = self.object(mid).relative_to(self.tree).as_posix()
+            require(row == expected and row["olean_sha256"] == snapshots[mid]["artifacts"][relative],
+                    f"Retained continuation import producer differs: {mid}")
+        self.extension_repair_reviews(r, ev, modules)
+
     def extension(self, p1, selected):
         ev = self.ext; r = load(ev / "P0208-extension-receipt.json"); s = self.selection
-        require(r["schema"] == "rh-port-continuation-receipt-v1" and r["accepted_commit"] == EXT_BASE and r["fresh_project_objects"] is False, "Wrong continuation schema/base/freshness")
-        require(r["new_project_module_count"] == 50 and r["retained_project_module_count"] == 112 and r["combined_target_count"] == 63 and r["packet_complete"] is False, "Wrong continuation scope")
+        repaired = r["schema"] == "rh-port-repaired-continuation-receipt-v1"
+        require(r["schema"] in ("rh-port-continuation-receipt-v1", "rh-port-repaired-continuation-receipt-v1")
+                and r["accepted_commit"] == EXT_BASE and r["fresh_project_objects"] is False, "Wrong continuation schema/base/freshness")
+        require(r["new_project_module_count"] == 50 and r["retained_project_module_count"] == (160 if repaired else 112)
+                and r["combined_target_count"] == 63 and r["packet_complete"] is False, "Wrong continuation scope")
         for key in ("unexpected_rebuilt_existing", "changed_reused_outputs", "changed_sources", "changed_configuration", "changed_patches"):
             require(not r[key], f"Continuation changed retained inputs: {key}")
         check(self.drivers / "packet_extension.py", r["extension_driver_sha256"])
@@ -475,25 +667,26 @@ class Gate:
                 require((sha(data) if data is not None else None) == entry[key], f"Accepted existing import changed: {relative}")
         require((compat["existing_import_count"], compat["extension_import_count"], compat["new_source_count"]) == (64, 37, 50), "Compatibility counts mismatch")
         require(set(compat["reused_extension_import_ids"]) == closure & self.old_ids and set(compat["new_import_patch_ids"]) == {mid for mid in new_ids - NEW if self.patch_hashes[mid]}, "Compatibility import/patch scopes mismatch")
-        text = self.phase(r, ev, sorted(NEW), sorted(set(selected) | NEW), inputs, "shared_continuation_batch")
-        require(not any(self.built_lines(text, mid) for mid in self.old_ids), "Retained module was rebuilt during continuation")
-        built_imports = index(r["built_imports"])
-        require(set(built_imports) == new_ids - NEW, "New built-import scope mismatch")
-        for mid, row in built_imports.items():
-            require(row["module"] == self.ledger[mid]["module"] and row["built_lines"] and row["built_lines"] == self.built_lines(text, mid) and row["built_source_sha256"] == self.sources[mid], f"New import evidence mismatch: {mid}")
-            check(self.object(mid), row["olean_sha256"])
-        require(index(r["applied_patches"]) == {mid: {"id": mid, "patch_sha256": self.patch_hashes[mid]} for mid in new_ids if self.patch_hashes[mid]}, "Applied-patch manifest mismatch")
-        check(ev / "reuse-before.json", r["reuse_before_sha256"]); check(ev / "reuse-after.json", r["reuse_after_sha256"])
-        before, after = load(ev / "reuse-before.json"), load(ev / "reuse-after.json")
-        require(before == after and set(before) == self.old_ids, "Retained-output chain changed")
-        for mid, snap in before.items():
-            require(snap["module"] == self.ledger[mid]["module"] and snap["source_sha256"] == self.sources[mid], f"Reused source mismatch: {mid}")
-            paths = [self.object(mid)] + [Path(str(self.object(mid)) + suffix) for suffix in (".private", ".server") if Path(str(self.object(mid)) + suffix).is_file()]
-            require(set(snap["artifacts"]) == {p.relative_to(self.tree).as_posix() for p in paths}, f"Reused artifact scope mismatch: {mid}")
-            for relative, value in snap["artifacts"].items(): check(self.tree / relative, value)
+        original = self.failed_extension(r, ev, new_ids) if repaired else None
+        text = self.phase(r, ev, sorted(NEW), sorted(set(selected) | NEW), inputs,
+                          "shared_repaired_continuation_batch" if repaired else "shared_continuation_batch", original)
+        if repaired:
+            require(index(r["applied_patches"]) == {mid: {"id": mid, "patch_sha256": self.patch_hashes[mid]}
+                    for mid in new_ids - NEW if self.patch_hashes[mid]}, "Accepted-import patch manifest changed during repair")
+            self.repaired_extension_outputs(r, ev, original, text, new_ids)
+        else:
+            require(not any(self.built_lines(text, mid) for mid in self.old_ids), "Retained module was rebuilt during continuation")
+            built_imports = index(r["built_imports"])
+            require(set(built_imports) == new_ids - NEW, "New built-import scope mismatch")
+            for mid, row in built_imports.items():
+                require(row["module"] == self.ledger[mid]["module"] and row["built_lines"] and row["built_lines"] == self.built_lines(text, mid) and row["built_source_sha256"] == self.sources[mid], f"New import evidence mismatch: {mid}")
+                check(self.object(mid), row["olean_sha256"])
+            require(index(r["applied_patches"]) == {mid: {"id": mid, "patch_sha256": self.patch_hashes[mid]} for mid in new_ids if self.patch_hashes[mid]}, "Applied-patch manifest mismatch")
+            self.reuse_chain(ev, r, self.old_ids)
         require({x["id"] for x in r["remaining"]} == {"M133708"} and set(r["remaining"][0]["missing_imports"]) == {"M139479", "M163509"}, "Remaining scope changed")
         require(r["remaining"][0]["module"] == self.ledger["M133708"]["module"], "Remaining module identity mismatch")
-        print("PASS continuation: 15 target and 35 import outputs, 112 unchanged reuse snapshots, exact 63-module audit")
+        print("PASS repaired continuation: 13 original target and 35 import producers, 2 fresh retry targets, 160 unchanged reuse snapshots, exact 63-module audit"
+              if repaired else "PASS continuation: 15 target and 35 import outputs, 112 unchanged reuse snapshots, exact 63-module audit")
 
     def dependencies(self):
         manifest = load(self.tree / "lake-manifest.json")
@@ -513,6 +706,7 @@ def main():
     parser.add_argument("--workspace", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--drivers", type=Path, help="Directory containing the unchanged driver snapshots")
     parser.add_argument("--phase1-evidence", type=Path, help="Phase1 evidence directory; defaults to port-P0208-verified/evidence")
+    parser.add_argument("--extension-evidence", type=Path, help="Continuation evidence directory; defaults to evidence-extension")
     parser.add_argument("--patches", type=Path, help="Final target-patch directory; imports are checked against accepted Git blobs")
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--phase1-only", action="store_true")

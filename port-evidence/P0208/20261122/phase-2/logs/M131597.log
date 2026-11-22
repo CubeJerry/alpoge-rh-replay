@@ -1,0 +1,13 @@
+Module: M131597 Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero
+Target excerpt from shared continuation attempts, not an independent invocation.
+Producing attempt: retry (rebuilt)
+Full producing transcript: ../batch-build.log (SHA-256 9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f)
+⚠ [18338/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero (126s)
+Producing batch exit: 0
+This target was freshly rebuilt during the retry.
+The all-15 retry: ../batch-build.log (SHA-256 9493dff7af5540b05f6d5b419bb0eea7fd9c38522bae4f71eb8f0714d2eeba5f)
+Build completed successfully (18338 jobs).
+Shared retry exit: 0
+Aggregate audit over all 63 targets exit: 0; ../islattice-audit.log
+All 160 retained source/object snapshots and configuration preserved: True
+Module evidence successful: True

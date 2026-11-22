@@ -1,0 +1,786 @@
+{
+  "M130308": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement",
+    "source_sha256": "0ae7b451be0f225c9120cb1b33e45171b829fa0eb529d52c39b270bb24520343",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsPointLocalizationPrimeStatement.olean": "d0e7fa27f206da33cb8802717617fe351b84501527fa24688b9d2a17d8da1a92"
+    }
+  },
+  "M130315": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel",
+    "source_sha256": "a76889d85a12c5f7dfc3918626393b9fc47d127c66a0782ecc174cd0030fc8fb",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsProperIntegralModel.olean": "9a0606929323d8ffc1567dff6d70d7856380917f45af5705195e7bf60a51baff"
+    }
+  },
+  "M130338": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement",
+    "source_sha256": "4bed7989e8a7133f1ae0e15558bfccd76ea535eedc16f45ed6538731c3cfa66e",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsStalkFractionOfGenericStatement.olean": "ab0f71d4502fff701dcd5abfb569f4674eeb7ff7fd3471373a0b7ca70b411513"
+    }
+  },
+  "M130356": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom",
+    "source_sha256": "313f1712fd3bda142e88bce21d370ab79d3dd83669530d80215b27fb34d137c7",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsUniqueCentreLocalHom.olean": "977f5ada3760de4a50c756058219249b4c61808897d736061e7ce72e82048808"
+    }
+  },
+  "M130366": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber",
+    "source_sha256": "3709f29ad763614cfdedade28e3bca4037e0e8c638de11aec3055b6bdb9249ce",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsUniqueTangentDualNumber.olean": "7368f757b4818143c13ecdac735283823f41a1be9f3773376e21181a422716fe"
+    }
+  },
+  "M130382": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement",
+    "source_sha256": "9649f5e3c663ba47d6d9e2543f5017b42d01fad98031d702798c3f0f986f5786",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExtendToFractionFieldStatement.olean": "2c2f85d29b4b35231f2f5ca9c5816759a7c2d7d0a61dc85a074562ea92943ad0"
+    }
+  },
+  "M130443": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection",
+    "source_sha256": "f82480f8d039beff6e7dfd6e1f00034ed8b2fcbad7919c65ff10daec3ef9dffa",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FinitePointExtendsSection.olean": "75f97e552d028f7d5a97559febce6fdb0fbdaae043914b39d6620d0e612c0193"
+    }
+  },
+  "M130458": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField",
+    "source_sha256": "a5acf493bcde9c7ec9b9b94bc59c289b54c906c4be2d0056e4f03b575b13e5c0",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FinrankAdjoinVarsField.olean": "673ac5e125246c15501481964d4d31fb16c72843f8146d12e5d0edbb37c70252"
+    }
+  },
+  "M130720": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement",
+    "source_sha256": "81884963817c6d49d79e9457e08e97abfe3f5f7f0c82461db6e90333afac0e3d",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/GenericVanishingStalkVanishingStatement.olean": "6d7fc29e79dc44cccf0f730eb11f5d4f40d36885f7011fb083f166b2967d375b"
+    }
+  },
+  "M130746": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement",
+    "source_sha256": "9c01cb35fa6f8e9b0a5fafa72dff426483ad616e4f41c5a6f1cfff165b6bdc90",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/GermGenPtInjectiveRangeRegAtStatement.olean": "cff7792d8cf62d8b71417d48de964563afcd14bf90e1e721ddf61e5f1e6c641c"
+    }
+  },
+  "M131100": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement",
+    "source_sha256": "96151f78c055d9588a8824e8579603c68f5feb86ae5dde7ca061ebe1a7d89bc1",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ImplicitFunctionHolomorphicStatement.olean": "753c8c3fee769e4450c394c7d04f500146a7811d5fe1058df0d0351c850c47e8"
+    }
+  },
+  "M131172": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement",
+    "source_sha256": "b31eeb516a1c8a8d308e621e7d3370409e68b6db2d77649cbfeeb0cb89e743f1",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsClopenSpecializationsGenPtStatement.olean": "7915116f3108fe5eae93269659e9cb2df164a21b203a66aa09100f79eb66883e"
+    }
+  },
+  "M131186": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement",
+    "source_sha256": "ebb8439b988ec27527b19c03a40f32a188ce92e5973928c37231ece63c2fd789",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsCptGenResidueFieldGenericStatement.olean": "f3d15f3bfad5ddc1c5318a99afbe44edb18d42a3c6132d16256b51663bed98b8"
+    }
+  },
+  "M131193": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange",
+    "source_sha256": "044d23676a19118de408cac82b7f4db8e08107a4deae177fdd2f14f2d242efc7",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsFinOpenSubBaseChange.olean": "10e254628f8dbb7bd43a82147703319c0ecf7fdd6ea0752aa7bdb785af0fe499"
+    }
+  },
+  "M131210": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat",
+    "source_sha256": "afa4081a6bf82cfcc19fd6d2dd5d6266fb236ec162aaff859b542e865c5eff47",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsSncPatchRat.olean": "c211646d3a4c7e0d8333d5e0072194b654024fe6c87c9168cf3c5ca2a53253ad"
+    }
+  },
+  "M131213": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt",
+    "source_sha256": "71dbcbf9c2ab2afa7e55df2d9b734c83da1c06c9b8f532e3f76be1205b651950",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsUnitIffUnitAt.olean": "00271df0a6e345f1e447d3f01e10f37c41308931b43445154f7b394793152f5e"
+    }
+  },
+  "M131214": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk",
+    "source_sha256": "c534453a81f7ceeb2b1ec259a9c22f2ae0ff86eaf538ef79415827582b4989b8",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsUnitNatCastStalk.olean": "95400ea64e79e1f0bb492aadf0ce5260587c0d905bb2b5f01952f4d026fdac70"
+    }
+  },
+  "M131255": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound",
+    "source_sha256": "de5ce974d1c5fa91470d09c47bdfa0ca0d375d24e15354b71e6f2ace2db7a7a0",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/KaehlerRankLocalizationBound.olean": "fa706ff731704d0dc9dd6cb1389a63f8e2d880ff7625f805b699573b17d5e828"
+    }
+  },
+  "M131257": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree",
+    "source_sha256": "8a808d210654445abae2faa1005cf8d2544192b1c85a5bcd436fa614f234f913",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/KaehlerRankTranscendenceDegree.olean": "465d1799dd1f3f84d0ec6b188e2a58328e21dfe23d1f7b67e8c988f7aed5d486"
+    }
+  },
+  "M131394": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct",
+    "source_sha256": "3689f2e6e42825038be4529f277bfbc8d4b964f95494ad17695f3351c44e8a34",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LieModelExistsUniqueAct.olean": "cece1c903b7a406a8a867a66bd86edc1e1f8fa0016bf3acc27eea7df82d5eee0"
+    }
+  },
+  "M131396": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement",
+    "source_sha256": "b216565b67f0f3e4396a5eceb7d85b8764418c5cf905853960fa8ba2137fa313",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LieModelExistsUniqueEquivStatement.olean": "2f0513a86c0d95f062f9ccb04bb96d42e24f90f7c7d3536e797741eb6ee0f241"
+    }
+  },
+  "M131415": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement",
+    "source_sha256": "88b0f94936d4c5e3268a3c90c362c63bfbef1deb73c9d760ff361ec4ef1ec80d",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LieModelFunctorialMapStatement.olean": "84eeb4ccb628593f810a080568447a5b6fe7e598f29ae9be73ededc2d8dbdd10"
+    }
+  },
+  "M131739": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement",
+    "source_sha256": "8f5ce3ebfe7a2c8311580ba7544161e12b0cec340142d8b1900dae4495f49cfd",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PolynomialFieldExtensionDegreeStatement.olean": "f30a2d28e2ce47c99b1d6939e7918013140443052c19efaca0eff373ec839bad"
+    }
+  },
+  "M131755": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint",
+    "source_sha256": "952ebb8c36763c7a70311b9d639650084b7400c9750f640bb0a065b24f4da3ed",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimeChartExistsUniquePoint.olean": "16f6f4856807afa8b9990d4ee02333020f93cedb743bfa47258ac6d0a3d0e6b2"
+    }
+  },
+  "M131849": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization",
+    "source_sha256": "4c52a8a69a6d0a26d9f73cc036daf5c1cb6b7456f956918408b2a2c7d3edafef",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegAtIffChartLocalization.olean": "9d1b32ce9015a70e53e4079ed7b4d33bc9476883cee8fcb18cd378df33972d2e"
+    }
+  },
+  "M131856": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian",
+    "source_sha256": "f3e42264732514954409cb94cd79e650a764ca82635b2f4bccb907ad918432d5",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegAtNoetherianModelNoetherian.olean": "807a5319362df50cd7e7bdd298ed65fd4eb9f566361c7d4f828af9f36bd415fb"
+    }
+  },
+  "M131860": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate",
+    "source_sha256": "7bd5d289d5d7c3719aab1c5020773a42776bde9ee4ecf45ff8a09590d48d5b55",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegularAtTranslate.olean": "67bbe158562256f5e337c355e63f66fa5136734ece166f724381a8a029e83337"
+    }
+  },
+  "M131897": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement",
+    "source_sha256": "3bc42330c16aa62b607dd4329c6aed21a2ce4553fc870bc4073a18e27e3d8592",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RiemannFormHermitianLatticeStatement.olean": "a74595abb1bfed71a0c27d3835f6c64c14e470bf1c5602775c6eb92080d9ee62"
+    }
+  },
+  "M132049": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement",
+    "source_sha256": "5dc75373d52041f1bac767ebd4b50bbd22004a35895a61a015ed0d037d232782",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SiegelLimitImagBoundStatement.olean": "aa91883236ef648c3ad88b54a937c69baad9ad2ccd50e9a47437ddeb30a5aeee"
+    }
+  },
+  "M132121": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk",
+    "source_sha256": "0a7b42138db3ad8e3aabc4e57328ebf56fd525bfce456e3aa8009d6f8e397aee",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/StalkClosedPointToToStalk.olean": "593d6382591c9585277f82d4d5c7aac4ecb90f1b835700e1342b7b5810603d56"
+    }
+  },
+  "M132228": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement",
+    "source_sha256": "1bea8d55a260e219dd1050bb98e133eca42302d9064096033dc023a9e163e34a",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TorsionLiftIsClosedImmersionStatement.olean": "2854f736c8765c5cfde609fc072630a653c047e7afa8d4dde9a4b3b644abb2bb"
+    }
+  },
+  "M132281": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement",
+    "source_sha256": "2abbfb9a214e5f86efeb923a2b29f57d5fa5376da9cd6edaeb328eb6259bb8c0",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TorusPointOverFractionFieldStatement.olean": "e392fa59d30bc0c3d1c09ab84fa2f903d46e5cb8177867d3c6ebafba5a539c4d"
+    }
+  },
+  "M132301": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement",
+    "source_sha256": "11fec9ff69175dbcc3bb639c85f78a96d2762de3a47c4446456412912fab3b39",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TraceIntegralSubringExtensionStatement.olean": "b0452ef0b199201c2b74506b06e1008d47f660865d7b4226d62807d1f3a3eea7"
+    }
+  },
+  "M132392": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom",
+    "source_sha256": "aedf6904aa1fafeaf39086f2978c6dc17972113b83b88f2bb7d5749938ac9705",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ValAtCompLocalHom.olean": "1008a754a2d315033149f5cb3de8ee6f59904b454f43bc69e7c817b625d0e596"
+    }
+  },
+  "M132411": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique",
+    "source_sha256": "5b22f4a829743b1e91897a693b8768f138ca06376e4ea6841d3e7bffb80ad359",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ValuativeLiftExistsUnique.olean": "8ed2220de02bca9549ca1da0bd43028e959156bc17380bcf85d525746624e871"
+    }
+  },
+  "M132453": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations",
+    "source_sha256": "daa4be2dd555c4674c2969021cbfd3d620642730298d6b1cea05759d48e5f943",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ZarhinBundleKernelFirstCoordEquations.olean": "635e5576b75378e7b2169fe7f47f523920b9d140b965ab1927cd8fdb9f0b21ba"
+    }
+  },
+  "M132510": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement",
+    "source_sha256": "73cb985d39332bbb8dadb634b941ce4f61997da0faa6445963627c97b91bc160",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/BlockBasisChangeEntriesStatement.olean": "6874de2880a4412f46ead95dba5e9c97f3a354b53704aab3b572839853649339"
+    }
+  },
+  "M132602": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement",
+    "source_sha256": "e1702ee8b4ef4f2251ed286aee2835c45d4eb2c0d22a82613629d8e9ad8954a2",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/DigammaLogBoundRightHalfPlaneStatement.olean": "939bd5483ee7ae7ef4f4e2b390ebf619b3c410a0b1bf7e258cbd95b2f662ddb8"
+    }
+  },
+  "M132683": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement",
+    "source_sha256": "f7a47aea2294043ebf842fa186ac583386100a4b9506c961a6168cbfae629e5f",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/GeneralLinearIntegralCompactOpenStatement.olean": "88216db70c41a0659144203113ec4bfd54b5d52cdb8b64647918176934a337ff"
+    }
+  },
+  "M132758": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement",
+    "source_sha256": "fc53c4dd507a3eddcaefe35d49bc2459805e78b84f5000e6014cf7aa9b5b08c7",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/IwasawaDecompositionUpperTriangularStatement.olean": "0a5d3d297b09499d4a8cdb54f0d9b2311c23e6e06e3352b1c2a8c8130db165bc"
+    }
+  },
+  "M132797": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement",
+    "source_sha256": "03450e40e6b166570b7b8e6288877d61261595e9697aff54f1cc776406ab9684",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/LocalFieldUniformizerNormPropertiesStatement.olean": "092c8ed2651f34e4b3b9ec6d4566450b1f59b3d2ac9533fdb49db8c32f75f5a6"
+    }
+  },
+  "M132864": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent",
+    "source_sha256": "5ada74b1773237ceb3cb96b73b144459ffde471de4defe2bfab2ea3b96963ed7",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/PrimePowerNotDvdDifferent.olean": "9ce884ea51119a6cf3be78d6137251a22075ec5c465d833f4b4e42b31845d978"
+    }
+  },
+  "M132983": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports",
+    "source_sha256": "05822777ba0df5ce790f68c925d9a20373612f2b91dd3addd86e1117124ebfd0",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MembershipProofs/AdelicCharacterRationalDualImports.olean": "d59acadd74f5b487e14e979669edfcc7ab546c3d1e943ea698cf86c3f0f75596"
+    }
+  },
+  "M132996": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+    "source_sha256": "90f65417e48f070b185d8dd77568a5fd8f4948dfd9010e72e256caf9d6ea4e45",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MembershipProofs/ExistsInvariantForm.olean": "f73b8a93e75954111343573614c57876b2c0764a0b8230c0a672db0fcde10e7d"
+    }
+  },
+  "M133005": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot",
+    "source_sha256": "0a2a4a305c7f9f94a61d28cdf42e1f9e05bdb3b70ee539e6ddcd7308b8131967",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MembershipProofs/IsArtinianRingKummerAdjoinRootQuotientRoot.olean": "67d7a92a9725895bdfcf8cf8c791005f1ce20e625cdbf6ef37591ca159f94f64"
+    }
+  },
+  "M133020": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder",
+    "source_sha256": "99efed1a5125d4eb0f031ca1efdda19b770546aaf6a0c4d056cdc9ec92bf80d6",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MembershipProofs/SplitQuadraticAlgebraOrder.olean": "e54b5856f64ec30d9c68bac00b0274a6aeb911e709729b4042d44718b9707075"
+    }
+  },
+  "M133031": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar",
+    "source_sha256": "abf384c98045f7dbffa641bfb986627f9de3802419e617822ec2b780840926d9",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MembershipProofs/ThetaSumStarAndSchAStar.olean": "269f210c109a594bec8eca9362db1858466638a31e53906e1f67110a4b0715df"
+    }
+  },
+  "M133247": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry",
+    "source_sha256": "c293a111edc58374481b946b87037f90c717d302c6e198e4d610adf899f8cf10",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MetricProofs/ContDiffAtFrameEntry.olean": "d3ae4f7647ff968636ceb36e6baf764669a0781c4374ac3b930c473cfcf4b146"
+    }
+  },
+  "M003617": {
+    "module": "Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff",
+    "source_sha256": "84d6a67f87f505d4898e86709099a0a133a23c6b922c284084adb6ac63d9fc39",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Definitions/Divisors/HilbertNinetyQuotientHomEqIff.olean": "ce5f5a65d5d18a81314a847d75460f358f6c80c73913f58a08353fc1f62d7d4a"
+    }
+  },
+  "M004105": {
+    "module": "Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace",
+    "source_sha256": "fa6c75518903c431a0ea7c7db484c717d52eb3d4ea6c43781953af865bb8e963",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.olean": "a7baf48c0b4dcf02bd9d545027c079fdb4d98f451ac37b42d072f15737eec9c1"
+    }
+  },
+  "M006184": {
+    "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul",
+    "source_sha256": "35e1393cbabeb866cbc1ab54176975c004032f52c49165bcb85f5414656c6d85",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/AlternatingMapSumSmulEqDetSmul.olean": "ce01f73221b625f5362e3c5b0ad24a9ebeca8ec538275a63033f08ed9a143c45"
+    }
+  },
+  "M006225": {
+    "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsBasisKaehlerOfAlgebraicIndependent",
+    "source_sha256": "cf2e5f1fde8287af232bcec2e6fb1f89d7ee2149eaf07b90f5501209fc979855",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsBasisKaehlerOfAlgebraicIndependent.olean": "c7de61ec9d9c08ef0299f3891280f44712881290ed5432e3a622e2851aa62439"
+    }
+  },
+  "M010383": {
+    "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixExpSmulMulEqMulExpSmulOfIntertwine",
+    "source_sha256": "3507014572208842819435a2b3d9326dacfa26a6808fe308154de8804365f921",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixExpSmulMulEqMulExpSmulOfIntertwine.olean": "4256597dfe9c38f161a189350b0b4364387504daad00938732f4efe886471ee8"
+    }
+  },
+  "M027934": {
+    "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOfValILeOne",
+    "source_sha256": "5008bd2070be189f05c896648cdff1c6c0a9dae837b65e38dac66db958612a5a",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsOfValILeOne.olean": "c6e9d7b90a20a18387590af9c500cc7f4951c8274e575b889fd1f6d282d4ef7c"
+    }
+  },
+  "M086138": {
+    "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.TracePowerSumModEq",
+    "source_sha256": "154dee902282f01e58ea70c4f40e87e23f0d56810e78d6e2f1f3d255607cdd4c",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/ModuliProofs/TracePowerSumModEq.olean": "d0218a2524438f8d1c0b620c7f0088e36d65a6bb2b97fe635ef337399d244816"
+    }
+  },
+  "M119655": {
+    "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualOrder",
+    "source_sha256": "92fba579c03a8d711b01cdfe90f6d57427b9e00abead41daba4d11668660d7cd",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/DualOrder.olean": "05f365b4c4a9aa2e1673361de99c6ca18a7632ecbf63d2ae1dfc468e9bb2c9a3"
+    }
+  },
+  "M119672": {
+    "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.Models",
+    "source_sha256": "cec48562b70c8c3098a0f1c8a132d639ca527639737484b66a8c079a425710b7",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/Models.olean": "2b447ae3e5d51a324f40f7a977dd4b59e5ce542a60be4c389f022d6aac8660b6"
+    }
+  },
+  "M119679": {
+    "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder",
+    "source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/TranslateMemIndOrder.olean": "9983f9be4d78210c3ad24fb65c40b88fb8b0f55926afac5e2356fc4e22423478"
+    }
+  },
+  "M119709": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "source_sha256": "481c1bb8264bf3fe5f7cd5b9e776d30b88aa41072e28224111097db166fd0d6e",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/CoordsAt.olean": "e7f19b81043b1ad1e8ff3721a1372ad5e51b130ede5eb557fcaacc3fe3039d47"
+    }
+  },
+  "M119721": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+    "source_sha256": "e9ebc1eb609432367ee904bbed20e377d24a9ab1623e651be3f0b20d304fb32a",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/ExistsUnitFormLocalizationEtaleNbhd.olean": "a2fc34b57c794b4511f159bf7981e029ef78e71249dad2cebb4a382d5583b067"
+    }
+  },
+  "M119737": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues",
+    "source_sha256": "dd93e007affdd2749f827b62dedfce4a6a2889f5c1063f824183d0f624923ce6",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/HasValues.olean": "a195d9d1bd9426db86bd471f1d60e702aa3814678d9c6ebde2eb4f9a1aefbdb8"
+    }
+  },
+  "M119741": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InjectiveOfIsCptGen",
+    "source_sha256": "b4ca85b06fb6600f5e9a9f09db63fab3da8ad345d2484d314265c83fed482ea1",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/InjectiveOfIsCptGen.olean": "17bfb18e5c7cbf51f7242a849f2cafd8c15da28425a0d79eecb7ce03fb9b4ea7"
+    }
+  },
+  "M119742": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InstBorelGL",
+    "source_sha256": "16a87c38bdb696a44030a36208e125abe63ae923fce36be1c7a1f6da62482989",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/InstBorelGL.olean": "9bb3e2c6424bdc05a9ae5b629c6afeeb2eb7b84f45eb98f382796feef2af5660"
+    }
+  },
+  "M119750": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "source_sha256": "368276f16ea1f2a352e0f18d965391a314af6ea58f0f1622b22446aabc3e77ef",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/IsCptGen.olean": "7606fce597e939fc000c948f1857fd54c4af76c9e4477712442368362a34d280"
+    }
+  },
+  "M119770": {
+    "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+    "source_sha256": "6dd729b9c7e8bcfc5f1890b33a297fb34c251d8df7a62240b66e94164e1f6105",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/GlobalGeometry/LieModel.olean": "438c31f4cf007ba035becda2887f5d2071145d9d0415fae749d93049a329b259"
+    }
+  },
+  "M119804": {
+    "module": "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.HasElemDiv",
+    "source_sha256": "adce264612c2401b15c807275810e1c97a9adbdc9fc02c7756c243ad8f350738",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/MembershipCriteria/HasElemDiv.olean": "bad71ceb08c1632078af0758b1dbe55d1fbd394d3a010f3c6707f7adc0b7fa89"
+    }
+  },
+  "M119805": {
+    "module": "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.LaEqSqrtSmulLam",
+    "source_sha256": "93a7ff6b215c3224d492df0d8b183874e9284f5fee41f10834e7815a1ce42b6e",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/MembershipCriteria/LaEqSqrtSmulLam.olean": "80efd908420952bed510c699c83e308be5969ffa5ac0da4775e48d719356cdfd"
+    }
+  },
+  "M119822": {
+    "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne",
+    "source_sha256": "3d9e5a60191008331d74e684cbfc260f7471a97ee0a12734dafc2e90bb2b2178",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.olean": "d70f58dcfd4e2c543107282696820d84d60a55ea72ac8785a1029f56997dd2c8"
+    }
+  },
+  "M120115": {
+    "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ExistsAdaptedUnimodular",
+    "source_sha256": "46e7dfc4a431bacf68956a13b73560f33a40630eb02bb94604ed98a2d0b6f7f4",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/ExistsAdaptedUnimodular.olean": "09efd8a36637d460f7771fd57accf3ca88af0752d7a173620afb83545decb1cd"
+    }
+  },
+  "M129538": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AdjoinInverseIsLocalizationAway",
+    "source_sha256": "7415e455eb49bcd50790ec510b7363c25315bf719f584ed62b732447fb9c18a3",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/AdjoinInverseIsLocalizationAway.olean": "b0b7daee24f3d1a377a60be6aa30e46f57e87e013d39eb173cb87fe12f18c684"
+    }
+  },
+  "M129539": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AdjoinInverseIsLocalizationAwayStatement",
+    "source_sha256": "9f58e4496a1503c03594c2f22bd7d50ce6757af7137b32e99675ede4b9f801fb",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/AdjoinInverseIsLocalizationAwayStatement.olean": "fb75fe31d091ae784042b0c5089dd5c5014656e28031929217005b1cd9bc76c6"
+    }
+  },
+  "M130307": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrime",
+    "source_sha256": "e0f709a30e80ce9fff4e90f1db38f2a28a5a39c4880b27aedcffb8b64d976832",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsPointLocalizationPrime.olean": "512c7acd9f47c95243a3bf7883e47406363cda9e5229d0926f889ed1b4fde068"
+    }
+  },
+  "M130337": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGeneric",
+    "source_sha256": "53e34090a48cc8b00184850536998a78792e3f2c5ee0d582e2e8f3a2cc42f518",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsStalkFractionOfGeneric.olean": "44ce584ab828813d25e19d91cc4aefd290fa09b4076c9d06dff64bf2c9207f80"
+    }
+  },
+  "M130381": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionField",
+    "source_sha256": "ea6cf54f71666657312f8f91da9007d57f62f5bfa3dc8f4eccfa0e37dc18a76d",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExtendToFractionField.olean": "c4ffc99d2205febccab4666cc4b319d48d97098784ddb8379aa6e61bb615de71"
+    }
+  },
+  "M130719": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishing",
+    "source_sha256": "5c2c9d13e9b803f2a009656d9e869828219ca327e609c0dee7caccd1eb4b31cb",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/GenericVanishingStalkVanishing.olean": "c98a3a662438f9d2fe16bbc4a3f91414143a270f6ba760c45c7eed8b52f9f896"
+    }
+  },
+  "M130745": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAt",
+    "source_sha256": "d1290c5993140c09708428640a9592bc548bc8f5c214bed1c78bce90a4208281",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/GermGenPtInjectiveRangeRegAt.olean": "9d30307045b9b1834df0b84bc2ebf28a8fbfa36000d16c4e1c1277a19f89685c"
+    }
+  },
+  "M131099": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphic",
+    "source_sha256": "150702e9e6c4abfdec2af1dcd4face62ad602a9e70f0bb5a742cc97feec41bba",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ImplicitFunctionHolomorphic.olean": "eb10287a80f89452198adbe98440fe2c35b4e85908e02fcb54fbaafbe28f0bc9"
+    }
+  },
+  "M131171": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPt",
+    "source_sha256": "1cd4c525b011a9e14608848bd44120d910a0e3d0bfc867755ce32592525a529d",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsClopenSpecializationsGenPt.olean": "1cc86f637103057c8a32b4962d85daf8ce8185d7d7cf49bd6293ae41f57f183b"
+    }
+  },
+  "M131185": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGeneric",
+    "source_sha256": "8f5a037e6d6c2790fd7bb551e27866c1c7d396c59e59a976c9ad84d0c61b1d6a",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/IsCptGenResidueFieldGeneric.olean": "c7de46fc3936e3f5f54ddbdeb45c74fba308af5528f1f93b0c60790bdcbe856a"
+    }
+  },
+  "M131249": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerBasisTower",
+    "source_sha256": "495563e4c1b45be34fb5635bef7710bf8a0ffefc9c5d12da68f71443be5e36c6",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/KaehlerBasisTower.olean": "a8631651c44ab76abb196bc9e6b11fe0e97e3520c5012455c6ef566e950dae0f"
+    }
+  },
+  "M131250": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerBasisTowerStatement",
+    "source_sha256": "a5fc3756b6fa9afb2b93ed553a79bd14baeec1f84deb166e71ebc0ea4009df31",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/KaehlerBasisTowerStatement.olean": "aa73bd92ac2ea9247f980f5ba1879bce25c4aaf0a6525cfb4327a7fbd6b8187a"
+    }
+  },
+  "M131253": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerFinrankFractionField",
+    "source_sha256": "687df5e2b9af947338dff2f72598ceca0b3db9498fbe53ce2bf11417f9748497",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/KaehlerFinrankFractionField.olean": "488a3f528bc8131f43e9a199e3578b472a48fbba1a29743fa2a15d27146a8811"
+    }
+  },
+  "M131254": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerFinrankFractionFieldStatement",
+    "source_sha256": "2628ff7abb0b1f739bd1a4f23e6e02e9fa68f9fcd40828f300d8be2ee8cdc395",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/KaehlerFinrankFractionFieldStatement.olean": "d6a286750db07462b049430adbf35938a60b493f7e2b08be100078ca94661e78"
+    }
+  },
+  "M131395": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquiv",
+    "source_sha256": "615063ccd94724044412e0c057a441c49a87b19f44b4c53aec439c0d140458ca",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LieModelExistsUniqueEquiv.olean": "2d5f7380ce08912d6106caf8b7e007291f461239ec1d95915fb1b10c63f12404"
+    }
+  },
+  "M131414": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMap",
+    "source_sha256": "a893b091b1de9fef7c6a2b69ddb1e09e306b30c672eccd81c0e26ae87703180a",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LieModelFunctorialMap.olean": "6b034438ab64e8b198cdef5797739b25989d8e63f2f09888f45824719d44269e"
+    }
+  },
+  "M131521": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalizationKaehlerPrimeIdeal",
+    "source_sha256": "07522dbd036b43f70798c4152b27de7a4d65f2f8668fe16e341f6fa3418c9961",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalizationKaehlerPrimeIdeal.olean": "facba4e935f15b5f98758f486d3e424dc594b684a1341ecbe670a67b5db74b57"
+    }
+  },
+  "M131522": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalizationKaehlerPrimeIdealStatement",
+    "source_sha256": "4fe2a1ff75e873dc736bdc91d431b3d0121992edfd55de5d740060ef795c197b",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/LocalizationKaehlerPrimeIdealStatement.olean": "5a4377566e31be6e25be7b9ea98cc66dee7f117556cfc7af4695070f1b46fe45"
+    }
+  },
+  "M131738": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegree",
+    "source_sha256": "3a40032011e483ec2c7df2213c4f0db6632f95ade5665f3bb516ac556cc533e7",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PolynomialFieldExtensionDegree.olean": "3ae1fd905502abaa2a3c41077977b89d08ffb7ad6a143238d7bc26f994b9dcea"
+    }
+  },
+  "M131896": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLattice",
+    "source_sha256": "6c5902d760b16f2d2989973ce0fec16dd65cc7be93176d6e12dd1dcad8ac6bf8",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RiemannFormHermitianLattice.olean": "15ae60a6ef78a5d5dee289d1ba02707f44afb71a5afc1a0e2bdae480b90aa33f"
+    }
+  },
+  "M132048": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBound",
+    "source_sha256": "82ae9b1858c391bafdff4f266d5cb5d86de10ec97139981330a3c1eb9cd269ef",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SiegelLimitImagBound.olean": "b7397a189b87439617f3fe69a7a7d8cd427fc58e50f855d108e80fc24bafe404"
+    }
+  },
+  "M132227": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersion",
+    "source_sha256": "a5c4d8ddff4cfbef443cbc69a09077e41e7b0641b8c6db76a28c270bdd70a982",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TorsionLiftIsClosedImmersion.olean": "c7b5633327d17dbf747685190a1a55c02cbf86a0897bdeed7b771102312c4883"
+    }
+  },
+  "M132280": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionField",
+    "source_sha256": "af159695b311a4c55d4630771e90bc24a8735ea63bb01505efb5f372d33691da",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TorusPointOverFractionField.olean": "f1d696f592a17af4f2ab6a0110f256ee285e18dbfd6bb91eb440aec96bf960a3"
+    }
+  },
+  "M132300": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtension",
+    "source_sha256": "5682b6808b757721b18af2dae48ba6c1737bf7ea61c8a4351b691ab119debd9e",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TraceIntegralSubringExtension.olean": "5160e873f77e30144f432618926f189ad77c476ad7c3b681587c5a9cdb0576f2"
+    }
+  },
+  "M132509": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntries",
+    "source_sha256": "182bdfa56f551c2abd600a5ab3f9118a5b2691c66838b919ab2b6e843fe510fc",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/BlockBasisChangeEntries.olean": "27172b1f2d87c66e98ab350bc5dc38f70f09e7627beff889a163ad4165674c01"
+    }
+  },
+  "M132601": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlane",
+    "source_sha256": "8a38becd966706ccfeaada0e91b86e7779a06f48367f64f38791b02999fa0203",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/DigammaLogBoundRightHalfPlane.olean": "069b31a2f0b8fa708c77482ac24a18fdbe6a458c3a556892e2cce9e22d6bea44"
+    }
+  },
+  "M132603": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaTendstoLogSubHarmonic",
+    "source_sha256": "8d9fd4fd3e450c3ccbc698fbbb652b8b9e38053ae978782c8f45cc7fa6282cba",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/DigammaTendstoLogSubHarmonic.olean": "1e52140f89aa5acb7d4a58b0340d3c8f9f807dc80c7d0cddd02ad3aa4335ec98"
+    }
+  },
+  "M132682": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpen",
+    "source_sha256": "a3ab57064df74a6d1aded14dfc71ca2f271f4d8bb1de26ff934815764f45fa63",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/GeneralLinearIntegralCompactOpen.olean": "891753b18e32a8cd03e97442d7ae1b378493361fa2aefb220a2678499ef04d68"
+    }
+  },
+  "M132757": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangular",
+    "source_sha256": "d092dfa91bdf2d0e43cf20d6557be85dee6e6e9d300ee00043350c0505add0bf",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/IwasawaDecompositionUpperTriangular.olean": "d22598a1312f0c7ae7eff9bc7631a81ebf5ff5f568cccf30cc99981f8dd62897"
+    }
+  },
+  "M132796": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormProperties",
+    "source_sha256": "98348a2b4b066adf0d4432153860129a5af836283c21848ec61abd2284a57cb2",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/LocalFieldUniformizerNormProperties.olean": "4f164a4d23a4234a4ef23e9655fc7223ddf9e10b874a9642312941090d8e6f8a"
+    }
+  },
+  "M132947": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.TraceIdempotentNotDivisible",
+    "source_sha256": "a279e81ab5cd985ec3ba65ba5aa9a41e5b53ed75b063329d233dc948ec7b8f32",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/TraceIdempotentNotDivisible.olean": "323755e682f96cf79d01bef184e09cfab75f6974c099836ec8db1e1468070ae3"
+    }
+  },
+  "M132948": {
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.TraceIdempotentNotDivisibleStatement",
+    "source_sha256": "2071d9804a66303eed5b875eaed473c94a2ea6105be6bcf4fbf7f7356462c1b2",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/GlobalProofs/TraceIdempotentNotDivisibleStatement.olean": "2cf1a7a5aa7829e4b04584cf7eb7667a6bc20245441db4e924659f5ac18d11b2"
+    }
+  },
+  "M134148": {
+    "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MulVecEqZeroOfPair",
+    "source_sha256": "97a6365a3fb835ab58d78daa775b4a31c607353ebf9a715ebdd0c0820ba9b6c0",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/AutomorphicSpectrum/Proofs/MetricProofs/MulVecEqZeroOfPair.olean": "4cc624ccc83d24d7e94ee03d9b4cb3812141d024597a0f1eed150239531a50b6"
+    }
+  },
+  "M138027": {
+    "module": "Development.WeilBound.CoreStatements.CommonZeroEvaluation.PolynomialFractionFieldDegree",
+    "source_sha256": "d3d06dfd9efc6f36127333ff0038fa65080224785a824e00922280ceec232b13",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/WeilBound/CoreStatements/CommonZeroEvaluation/PolynomialFractionFieldDegree.olean": "965e369ae85099c73f9c22d0bc5fe5342379598354cd7ab539249031dd554a8f"
+    }
+  },
+  "M138584": {
+    "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.ExtendsToFractionField",
+    "source_sha256": "c4e3a97d4e81bcc6265904e71da12a2b9813f46e9f141efe82ada001424ac250",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/WeilBound/CoreStatements/HomogeneousNonvanishing/ExtendsToFractionField.olean": "14038323697aba73693e5499d1b55834dc51d06f6780a74e2affbaeeb2029ae4"
+    }
+  },
+  "M138590": {
+    "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.GermVanishesOfGenericVanishing",
+    "source_sha256": "ec187f7359b767a77c40479dd521687e92e0abe5c08fda4541287acf3588e9ac",
+    "artifacts": {
+      ".lake/build/lib/lean/Development/WeilBound/CoreStatements/HomogeneousNonvanishing/GermVanishesOfGenericVanishing.olean": "63ff4186f99ca95925b31cec7639137ab3ae88b6bfdfc4b4687470e541dd0465"
+    }
+  },
+  "M170081": {
+    "module": "GroundTheory.PAdicHodge.FiniteFlat",
+    "source_sha256": "bac14cd6376e5d022c39e9e98d7331683d72a55f6fdee5108728ffc6e76fe46a",
+    "artifacts": {
+      ".lake/build/lib/lean/GroundTheory/PAdicHodge/FiniteFlat.olean": "18b03fa09c7f14a4fb65fe5f98f704910237f92388e708c01e8686cde29255f0"
+    }
+  },
+  "M171344": {
+    "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.Osgood",
+    "source_sha256": "3e7cc00d1bd88c51edbf2894c57a8e426bb3a90475ae875a54b7b3b435b95871",
+    "artifacts": {
+      ".lake/build/lib/lean/ReciprocityTheory/AnalyticForms/AnalyticCharts/Osgood.olean": "10ca9a6aea85e4eb90abb27de7c6d07010b88cd1ae709af716efce2d4a539378"
+    }
+  },
+  "M171345": {
+    "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.OsgoodA",
+    "source_sha256": "35acf63fd781a10e61b6edfd398e4c4685ca93953eb46fdc0e296e5675bc4aca",
+    "artifacts": {
+      ".lake/build/lib/lean/ReciprocityTheory/AnalyticForms/AnalyticCharts/OsgoodA.olean": "c00960fd546956126b3fbe4619f3117e9e6bb96c1703bebfe255dcc8f03fdab6"
+    }
+  },
+  "M172691": {
+    "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens",
+    "source_sha256": "606e90ce0831aef4642c275ba0acef8f839611874a65358f34a49dd5dc7782de",
+    "artifacts": {
+      ".lake/build/lib/lean/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/IsCompletedStrictHens.olean": "4710514bb15c8336481bfb238d4fd09885a710e77b164d74eeb235a5cba7595c"
+    }
+  },
+  "M173167": {
+    "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.BasisExtend",
+    "source_sha256": "4691d5cb29c44488a6c706ddf83051a8f36fc3b251cfbd100322baa77ad82f41",
+    "artifacts": {
+      ".lake/build/lib/lean/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/BasisExtend.olean": "6d08841c03ae58c188d3007c259b8f976d7f37b1ccb8636f1b438dc3ddc88d0c"
+    }
+  },
+  "M173277": {
+    "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LinearIndependentC",
+    "source_sha256": "0ba593e42d14faf0a73d985f7a662b1a8d80541aba9d947aac7294e337e55ace",
+    "artifacts": {
+      ".lake/build/lib/lean/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/LinearIndependentC.olean": "ceed4d01a94595e3c8be4b64573f9e0e61fe178ccc24f1f3c2a1ac8323f66198"
+    }
+  },
+  "M173924": {
+    "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficients.CasChainA",
+    "source_sha256": "5f2930629044c33e9170cd4958e021512af0e35bb23cadf6db7f6a3ae3aec79d",
+    "artifacts": {
+      ".lake/build/lib/lean/ReciprocityTheory/ReductiveGroups/DiscreteSeries/CasimirCoefficients/CasChainA.olean": "bd9db59ddf65efec5910b1285f483bf8d266e611e5376973b9982da91f101b5f"
+    }
+  }
+}

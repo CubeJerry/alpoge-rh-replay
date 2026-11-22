@@ -1,0 +1,998 @@
+== started_utc: 2026-11-22T03:35:05.277985+00:00
+== cwd: /workspace/scratch/e92c8f71c3ad/port-P0208-verified/lean
+== command: elan run leanprover/lean4:v4.36.0 lake --no-ansi --no-cache build +Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement:olean
+== execution_command: elan run leanprover/lean4:v4.36.0 lake --no-ansi --no-cache build +Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement:olean
+== LEAN_NUM_THREADS: 4
+⚠ [18250/18338] Replayed Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/TranslateMemIndOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/TranslateMemIndOrder.lean:67:16: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18251/18338] Ran Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder:irArts
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/TranslateMemIndOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18338] Replayed Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/FlagMinor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18338] Ran Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor:irArts
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/FlagMinor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18338] Replayed Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/LieLatticeData.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18338] Ran Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData:irArts
+warning: src/Development/AutomorphicSpectrum/Definitions/CommutativeAlgebra/LieLatticeData.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18338] Replayed Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeOfFiniteProjective
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean:58:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean:59:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean:60:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean:61:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean:72:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18257/18338] Ran Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeOfFiniteProjective:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18338] Replayed ReciprocityTheory.DualLattices.RidConvolutionDerivation
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:25:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:29:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:51:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:199:27: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:268:24: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:284:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean:292:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18259/18338] Ran ReciprocityTheory.DualLattices.RidConvolutionDerivation:irArts
+warning: src/ReciprocityTheory/DualLattices/RidConvolutionDerivation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18338] Replayed Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem
+warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean:989:36: This simp argument is unused:
+  Algebra.TensorProduct.one_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [algebraMap_eq_inl']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean:1382:18: This simp argument is unused:
+  Algebra.TensorProduct.one_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean:1384:18: This simp argument is unused:
+  Algebra.TensorProduct.one_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean:1419:55: This simp argument is unused:
+  ← smul_tmul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pairingBaseChange, smul_tmul']
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18261/18338] Ran Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/MemPrimitiveTensorsIffIsPrimitiveElem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean:10:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean:12:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean:16:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean:98:37: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18263/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElementStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean:9:90: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean:9:169: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean:9:90: Unused tactic linter: `exact GlobalTheory.CompanionTheory.HopfFrob.exists_frobenius_fixed_or_killed` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean:9:169: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.HopfFrob.exists_frobenius_fixed_or_killed <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18265/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElementStatement:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/FrobeniusStableSubspaceElementStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnit
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean:10:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean:15:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean:16:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean:41:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18267/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnit:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnitStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean:8:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean:8:189: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean:8:100: Unused tactic linter: `exact
+  GlobalTheory.CompanionTheory.FiniteAlgebraUnit.exists_isUnit_mem_of_forall_point` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean:8:189: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.FiniteAlgebraUnit.exists_isUnit_mem_of_forall_point <;>
+    assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18269/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.SubspaceContainsUnitStatement:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/SubspaceContainsUnitStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18270/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRank
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRank.lean:69:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRank.lean:111:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRank.lean:141:45: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.smul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18271/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRank:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18272/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRankStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean:12:85: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean:12:159: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean:12:85: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ggeo.DerivFree.finrank_and_vanishing` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean:12:159: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ggeo.DerivFree.finrank_and_vanishing <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18273/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.NilpotentDerivationRankStatement:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/NilpotentDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18274/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean:47:10: `Module.End.pow_apply` has been deprecated: Use `pow_apply_eq_iterate` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : NPow F} [self : IsNPowApplyEqIterate F]
+    (f : F) (n : ℕ) (x : α), (f ^ n) x = (⇑f)^[n] x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f : Module.End R M) (n : ℕ) (m : M), (f ^ n) m = (⇑f)^[n] m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.pow_apply` to `pow_apply_eq_iterate x`).
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean:40:77: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean:103:26: This simp argument is unused:
+  smul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_mul, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean:103:37: This simp argument is unused:
+  add_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_mul, smul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean:143:8: `Module.End.pow_apply` has been deprecated: Use `pow_apply_eq_iterate` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : NPow F} [self : IsNPowApplyEqIterate F]
+    (f : F) (n : ℕ) (x : α), (f ^ n) x = (⇑f)^[n] x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f : Module.End R M) (n : ℕ) (m : M), (f ^ n) m = (⇑f)^[n] m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.pow_apply` to `pow_apply_eq_iterate x`).
+⚠ [18275/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRankStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean:12:98: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean:12:185: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean:12:98: Unused tactic linter: `exact
+  GlobalTheory.CompanionTheory.PowerDerivation.finrank_eq_and_derivation_eq_zero` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean:12:185: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.PowerDerivation.finrank_eq_and_derivation_eq_zero <;>
+    assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18277/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRankStatement:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRankStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndep
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndep:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18280/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndepStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean:10:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean:10:155: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean:10:83: Unused tactic linter: `exact GlobalTheory.CompanionTheory.HopfPrim.powers_indep_of_primitive` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean:10:155: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.HopfPrim.powers_indep_of_primitive <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18281/18338] Ran Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveElementPowersIndepStatement:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveElementPowersIndepStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18282/18338] Replayed Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra
+warning: src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/LatticeSectionAlgebra.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/LatticeSectionAlgebra.lean:111:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18283/18338] Ran Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra:irArts
+warning: src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/LatticeSectionAlgebra.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18284/18338] Replayed Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RegularLatticeLocalFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18285/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IntegralAngMeas.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IntegralAngMeas.lean:17:22: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18286/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IntegralAngMeas.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18289/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorusStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorusStatement.lean:8:86: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorusStatement.lean:8:161: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorusStatement.lean:8:86: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.Flat.dense_forall_coord_ne_zero` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DenseCoordinateTorusStatement.lean:8:161: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.PB.Flat.dense_forall_coord_ne_zero <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18290/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.IterDifferentiableOn
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IterDifferentiableOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.IterDifferentiableOn:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IterDifferentiableOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithm
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithm:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean:8:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean:8:147: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean:8:79: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.Flat.LocalLog.koenigs_limit` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/DoublingLimitLocalLogarithmStatement.lean:8:147: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.Flat.LocalLog.koenigs_limit <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18295/18338] Replayed Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18296/18338] Ran Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18297/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.SectionTensorPullbackRingHomBijective
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean:10:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean:12:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean:14:32: `ContinuousOn.restrict` has been deprecated: Use `ContinuousOn.domRestrict` instead
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean:14:61: `ContinuousOn.restrict` has been deprecated: Use `ContinuousOn.domRestrict` instead
+⚠ [18298/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.SectionTensorPullbackRingHomBijective:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/SectionTensorPullbackRingHomBijective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsConstAddEquivOfRangeEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18338] Replayed Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.lean:40:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18301/18338] Ran Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne:irArts
+warning: src/Development/AutomorphicSpectrum/Definitions/MetricPeriods/InFlagDomainOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrame
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrame.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrame:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrame.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrameStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrameStatement.lean:8:83: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrameStatement.lean:8:155: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrameStatement.lean:8:83: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.xiPot_logSin_change_of_frame` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/ExistsHolomorphicNormalFrameStatement.lean:8:155: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.PB.xiPot_logSin_change_of_frame <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18305/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrinciple.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrinciple.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrincipleStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrincipleStatement.lean:8:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrincipleStatement.lean:8:157: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrincipleStatement.lean:8:84: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.Flat.harmonic_annulus_le_zero` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/HarmonicAnnulusMaximumPrincipleStatement.lean:8:157: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.PB.Flat.harmonic_annulus_le_zero <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18308/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:42:40: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:115:8: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  det_of_u̵i̲s̲U̲pperTriangular
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:124:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:132:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:134:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:136:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:141:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:213:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:239:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:242:18: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:285:27: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:296:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean:374:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18309/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinors.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18310/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinorsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinorsStatement.lean:8:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinorsStatement.lean:8:157: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinorsStatement.lean:8:84: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.exists_unitary_translate_flag` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsOpenFlagDomainNondegenerateMinorsStatement.lean:8:157: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.PB.exists_unitary_translate_flag <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18311/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphism
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphism.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18312/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphism:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphism.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18313/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean:8:96: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean:8:181: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean:8:96: Unused tactic linter: `exact
+  GlobalTheory.CompanionTheory.Ar.Flat.LocalLog.koenigs_limit_additive_for_law` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LocalLogarithmHomomorphismStatement.lean:8:181: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.Flat.LocalLog.koenigs_limit_additive_for_law <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18314/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBound.lean:60:12: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBound.lean:66:6: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+⚠ [18315/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18316/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBoundStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBoundStatement.lean:8:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBoundStatement.lean:8:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBoundStatement.lean:8:66: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.gramLog_inv` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogDetComparableGramBoundStatement.lean:8:121: Unused tactic linter: `(intros; apply GlobalTheory.CompanionTheory.Ar.PB.gramLog_inv <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18317/18338] Replayed ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:24:15: This simp argument is unused:
+  Matrix.updateCol_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.ne_of_mem_erase hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:25:14: This simp argument is unused:
+  Matrix.updateCol_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:45:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:48:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:54:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:55:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:45:10: Unused tactic linter: `(
+  have hp := HasDerivAt.finsetProd (u := Finset.univ) (fun j _ => hG (σ j) j)
+  simp only [Finset.prod_apply] at hp
+  exact hp.const_mul _)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:48:10: Unused tactic linter: `(
+  have hp := HasDerivAt.finsetProd (u := Finset.univ) (fun j _ => hG (σ j) j)
+  convert hp.const_mul (Equiv.Perm.sign σ : ℂ) using 2
+  funext s
+  simp [Finset.prod_apply])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:54:6: Unused tactic linter: `exact HasDerivAt.sum hσ` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:55:6: Unused tactic linter: `simpa using HasDerivAt.sum hσ` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:103:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:104:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:103:8: Unused tactic linter: `(simp; ring)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean:104:8: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18318/18338] Ran ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt:irArts
+warning: src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18319/18338] Replayed Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv
+warning: src/Development/WeilBound/CoreStatements/PluriharmonicCharts/TripleDeriv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18320/18338] Ran Development.WeilBound.CoreStatements.PluriharmonicCharts.TripleDeriv:irArts
+warning: src/Development/WeilBound/CoreStatements/PluriharmonicCharts/TripleDeriv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18321/18338] Replayed Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramGrad
+warning: src/Development/WeilBound/CoreStatements/PluriharmonicCharts/XGramGrad.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18322/18338] Ran Development.WeilBound.CoreStatements.PluriharmonicCharts.XGramGrad:irArts
+warning: src/Development/WeilBound/CoreStatements/PluriharmonicCharts/XGramGrad.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/LogSineMobiusTransform.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18324/18338] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.GeneralBFact
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/GeneralBFact.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18325/18338] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.GeneralBFact:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/GeneralBFact.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18326/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverse
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverse.lean:33:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverse.lean:53:6: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+⚠ [18327/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverse:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18328/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverseStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverseStatement.lean:6:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverseStatement.lean:6:141: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverseStatement.lean:6:76: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Metric.UnitMinor.unit_minor` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/MinorRatioRegularOfInverseStatement.lean:6:141: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Metric.UnitMinor.unit_minor <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18329/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmooth
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmooth.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18330/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmooth:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmooth.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18331/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmoothStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmoothStatement.lean:8:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmoothStatement.lean:8:167: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmoothStatement.lean:8:89: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.PB.Flat.Smooth.contDiffOn_polyPoisson` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmoothStatement.lean:8:167: Unused tactic linter: `(intros;
+  apply GlobalTheory.CompanionTheory.Ar.PB.Flat.Smooth.contDiffOn_polyPoisson <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18332/18338] Replayed Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/FcIndepDetNeZeroOfRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18333/18338] Ran Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/FcIndepDetNeZeroOfRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18334/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18335/18338] Ran Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound:irArts
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18338] Replayed Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean:8:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean:8:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean:8:63: Unused tactic linter: `exact GlobalTheory.CompanionTheory.Ar.Flat.fcNorm` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AutomorphicSpectrum/Proofs/MetricProofs/RiemannFormPeriodDeterminantBoundStatement.lean:8:115: Unused tactic linter: `(intros; apply GlobalTheory.CompanionTheory.Ar.Flat.fcNorm <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18337/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing (125s)
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:17:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.HopfCount.mul_apply_prim`:
+  [IsCocomm k A]
+  [Module.Finite k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCocomm k A] [Module.Finite k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:41:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.HopfCount.dualDer_apply`:
+  [Module.Finite k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module.Finite k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:52:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.HopfCount.point_eval`:
+  [IsCocomm k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCocomm k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:69:0: automatically included section variable(s) unused in theorem `GlobalTheory.CompanionTheory.Ar.HopfCount.exists_dual_ne`:
+  [IsCocomm k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCocomm k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:112:16: `Module.End.pow_apply` has been deprecated: Use `pow_apply_eq_iterate` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : NPow F} [self : IsNPowApplyEqIterate F]
+    (f : F) (n : ℕ) (x : α), (f ^ n) x = (⇑f)^[n] x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f : Module.End R M) (n : ℕ) (m : M), (f ^ n) m = (⇑f)^[n] m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.pow_apply` to `pow_apply_eq_iterate x`).
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:115:79: `Module.End.pow_apply` has been deprecated: Use `pow_apply_eq_iterate` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : NPow F} [self : IsNPowApplyEqIterate F]
+    (f : F) (n : ℕ) (x : α), (f ^ n) x = (⇑f)^[n] x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f : Module.End R M) (n : ℕ) (m : M), (f ^ n) m = (⇑f)^[n] m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.pow_apply` to `pow_apply_eq_iterate x`).
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/PrimitiveDerivationPairing.lean:128:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [18338/18338] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero (126s)
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:30:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:62:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:100:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:112:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ht.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:125:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, hut _ this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:151:12: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, R.zero_mem]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:221:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:222:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:223:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:215:15: This simp argument is unused:
+  Subalgebra.smul_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hft]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MulMemSqOfSmulEqZero.lean:263:5: Variable name `hft` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hft
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18338 jobs).
+
+== exit_code: 0
+== ended_utc: 2026-11-22T03:37:20.844752+00:00
+== seconds: 135.57

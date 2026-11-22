@@ -1,0 +1,33 @@
+{
+  "M131597": {
+    "notes": "Replace the removed deprecated alias LinearMap.exists_monic_and_coeff_mem_pow_and_aeval_eq_zero_of_range_le_smul with LinearMap.exists_monic_and_natDegree_eq_and_coeff_mem_pow_and_aeval_eq_zero in the proof of det_trick. At replay Mathlib commit 0df444a360eaa60ab8c11dca51a86af692955474 the old name is an alias of this same theorem. The explicit arguments B, fJ, J and hrange and the destructured monicity, discarded degree equality, coefficient-power membership and annihilation equality remain unchanged. This is one identifier substitution in a theorem proof; every definition and theorem statement remains byte-identical to the pinned source.",
+    "nonproof_skeleton_sha256": "8429dcbb4c565256fcf46d8f2e8d5da00235a61b0dfa8de18063d27666816844",
+    "statement_and_definition_text_unchanged": true,
+    "source_sha256": "0a9d52611596b41a5928fc609ed54d6fe11619d4be19062f6588045c18b7e1ac",
+    "built_source_sha256": "96a1bde728e071515294b80594380ccc1d02399c15b7b460fe9bf8a24593b670",
+    "patch_sha256": "003329f205f8ae7c3e39b5aade276fa34f9ee030b424be9f19e769df541d2cc8"
+  },
+  "M131764": {
+    "notes": "Remove the two obsolete zero alternatives from tensor-product inductions. Mathlib v4.36.0 registers TensorProduct.inductionOn with only tmul and add cases; its zero case follows from tmul 0 0, so the existing pure-tensor and addition proofs cover the same proposition. One deletion is inside dualDer: its Derivation.mk' linear-map argument remains byte-identical, and only the Prop-valued Leibniz-law proof changes. Derivation.mk' retains that exact linear map as its data and derives only proof fields from the law, so proof irrelevance (or derivation extensionality) gives the same derivation. The other deletion is inside the proof of isCocomm_quot. All theorem statements, declared types, and nonproof definition data remain unchanged.",
+    "nonproof_skeleton_sha256": "8ec315ca335e88c1a47d573bc0f37f3aa9a3ef7cb3d35076cebfabac5f9c75c4",
+    "statement_and_definition_text_unchanged": false,
+    "source_sha256": "6e54cbb0fbd6e056155e66328795bcc7402538b658013da311e307cb5098d79f",
+    "built_source_sha256": "4418b89ba4a10bd7af44260e5d009f8b4a3ede46cfc8def2ddc74ce213279740",
+    "patch_sha256": "705c4923859625f24ac72ca0b8711ec2954a621aeb47245a3c3538bdf288812a",
+    "review_method": "exact_reviewed_line_deletions",
+    "reviewed_deletions": [
+      {
+        "original_line": 32,
+        "text": "      | zero => simp\n"
+      },
+      {
+        "original_line": 263,
+        "text": "  | zero => simp\n"
+      }
+    ],
+    "equivalence_note": "The dualDer data map and declared type remain byte-identical. Only the Prop-valued Leibniz-law proof passed to Derivation.mk' changes, so proof irrelevance preserves the derivation. TensorProduct.inductionOn now provides tmul and add cases and obtains zero from 0 tensor 0; deleting the obsolete zero alternatives preserves the theorem statements and definition data.",
+    "theorem_statement_text_unchanged": true,
+    "definition_and_instance_data_unchanged": true,
+    "patched_nonproof_skeleton_sha256": "909b326b06625ec2f8c891e6fdcb9a1ee136e18b9f88734576cc82dd4e0acdbd"
+  }
+}
