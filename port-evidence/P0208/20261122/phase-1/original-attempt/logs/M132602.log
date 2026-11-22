@@ -1,0 +1,10 @@
+Module: M132602 Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement
+This is a target-specific excerpt of ONE shared batch invocation, not an independent module invocation.
+Full command, warnings/errors and transcript: ../batch-build.log
+Shared transcript SHA-256: 71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1
+⚠ [18375/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement (146s)
+Shared batch exit code: 1
+Aggregate IsLattice audit exit code: None; full transcript: ../islattice-audit.log
+Target Built line observed: True; .olean exists: True
+Source/configuration integrity preserved: True; patch unchanged: True
+Module evidence successful: False

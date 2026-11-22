@@ -1,0 +1,13 @@
+Module: M130382 Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement
+Target excerpt from shared attempts, not an independent module invocation.
+Producing compilation attempt: original (retained)
+Full producing transcript: ../original-attempt/batch-build.log (SHA-256 71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1)
+⚠ [18384/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement (146s)
+Producing batch exit: 1
+The original batch failed elsewhere; retained object hashes are preserved.
+Successful checkpoint validation requests all 48 targets: ../batch-build.log (SHA-256 90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93)
+Build completed successfully (18425 jobs).
+Shared retry exit: 0
+Aggregate audit over all 48 targets exit: 0; ../islattice-audit.log
+Retained sources/objects and configuration preserved: True
+Module evidence successful: True

@@ -1,0 +1,55 @@
+Continuation of an initially fresh, SHA-256-verified pinned mirror build.
+Original failed attempt retained unchanged; 45 target outputs and 64 imports retained.
+Retry requested all 48 targets; fresh Built evidence required for 3 rebuilt targets.
+Command: elan run leanprover/lean4:v4.36.0 lake --no-ansi --no-cache build +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry:olean
+Toolchain: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release); Mathlib: fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+M130308 producer=original successful=True
+M130315 producer=retry successful=True
+M130338 producer=original successful=True
+M130356 producer=original successful=True
+M130366 producer=original successful=True
+M130382 producer=original successful=True
+M130443 producer=original successful=True
+M130458 producer=original successful=True
+M130720 producer=original successful=True
+M130746 producer=original successful=True
+M131100 producer=original successful=True
+M131172 producer=original successful=True
+M131186 producer=original successful=True
+M131193 producer=original successful=True
+M131210 producer=original successful=True
+M131213 producer=original successful=True
+M131214 producer=original successful=True
+M131255 producer=retry successful=True
+M131257 producer=original successful=True
+M131394 producer=original successful=True
+M131396 producer=original successful=True
+M131415 producer=original successful=True
+M131739 producer=original successful=True
+M131755 producer=original successful=True
+M131849 producer=original successful=True
+M131856 producer=original successful=True
+M131860 producer=original successful=True
+M131897 producer=original successful=True
+M132049 producer=original successful=True
+M132121 producer=original successful=True
+M132228 producer=original successful=True
+M132281 producer=original successful=True
+M132301 producer=original successful=True
+M132392 producer=original successful=True
+M132411 producer=original successful=True
+M132453 producer=original successful=True
+M132510 producer=original successful=True
+M132602 producer=original successful=True
+M132683 producer=original successful=True
+M132758 producer=original successful=True
+M132797 producer=original successful=True
+M132864 producer=original successful=True
+M132983 producer=original successful=True
+M132996 producer=retry successful=True
+M133005 producer=original successful=True
+M133020 producer=original successful=True
+M133031 producer=original successful=True
+M133247 producer=original successful=True
+Shared retry exit=0; sorry=False; aggregate audit exit=0
+DONE 48/48 successful

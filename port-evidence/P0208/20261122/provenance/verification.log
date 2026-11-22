@@ -1,0 +1,6 @@
+Command: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -B /workspace/scratch/e92c8f71c3ad/port-tools/verify_p0208_evidence.py --workspace /workspace/scratch/e92c8f71c3ad --phase1-only --phase1-evidence /workspace/scratch/e92c8f71c3ad/port-P0208-verified/evidence-repaired --patches /workspace/scratch/e92c8f71c3ad/port-candidate-patches
+PASS original failure provenance and repair: 45 retained targets, 3 freshly rebuilt targets
+PASS phase1: 48 target receipts/objects/logs, 112 verified project sources, exact 48-module audit
+PASS dependencies: 9 manifest-pinned pristine checkouts
+EVIDENCE_GATE_PASSED 48 targets
+Exit code: 0

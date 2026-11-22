@@ -1,0 +1,1908 @@
+{
+  "schema": "rh-port-mirror-selection-v1",
+  "packet": "P0208",
+  "created_utc": "2026-11-22T00:55:57.691679+00:00",
+  "accepted_commit": "5a067f8d23e12b7c98be83b12add05a724e8177a",
+  "pins": {
+    "lean": "leanprover/lean4:v4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+    "replay_pins_unchanged": {
+      "lean": "leanprover/lean4:v4.33.1",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  },
+  "source_base_url": "https://raw.githubusercontent.com/leanprover-community/riemann-hypothesis/8ec38f92ac54b5c91bc07f4f6f88ea61691b7975/src",
+  "source_method": "Pinned GitHub source mirror; each source verified against tracker/modules.jsonl.gz. No full archive extraction is claimed.",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "target_sha256": "ec4d744ba850213e73cf4f3e2079994fd2acdb9c2d7a96ed348f44cd782bf57f",
+  "selected": [
+    {
+      "id": "M130308",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement",
+      "source_sha256": "0ae7b451be0f225c9120cb1b33e45171b829fa0eb529d52c39b270bb24520343",
+      "imports": [
+        "M119750",
+        "M130307"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130315",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel",
+      "source_sha256": "d2246966c28be0da4adf4c3cccbc8c61330fe0d84aebe26782412de810de950b",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130338",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement",
+      "source_sha256": "4bed7989e8a7133f1ae0e15558bfccd76ea535eedc16f45ed6538731c3cfa66e",
+      "imports": [
+        "M119750",
+        "M130337"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130356",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom",
+      "source_sha256": "313f1712fd3bda142e88bce21d370ab79d3dd83669530d80215b27fb34d137c7",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130366",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber",
+      "source_sha256": "3709f29ad763614cfdedade28e3bca4037e0e8c638de11aec3055b6bdb9249ce",
+      "imports": [
+        "M119679",
+        "M119721",
+        "M119737"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130382",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement",
+      "source_sha256": "9649f5e3c663ba47d6d9e2543f5017b42d01fad98031d702798c3f0f986f5786",
+      "imports": [
+        "M130381"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130443",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection",
+      "source_sha256": "f82480f8d039beff6e7dfd6e1f00034ed8b2fcbad7919c65ff10daec3ef9dffa",
+      "imports": [
+        "M119655",
+        "M119672",
+        "M119679",
+        "M119721"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130458",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField",
+      "source_sha256": "a5acf493bcde9c7ec9b9b94bc59c289b54c906c4be2d0056e4f03b575b13e5c0",
+      "imports": [
+        "M173167"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130720",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement",
+      "source_sha256": "81884963817c6d49d79e9457e08e97abfe3f5f7f0c82461db6e90333afac0e3d",
+      "imports": [
+        "M130719"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130746",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement",
+      "source_sha256": "9c01cb35fa6f8e9b0a5fafa72dff426483ad616e4f41c5a6f1cfff165b6bdc90",
+      "imports": [
+        "M119750",
+        "M130745"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131100",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement",
+      "source_sha256": "96151f78c055d9588a8824e8579603c68f5feb86ae5dde7ca061ebe1a7d89bc1",
+      "imports": [
+        "M131099"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131172",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement",
+      "source_sha256": "b31eeb516a1c8a8d308e621e7d3370409e68b6db2d77649cbfeeb0cb89e743f1",
+      "imports": [
+        "M119750",
+        "M131171"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131186",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement",
+      "source_sha256": "ebb8439b988ec27527b19c03a40f32a188ce92e5973928c37231ece63c2fd789",
+      "imports": [
+        "M119750",
+        "M131185"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131193",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange",
+      "source_sha256": "044d23676a19118de408cac82b7f4db8e08107a4deae177fdd2f14f2d242efc7",
+      "imports": [
+        "M119655",
+        "M119672",
+        "M119679",
+        "M119721"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131210",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat",
+      "source_sha256": "afa4081a6bf82cfcc19fd6d2dd5d6266fb236ec162aaff859b542e865c5eff47",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131213",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt",
+      "source_sha256": "71dbcbf9c2ab2afa7e55df2d9b734c83da1c06c9b8f532e3f76be1205b651950",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131214",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk",
+      "source_sha256": "c534453a81f7ceeb2b1ec259a9c22f2ae0ff86eaf538ef79415827582b4989b8",
+      "imports": [
+        "M119709",
+        "M172691"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131255",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound",
+      "source_sha256": "e8622a7cc89a844576b92d98d8479d37f7a6b5d4b23ee83514718ade4c7d7e7f",
+      "imports": [
+        "M129539",
+        "M131250",
+        "M131254",
+        "M131522"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131257",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree",
+      "source_sha256": "8a808d210654445abae2faa1005cf8d2544192b1c85a5bcd436fa614f234f913",
+      "imports": [
+        "M006225"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131394",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct",
+      "source_sha256": "3689f2e6e42825038be4529f277bfbc8d4b964f95494ad17695f3351c44e8a34",
+      "imports": [
+        "M119770",
+        "M131414"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M131396",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement",
+      "source_sha256": "b216565b67f0f3e4396a5eceb7d85b8764418c5cf905853960fa8ba2137fa313",
+      "imports": [
+        "M119770",
+        "M131395"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M131415",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement",
+      "source_sha256": "88b0f94936d4c5e3268a3c90c362c63bfbef1deb73c9d760ff361ec4ef1ec80d",
+      "imports": [
+        "M119770",
+        "M131414"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131739",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement",
+      "source_sha256": "8f5ce3ebfe7a2c8311580ba7544161e12b0cec340142d8b1900dae4495f49cfd",
+      "imports": [
+        "M131738"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131755",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint",
+      "source_sha256": "952ebb8c36763c7a70311b9d639650084b7400c9750f640bb0a065b24f4da3ed",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131849",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization",
+      "source_sha256": "4c52a8a69a6d0a26d9f73cc036daf5c1cb6b7456f956918408b2a2c7d3edafef",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131856",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian",
+      "source_sha256": "f3e42264732514954409cb94cd79e650a764ca82635b2f4bccb907ad918432d5",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131860",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate",
+      "source_sha256": "7bd5d289d5d7c3719aab1c5020773a42776bde9ee4ecf45ff8a09590d48d5b55",
+      "imports": [
+        "M119655",
+        "M119672",
+        "M119679",
+        "M119721"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131897",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement",
+      "source_sha256": "3bc42330c16aa62b607dd4329c6aed21a2ce4553fc870bc4073a18e27e3d8592",
+      "imports": [
+        "M131896"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132049",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement",
+      "source_sha256": "5dc75373d52041f1bac767ebd4b50bbd22004a35895a61a015ed0d037d232782",
+      "imports": [
+        "M132048"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132121",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk",
+      "source_sha256": "0a7b42138db3ad8e3aabc4e57328ebf56fd525bfce456e3aa8009d6f8e397aee",
+      "imports": [
+        "M119709",
+        "M119741"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M132228",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement",
+      "source_sha256": "1bea8d55a260e219dd1050bb98e133eca42302d9064096033dc023a9e163e34a",
+      "imports": [
+        "M119721",
+        "M132227"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132281",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement",
+      "source_sha256": "2abbfb9a214e5f86efeb923a2b29f57d5fa5376da9cd6edaeb328eb6259bb8c0",
+      "imports": [
+        "M119721",
+        "M132280"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132301",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement",
+      "source_sha256": "11fec9ff69175dbcc3bb639c85f78a96d2762de3a47c4446456412912fab3b39",
+      "imports": [
+        "M132300"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132392",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom",
+      "source_sha256": "aedf6904aa1fafeaf39086f2978c6dc17972113b83b88f2bb7d5749938ac9705",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132411",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique",
+      "source_sha256": "5b22f4a829743b1e91897a693b8768f138ca06376e4ea6841d3e7bffb80ad359",
+      "imports": [
+        "M119709"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132453",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations",
+      "source_sha256": "daa4be2dd555c4674c2969021cbfd3d620642730298d6b1cea05759d48e5f943",
+      "imports": [
+        "M119709",
+        "M119741"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M132510",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement",
+      "source_sha256": "73cb985d39332bbb8dadb634b941ce4f61997da0faa6445963627c97b91bc160",
+      "imports": [
+        "M132509"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132602",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement",
+      "source_sha256": "e1702ee8b4ef4f2251ed286aee2835c45d4eb2c0d22a82613629d8e9ad8954a2",
+      "imports": [
+        "M132601"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132683",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement",
+      "source_sha256": "f7a47aea2294043ebf842fa186ac583386100a4b9506c961a6168cbfae629e5f",
+      "imports": [
+        "M119742",
+        "M132682"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132758",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement",
+      "source_sha256": "fc53c4dd507a3eddcaefe35d49bc2459805e78b84f5000e6014cf7aa9b5b08c7",
+      "imports": [
+        "M119742",
+        "M132757"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132797",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement",
+      "source_sha256": "03450e40e6b166570b7b8e6288877d61261595e9697aff54f1cc776406ab9684",
+      "imports": [
+        "M119742",
+        "M132796"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132864",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent",
+      "source_sha256": "5ada74b1773237ceb3cb96b73b144459ffde471de4defe2bfab2ea3b96963ed7",
+      "imports": [
+        "M132948"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132983",
+      "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports",
+      "source_sha256": "05822777ba0df5ce790f68c925d9a20373612f2b91dd3addd86e1117124ebfd0",
+      "imports": [
+        "M003617"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132996",
+      "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+      "source_sha256": "9a508fe55e9e6cc8f4e0a724b313fb5dd02487772710a374c71c418adee15c32",
+      "imports": [
+        "M003617"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M133005",
+      "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot",
+      "source_sha256": "0a2a4a305c7f9f94a61d28cdf42e1f9e05bdb3b70ee539e6ddcd7308b8131967",
+      "imports": [
+        "M119804",
+        "M119805"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M133020",
+      "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder",
+      "source_sha256": "99efed1a5125d4eb0f031ca1efdda19b770546aaf6a0c4d056cdc9ec92bf80d6",
+      "imports": [
+        "M003617"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M133031",
+      "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar",
+      "source_sha256": "abf384c98045f7dbffa641bfb986627f9de3802419e617822ec2b780840926d9",
+      "imports": [
+        "M003617"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M133247",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry",
+      "source_sha256": "c293a111edc58374481b946b87037f90c717d302c6e198e4d610adf899f8cf10",
+      "imports": [
+        "M119822",
+        "M171344"
+      ],
+      "depth": 2,
+      "packet": "P0208",
+      "state": "open",
+      "wave": []
+    }
+  ],
+  "imports": [
+    {
+      "id": "M003617",
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff",
+      "source_sha256": "84d6a67f87f505d4898e86709099a0a133a23c6b922c284084adb6ac63d9fc39",
+      "imports": [
+        "M004105"
+      ],
+      "depth": 1,
+      "packet": "P0095",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M004105",
+      "module": "Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace",
+      "source_sha256": "fa6c75518903c431a0ea7c7db484c717d52eb3d4ea6c43781953af865bb8e963",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0002",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M006184",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul",
+      "source_sha256": "e52eb2e81268396aeb8964b5e25e2ed3b0f6b88ad505c3adfa3f77066196718f",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0004",
+      "state": "assigned",
+      "wave": [
+        31
+      ]
+    },
+    {
+      "id": "M006225",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsBasisKaehlerOfAlgebraicIndependent",
+      "source_sha256": "cf2e5f1fde8287af232bcec2e6fb1f89d7ee2149eaf07b90f5501209fc979855",
+      "imports": [
+        "M006184"
+      ],
+      "depth": 1,
+      "packet": "P0098",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M010383",
+      "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixExpSmulMulEqMulExpSmulOfIntertwine",
+      "source_sha256": "3507014572208842819435a2b3d9326dacfa26a6808fe308154de8804365f921",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0006",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M027934",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOfValILeOne",
+      "source_sha256": "5008bd2070be189f05c896648cdff1c6c0a9dae837b65e38dac66db958612a5a",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0011",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M086138",
+      "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.TracePowerSumModEq",
+      "source_sha256": "154dee902282f01e58ea70c4f40e87e23f0d56810e78d6e2f1f3d255607cdd4c",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0038",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119655",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualOrder",
+      "source_sha256": "92fba579c03a8d711b01cdfe90f6d57427b9e00abead41daba4d11668660d7cd",
+      "imports": [
+        "M119679"
+      ],
+      "depth": 1,
+      "packet": "P0136",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119672",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.Models",
+      "source_sha256": "cec48562b70c8c3098a0f1c8a132d639ca527639737484b66a8c079a425710b7",
+      "imports": [
+        "M119679",
+        "M170081"
+      ],
+      "depth": 1,
+      "packet": "P0137",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119679",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder",
+      "source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0058",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119709",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+      "source_sha256": "481c1bb8264bf3fe5f7cd5b9e776d30b88aa41072e28224111097db166fd0d6e",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0137",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M119721",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+      "source_sha256": "e9ebc1eb609432367ee904bbed20e377d24a9ab1623e651be3f0b20d304fb32a",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M119737",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues",
+      "source_sha256": "dd93e007affdd2749f827b62dedfce4a6a2889f5c1063f824183d0f624923ce6",
+      "imports": [
+        "M119721",
+        "M119770"
+      ],
+      "depth": 1,
+      "packet": "P0137",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M119741",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InjectiveOfIsCptGen",
+      "source_sha256": "b4ca85b06fb6600f5e9a9f09db63fab3da8ad345d2484d314265c83fed482ea1",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0137",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M119742",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InstBorelGL",
+      "source_sha256": "16a87c38bdb696a44030a36208e125abe63ae923fce36be1c7a1f6da62482989",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119750",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+      "source_sha256": "368276f16ea1f2a352e0f18d965391a314af6ea58f0f1622b22446aabc3e77ef",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M119770",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+      "source_sha256": "6dd729b9c7e8bcfc5f1890b33a297fb34c251d8df7a62240b66e94164e1f6105",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M119804",
+      "module": "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.HasElemDiv",
+      "source_sha256": "adce264612c2401b15c807275810e1c97a9adbdc9fc02c7756c243ad8f350738",
+      "imports": [
+        "M004105"
+      ],
+      "depth": 1,
+      "packet": "P0137",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119805",
+      "module": "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.LaEqSqrtSmulLam",
+      "source_sha256": "afaaa1bf346b3b5431e28d8ad607a1c0e2603c99c2b35cce8ee4bcdf91a020df",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M119822",
+      "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne",
+      "source_sha256": "3d9e5a60191008331d74e684cbfc260f7471a97ee0a12734dafc2e90bb2b2178",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M120115",
+      "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ExistsAdaptedUnimodular",
+      "source_sha256": "fdcdc1ff9b74760f9ed9b9b1d636fcc622e531e8684704eafc9962ff515fbcdc",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0059",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M129538",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AdjoinInverseIsLocalizationAway",
+      "source_sha256": "7415e455eb49bcd50790ec510b7363c25315bf719f584ed62b732447fb9c18a3",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0062",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M129539",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AdjoinInverseIsLocalizationAwayStatement",
+      "source_sha256": "9f58e4496a1503c03594c2f22bd7d50ce6757af7137b32e99675ede4b9f801fb",
+      "imports": [
+        "M129538"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130307",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrime",
+      "source_sha256": "e0f709a30e80ce9fff4e90f1db38f2a28a5a39c4880b27aedcffb8b64d976832",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130337",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGeneric",
+      "source_sha256": "53e34090a48cc8b00184850536998a78792e3f2c5ee0d582e2e8f3a2cc42f518",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130381",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionField",
+      "source_sha256": "ea6cf54f71666657312f8f91da9007d57f62f5bfa3dc8f4eccfa0e37dc18a76d",
+      "imports": [
+        "M138584"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130719",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishing",
+      "source_sha256": "5c2c9d13e9b803f2a009656d9e869828219ca327e609c0dee7caccd1eb4b31cb",
+      "imports": [
+        "M138590"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M130745",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAt",
+      "source_sha256": "d1290c5993140c09708428640a9592bc548bc8f5c214bed1c78bce90a4208281",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131099",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphic",
+      "source_sha256": "150702e9e6c4abfdec2af1dcd4face62ad602a9e70f0bb5a742cc97feec41bba",
+      "imports": [
+        "M173924"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131171",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPt",
+      "source_sha256": "1cd4c525b011a9e14608848bd44120d910a0e3d0bfc867755ce32592525a529d",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131185",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGeneric",
+      "source_sha256": "8f5a037e6d6c2790fd7bb551e27866c1c7d396c59e59a976c9ad84d0c61b1d6a",
+      "imports": [
+        "M119750"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131249",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerBasisTower",
+      "source_sha256": "495563e4c1b45be34fb5635bef7710bf8a0ffefc9c5d12da68f71443be5e36c6",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0063",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131250",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerBasisTowerStatement",
+      "source_sha256": "a5fc3756b6fa9afb2b93ed553a79bd14baeec1f84deb166e71ebc0ea4009df31",
+      "imports": [
+        "M131249"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131253",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerFinrankFractionField",
+      "source_sha256": "687df5e2b9af947338dff2f72598ceca0b3db9498fbe53ce2bf11417f9748497",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0063",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131254",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerFinrankFractionFieldStatement",
+      "source_sha256": "2628ff7abb0b1f739bd1a4f23e6e02e9fa68f9fcd40828f300d8be2ee8cdc395",
+      "imports": [
+        "M131253"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131395",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquiv",
+      "source_sha256": "615063ccd94724044412e0c057a441c49a87b19f44b4c53aec439c0d140458ca",
+      "imports": [
+        "M119770"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M131414",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMap",
+      "source_sha256": "a893b091b1de9fef7c6a2b69ddb1e09e306b30c672eccd81c0e26ae87703180a",
+      "imports": [
+        "M119770"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "assigned",
+      "wave": [
+        27
+      ]
+    },
+    {
+      "id": "M131521",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalizationKaehlerPrimeIdeal",
+      "source_sha256": "07522dbd036b43f70798c4152b27de7a4d65f2f8668fe16e341f6fa3418c9961",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0063",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131522",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalizationKaehlerPrimeIdealStatement",
+      "source_sha256": "4fe2a1ff75e873dc736bdc91d431b3d0121992edfd55de5d740060ef795c197b",
+      "imports": [
+        "M131521"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131738",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegree",
+      "source_sha256": "3a40032011e483ec2c7df2213c4f0db6632f95ade5665f3bb516ac556cc533e7",
+      "imports": [
+        "M138027"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M131896",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLattice",
+      "source_sha256": "b063cc24eb642256f5ef7dbcfa23182b69f6369336c400a4b7d8d0b5ddcafe4c",
+      "imports": [
+        "M120115"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132048",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBound",
+      "source_sha256": "82ae9b1858c391bafdff4f266d5cb5d86de10ec97139981330a3c1eb9cd269ef",
+      "imports": [
+        "M134148"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132227",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersion",
+      "source_sha256": "a5c4d8ddff4cfbef443cbc69a09077e41e7b0641b8c6db76a28c270bdd70a982",
+      "imports": [
+        "M119721"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132280",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionField",
+      "source_sha256": "5f2cbe9d95f8d55ff2eb26ce05f57581afc70aec4fb59f90fb4fe910c8556b5f",
+      "imports": [
+        "M119721"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132300",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtension",
+      "source_sha256": "b5d501b21b8427ac08ddd09d6fd6dddb6d7892721d118831ee4d9fa9300368fb",
+      "imports": [
+        "M086138"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132509",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntries",
+      "source_sha256": "182bdfa56f551c2abd600a5ab3f9118a5b2691c66838b919ab2b6e843fe510fc",
+      "imports": [
+        "M010383"
+      ],
+      "depth": 1,
+      "packet": "P0142",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132601",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlane",
+      "source_sha256": "8a38becd966706ccfeaada0e91b86e7779a06f48367f64f38791b02999fa0203",
+      "imports": [
+        "M132603"
+      ],
+      "depth": 1,
+      "packet": "P0143",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132603",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaTendstoLogSubHarmonic",
+      "source_sha256": "45b897beaeba6856b67e6862361611be6f30055cdce63c64c58f68ebc3c99a48",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0063",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132682",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpen",
+      "source_sha256": "a3ab57064df74a6d1aded14dfc71ca2f271f4d8bb1de26ff934815764f45fa63",
+      "imports": [
+        "M119742"
+      ],
+      "depth": 1,
+      "packet": "P0143",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132757",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangular",
+      "source_sha256": "d092dfa91bdf2d0e43cf20d6557be85dee6e6e9d300ee00043350c0505add0bf",
+      "imports": [
+        "M027934",
+        "M119742"
+      ],
+      "depth": 1,
+      "packet": "P0143",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132796",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormProperties",
+      "source_sha256": "98348a2b4b066adf0d4432153860129a5af836283c21848ec61abd2284a57cb2",
+      "imports": [
+        "M119742"
+      ],
+      "depth": 1,
+      "packet": "P0143",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132947",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.TraceIdempotentNotDivisible",
+      "source_sha256": "a279e81ab5cd985ec3ba65ba5aa9a41e5b53ed75b063329d233dc948ec7b8f32",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0063",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M132948",
+      "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.TraceIdempotentNotDivisibleStatement",
+      "source_sha256": "2071d9804a66303eed5b875eaed473c94a2ea6105be6bcf4fbf7f7356462c1b2",
+      "imports": [
+        "M132947"
+      ],
+      "depth": 1,
+      "packet": "P0143",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M134148",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MulVecEqZeroOfPair",
+      "source_sha256": "469b93edb056586e6dbdde52b190ae3267e13431c796e95588f0b15143557b36",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0063",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M138027",
+      "module": "Development.WeilBound.CoreStatements.CommonZeroEvaluation.PolynomialFractionFieldDegree",
+      "source_sha256": "d3d06dfd9efc6f36127333ff0038fa65080224785a824e00922280ceec232b13",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0065",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M138584",
+      "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.ExtendsToFractionField",
+      "source_sha256": "c4e3a97d4e81bcc6265904e71da12a2b9813f46e9f141efe82ada001424ac250",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0065",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M138590",
+      "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.GermVanishesOfGenericVanishing",
+      "source_sha256": "ec187f7359b767a77c40479dd521687e92e0abe5c08fda4541287acf3588e9ac",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0065",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M170081",
+      "module": "GroundTheory.PAdicHodge.FiniteFlat",
+      "source_sha256": "bac14cd6376e5d022c39e9e98d7331683d72a55f6fdee5108728ffc6e76fe46a",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0086",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M171344",
+      "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.Osgood",
+      "source_sha256": "3e7cc00d1bd88c51edbf2894c57a8e426bb3a90475ae875a54b7b3b435b95871",
+      "imports": [
+        "M171345"
+      ],
+      "depth": 1,
+      "packet": "P0167",
+      "state": "assigned",
+      "wave": [
+        2,
+        13
+      ]
+    },
+    {
+      "id": "M171345",
+      "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.OsgoodA",
+      "source_sha256": "35acf63fd781a10e61b6edfd398e4c4685ca93953eb46fdc0e296e5675bc4aca",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0089",
+      "state": "assigned",
+      "wave": [
+        2,
+        13
+      ]
+    },
+    {
+      "id": "M172691",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens",
+      "source_sha256": "606e90ce0831aef4642c275ba0acef8f839611874a65358f34a49dd5dc7782de",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0091",
+      "state": "build-observed",
+      "wave": [
+        4,
+        5,
+        11,
+        14,
+        17,
+        18,
+        20,
+        22,
+        24,
+        27,
+        31
+      ]
+    },
+    {
+      "id": "M173167",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.BasisExtend",
+      "source_sha256": "4691d5cb29c44488a6c706ddf83051a8f36fc3b251cfbd100322baa77ad82f41",
+      "imports": [
+        "M173277"
+      ],
+      "depth": 1,
+      "packet": "P0169",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M173277",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LinearIndependentC",
+      "source_sha256": "43c3beb4188a38749963890b6c14f88d95ea9c49a3548f512a28a4d7509c9d76",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0091",
+      "state": "open",
+      "wave": []
+    },
+    {
+      "id": "M173924",
+      "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficients.CasChainA",
+      "source_sha256": "b717828fde2516803c3d8a88e009abdfd74c8c2c35876448e31e61cb77cd39ed",
+      "imports": [],
+      "depth": 0,
+      "packet": "P0092",
+      "state": "assigned",
+      "wave": [
+        21
+      ]
+    }
+  ],
+  "accepted_import_records": [
+    {
+      "id": "M003617",
+      "record_sha256": "8af2cdb801578ffbb8049ab5d4d61f9652bd096e1a6cba39d98f11ec12dd67ea",
+      "patch_sha256": null,
+      "built_source_sha256": "84d6a67f87f505d4898e86709099a0a133a23c6b922c284084adb6ac63d9fc39"
+    },
+    {
+      "id": "M004105",
+      "record_sha256": "8a587159934adb139132cade5ec9cf5053ef6abda6356cec8c0b434439967523",
+      "patch_sha256": null,
+      "built_source_sha256": "fa6c75518903c431a0ea7c7db484c717d52eb3d4ea6c43781953af865bb8e963"
+    },
+    {
+      "id": "M006184",
+      "record_sha256": "1ca75a2c7e4741cf0125d2cac446e87be0cd11f41b529f598e36cdb5bd154f1c",
+      "patch_sha256": "5d20d8715cf737103371827827603fb5359c85a4fb5d1e79ce44c7d115c46067",
+      "built_source_sha256": "35e1393cbabeb866cbc1ab54176975c004032f52c49165bcb85f5414656c6d85"
+    },
+    {
+      "id": "M006225",
+      "record_sha256": "5918acd252c762f431314c7611b6c25f7eb6eee21396b445a5f258316b9752ac",
+      "patch_sha256": null,
+      "built_source_sha256": "cf2e5f1fde8287af232bcec2e6fb1f89d7ee2149eaf07b90f5501209fc979855"
+    },
+    {
+      "id": "M010383",
+      "record_sha256": "14b7ce6ee47228e577f089036f9b35c7e742b8b7e46f0fadcb02aea8e94bf59c",
+      "patch_sha256": null,
+      "built_source_sha256": "3507014572208842819435a2b3d9326dacfa26a6808fe308154de8804365f921"
+    },
+    {
+      "id": "M027934",
+      "record_sha256": "a2890a8a1a71204898c1d7a329bd14ecf5e0648092897ef67eab231186a045a0",
+      "patch_sha256": null,
+      "built_source_sha256": "5008bd2070be189f05c896648cdff1c6c0a9dae837b65e38dac66db958612a5a"
+    },
+    {
+      "id": "M086138",
+      "record_sha256": "631441e4bd828c90e574a0b63c190b095a64a211e0d423107fddaf317177cff9",
+      "patch_sha256": null,
+      "built_source_sha256": "154dee902282f01e58ea70c4f40e87e23f0d56810e78d6e2f1f3d255607cdd4c"
+    },
+    {
+      "id": "M119655",
+      "record_sha256": "016f9161cc5a53508874ae65b6843ef441e4a8a8594c2d3cfffd9a304ef95e49",
+      "patch_sha256": null,
+      "built_source_sha256": "92fba579c03a8d711b01cdfe90f6d57427b9e00abead41daba4d11668660d7cd"
+    },
+    {
+      "id": "M119672",
+      "record_sha256": "d12a729ad067bdbe569e54fcecf58f31cd0921f6f1e20b551383ea127e5ae9d2",
+      "patch_sha256": null,
+      "built_source_sha256": "cec48562b70c8c3098a0f1c8a132d639ca527639737484b66a8c079a425710b7"
+    },
+    {
+      "id": "M119679",
+      "record_sha256": "14091243f3dae6b374817e0ac200bdb553fdc3767303f6adcf91aa5d2b802818",
+      "patch_sha256": null,
+      "built_source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd"
+    },
+    {
+      "id": "M119709",
+      "record_sha256": "425684ac713f7f882f28b197637aa196316b44d6fb01150d1a006e635067e656",
+      "patch_sha256": null,
+      "built_source_sha256": "481c1bb8264bf3fe5f7cd5b9e776d30b88aa41072e28224111097db166fd0d6e"
+    },
+    {
+      "id": "M119721",
+      "record_sha256": "48901520f1e8ac8de6d9094f60b1890237acac60654c72515380377667b7e69d",
+      "patch_sha256": null,
+      "built_source_sha256": "e9ebc1eb609432367ee904bbed20e377d24a9ab1623e651be3f0b20d304fb32a"
+    },
+    {
+      "id": "M119737",
+      "record_sha256": "c685a8118775d2d06ddc98aef149da191c6d9f09ed128b87c84fe5482ce34e45",
+      "patch_sha256": null,
+      "built_source_sha256": "dd93e007affdd2749f827b62dedfce4a6a2889f5c1063f824183d0f624923ce6"
+    },
+    {
+      "id": "M119741",
+      "record_sha256": "3970d25b2b033a61381be58309150b1289ae02942b57dfedfba97a40360ea69c",
+      "patch_sha256": null,
+      "built_source_sha256": "b4ca85b06fb6600f5e9a9f09db63fab3da8ad345d2484d314265c83fed482ea1"
+    },
+    {
+      "id": "M119742",
+      "record_sha256": "bacaf8c4de5290bc7758da183984153696c48989860173be168c5c295a377719",
+      "patch_sha256": null,
+      "built_source_sha256": "16a87c38bdb696a44030a36208e125abe63ae923fce36be1c7a1f6da62482989"
+    },
+    {
+      "id": "M119750",
+      "record_sha256": "1b7857f3791b6ccb2a733454eaa8758f97281e1cde341286f1444912fa2d0e5e",
+      "patch_sha256": null,
+      "built_source_sha256": "368276f16ea1f2a352e0f18d965391a314af6ea58f0f1622b22446aabc3e77ef"
+    },
+    {
+      "id": "M119770",
+      "record_sha256": "0fcda7464b2dade6ca57cb554befe8e19fa895ea1ad625d9076d17c1aaa3a7e8",
+      "patch_sha256": null,
+      "built_source_sha256": "6dd729b9c7e8bcfc5f1890b33a297fb34c251d8df7a62240b66e94164e1f6105"
+    },
+    {
+      "id": "M119804",
+      "record_sha256": "a2602c0fa08819167cb029a27331d773ff073d2856e6cdac6a4da7e94b04a41c",
+      "patch_sha256": null,
+      "built_source_sha256": "adce264612c2401b15c807275810e1c97a9adbdc9fc02c7756c243ad8f350738"
+    },
+    {
+      "id": "M119805",
+      "record_sha256": "47fc46b3d631114154a094e2136291974c247dda6bff3238330d4cbc89ab57ca",
+      "patch_sha256": "5e65ca3feaff9991eb8db65b38ddfa802b46205309b5a4dca94043190c57eb79",
+      "built_source_sha256": "93a7ff6b215c3224d492df0d8b183874e9284f5fee41f10834e7815a1ce42b6e"
+    },
+    {
+      "id": "M119822",
+      "record_sha256": "98e4832239ffb2eed422c6993a1bfa65e2bca4722b5e779f870678a380ea3a48",
+      "patch_sha256": null,
+      "built_source_sha256": "3d9e5a60191008331d74e684cbfc260f7471a97ee0a12734dafc2e90bb2b2178"
+    },
+    {
+      "id": "M120115",
+      "record_sha256": "3b48631332411ae393bc55a23a3a0a5ccc65d304fa4bf8c8d9ac37d1d8f6593e",
+      "patch_sha256": "61be4962a0997468b2503bf1077fde4a60662cfcd29497ec0dc37a7ed143a4f0",
+      "built_source_sha256": "46e7dfc4a431bacf68956a13b73560f33a40630eb02bb94604ed98a2d0b6f7f4"
+    },
+    {
+      "id": "M129538",
+      "record_sha256": "80310457ee1c590f272e2a7262a66359e905750eaa4c67f958a42c645d7c6ea2",
+      "patch_sha256": null,
+      "built_source_sha256": "7415e455eb49bcd50790ec510b7363c25315bf719f584ed62b732447fb9c18a3"
+    },
+    {
+      "id": "M129539",
+      "record_sha256": "bdb858e664db809a0e3f40ce12a2bc85344646f80c26a1a9d9507a5f25923e20",
+      "patch_sha256": null,
+      "built_source_sha256": "9f58e4496a1503c03594c2f22bd7d50ce6757af7137b32e99675ede4b9f801fb"
+    },
+    {
+      "id": "M130307",
+      "record_sha256": "e98b4dc37e95d6891b8f6de297ae46d8dee744f9760696ae75aaba319500af18",
+      "patch_sha256": null,
+      "built_source_sha256": "e0f709a30e80ce9fff4e90f1db38f2a28a5a39c4880b27aedcffb8b64d976832"
+    },
+    {
+      "id": "M130337",
+      "record_sha256": "36065df2ad9ef046e328330d0382564f6cb411dbbda657359b981225632a59aa",
+      "patch_sha256": null,
+      "built_source_sha256": "53e34090a48cc8b00184850536998a78792e3f2c5ee0d582e2e8f3a2cc42f518"
+    },
+    {
+      "id": "M130381",
+      "record_sha256": "633b5fc3ae6cc69c6139313e9d90e47e7960f1b38cf3492721237aba637c644a",
+      "patch_sha256": null,
+      "built_source_sha256": "ea6cf54f71666657312f8f91da9007d57f62f5bfa3dc8f4eccfa0e37dc18a76d"
+    },
+    {
+      "id": "M130719",
+      "record_sha256": "68623468fe1ec1d646875893f024a7e63bb7b04dba4968488063d21c87fec4f6",
+      "patch_sha256": null,
+      "built_source_sha256": "5c2c9d13e9b803f2a009656d9e869828219ca327e609c0dee7caccd1eb4b31cb"
+    },
+    {
+      "id": "M130745",
+      "record_sha256": "b95c4fa719498e313dd59b64b41f56df512bc8b1c01adfb663427261243e4ee2",
+      "patch_sha256": null,
+      "built_source_sha256": "d1290c5993140c09708428640a9592bc548bc8f5c214bed1c78bce90a4208281"
+    },
+    {
+      "id": "M131099",
+      "record_sha256": "daf309246da8f626220c18f27cdf5cdc67555369af0c938cb1bccf5f6e0abd18",
+      "patch_sha256": null,
+      "built_source_sha256": "150702e9e6c4abfdec2af1dcd4face62ad602a9e70f0bb5a742cc97feec41bba"
+    },
+    {
+      "id": "M131171",
+      "record_sha256": "cc49be4a17f522bc69837bda22b3ab20b4c69f9eff612741f813d560d239307d",
+      "patch_sha256": null,
+      "built_source_sha256": "1cd4c525b011a9e14608848bd44120d910a0e3d0bfc867755ce32592525a529d"
+    },
+    {
+      "id": "M131185",
+      "record_sha256": "c32a70014f41e275cf99f363de2d0d55b9ddb4de56a1c6a12162ab7397685d9c",
+      "patch_sha256": null,
+      "built_source_sha256": "8f5a037e6d6c2790fd7bb551e27866c1c7d396c59e59a976c9ad84d0c61b1d6a"
+    },
+    {
+      "id": "M131249",
+      "record_sha256": "52d03c1dd5d56a74240185a4ea5ab58a479cb8b228f49f133cbb6890fa9a7c97",
+      "patch_sha256": null,
+      "built_source_sha256": "495563e4c1b45be34fb5635bef7710bf8a0ffefc9c5d12da68f71443be5e36c6"
+    },
+    {
+      "id": "M131250",
+      "record_sha256": "4c2757e1286e26e6cbdfc0d4c6f109713c95d309255a206322bc700c088bcc7d",
+      "patch_sha256": null,
+      "built_source_sha256": "a5fc3756b6fa9afb2b93ed553a79bd14baeec1f84deb166e71ebc0ea4009df31"
+    },
+    {
+      "id": "M131253",
+      "record_sha256": "ad897ee03884a244d325b0e51a0933920852f8d366508542918648d9ba1cdf51",
+      "patch_sha256": null,
+      "built_source_sha256": "687df5e2b9af947338dff2f72598ceca0b3db9498fbe53ce2bf11417f9748497"
+    },
+    {
+      "id": "M131254",
+      "record_sha256": "7f77fe3b16f041c7c37b70d33599f227048277ac4dc2bd211b824ea09ec31921",
+      "patch_sha256": null,
+      "built_source_sha256": "2628ff7abb0b1f739bd1a4f23e6e02e9fa68f9fcd40828f300d8be2ee8cdc395"
+    },
+    {
+      "id": "M131395",
+      "record_sha256": "3ea091e134f6d891fe58202060e5faf9bccd1bb16694f6d4e5ae6ff176186562",
+      "patch_sha256": null,
+      "built_source_sha256": "615063ccd94724044412e0c057a441c49a87b19f44b4c53aec439c0d140458ca"
+    },
+    {
+      "id": "M131414",
+      "record_sha256": "fcd5eb39cbbe3b8865b2d9ceb95261ec6b178725f8b4e8638bf109ec44f4cc9c",
+      "patch_sha256": null,
+      "built_source_sha256": "a893b091b1de9fef7c6a2b69ddb1e09e306b30c672eccd81c0e26ae87703180a"
+    },
+    {
+      "id": "M131521",
+      "record_sha256": "62b68b7ee612912aeb99766bb23f357e70f2df8340304d9c2bdfa526a6dfb4fa",
+      "patch_sha256": null,
+      "built_source_sha256": "07522dbd036b43f70798c4152b27de7a4d65f2f8668fe16e341f6fa3418c9961"
+    },
+    {
+      "id": "M131522",
+      "record_sha256": "91cbd478dca0b1927059251cfc63cd12fde1f359ae74f915e5f84a2a5732a012",
+      "patch_sha256": null,
+      "built_source_sha256": "4fe2a1ff75e873dc736bdc91d431b3d0121992edfd55de5d740060ef795c197b"
+    },
+    {
+      "id": "M131738",
+      "record_sha256": "d61d2e1078727a53126689743f885b9957be156315b244cbe8b097fe01f35079",
+      "patch_sha256": null,
+      "built_source_sha256": "3a40032011e483ec2c7df2213c4f0db6632f95ade5665f3bb516ac556cc533e7"
+    },
+    {
+      "id": "M131896",
+      "record_sha256": "8a3a14fb365b8243a753f72e4dc834a00f74b042f4798230dd503afc1886f8ca",
+      "patch_sha256": "d0c9d46b8b33fddb58b2ede0955bd84307ec2d19241e97ffca3d14511f03c1b8",
+      "built_source_sha256": "6c5902d760b16f2d2989973ce0fec16dd65cc7be93176d6e12dd1dcad8ac6bf8"
+    },
+    {
+      "id": "M132048",
+      "record_sha256": "f12f978b4964c3c7ae2559e677b48624fb4b3bfa0df5db3c8731846cc908ac8a",
+      "patch_sha256": null,
+      "built_source_sha256": "82ae9b1858c391bafdff4f266d5cb5d86de10ec97139981330a3c1eb9cd269ef"
+    },
+    {
+      "id": "M132227",
+      "record_sha256": "76b9ec0447f0bcbf3153f9bdb07e14aef48f3cff4f01b048d4114c8d6b2a0b7d",
+      "patch_sha256": null,
+      "built_source_sha256": "a5c4d8ddff4cfbef443cbc69a09077e41e7b0641b8c6db76a28c270bdd70a982"
+    },
+    {
+      "id": "M132280",
+      "record_sha256": "17e1c7c117786489afe422ff07394db5d345b0349e36401c84288e7c899ba47d",
+      "patch_sha256": "b48b0d75fb332614070dada90f35ac951233fa9b99aed43f1076f222307f3dc0",
+      "built_source_sha256": "af159695b311a4c55d4630771e90bc24a8735ea63bb01505efb5f372d33691da"
+    },
+    {
+      "id": "M132300",
+      "record_sha256": "2db3c6b80d67075f4da3b69bb59ae5965a5b300afe08681f78cbc35615d072ae",
+      "patch_sha256": "e730bde9531235c8f5dc399a132860b62dca251b98c434c0d98c540d32e48b59",
+      "built_source_sha256": "5682b6808b757721b18af2dae48ba6c1737bf7ea61c8a4351b691ab119debd9e"
+    },
+    {
+      "id": "M132509",
+      "record_sha256": "d5c4b1fca4b6d32ed8d02f5a893bcfd197fef0e0b9ecd3adf4586faa2274d2ed",
+      "patch_sha256": null,
+      "built_source_sha256": "182bdfa56f551c2abd600a5ab3f9118a5b2691c66838b919ab2b6e843fe510fc"
+    },
+    {
+      "id": "M132601",
+      "record_sha256": "4b830e1b9ae8f2e19cc2343331b7d3fbfb369a74e5174a17edd0cace3be6ff69",
+      "patch_sha256": null,
+      "built_source_sha256": "8a38becd966706ccfeaada0e91b86e7779a06f48367f64f38791b02999fa0203"
+    },
+    {
+      "id": "M132603",
+      "record_sha256": "a5d8b31f7153c0aa0537f8f45c13057735cc3e5c6c6bae1de6d2f437418f9355",
+      "patch_sha256": "5abf461c95054404df9ca25cb10e48d310377835ebf83b012470ed70a2069908",
+      "built_source_sha256": "8d9fd4fd3e450c3ccbc698fbbb652b8b9e38053ae978782c8f45cc7fa6282cba"
+    },
+    {
+      "id": "M132682",
+      "record_sha256": "20b3f395d5a5bc9cd02c14373dd2f8c5357ed84fe9483d2772513be2e35c9392",
+      "patch_sha256": null,
+      "built_source_sha256": "a3ab57064df74a6d1aded14dfc71ca2f271f4d8bb1de26ff934815764f45fa63"
+    },
+    {
+      "id": "M132757",
+      "record_sha256": "0a83130a66b64a99dbf8e4519f857c36a0aeea3815f44ac2d38345cc0886de90",
+      "patch_sha256": null,
+      "built_source_sha256": "d092dfa91bdf2d0e43cf20d6557be85dee6e6e9d300ee00043350c0505add0bf"
+    },
+    {
+      "id": "M132796",
+      "record_sha256": "f304e5e6f1d57aa99148c579ac87de0b31f4d7d2f48272a6489b8578e1b11bbe",
+      "patch_sha256": null,
+      "built_source_sha256": "98348a2b4b066adf0d4432153860129a5af836283c21848ec61abd2284a57cb2"
+    },
+    {
+      "id": "M132947",
+      "record_sha256": "423805b67212b2114c299e1409c2b30ab7e880478a4fbb2992666cb8f5619793",
+      "patch_sha256": null,
+      "built_source_sha256": "a279e81ab5cd985ec3ba65ba5aa9a41e5b53ed75b063329d233dc948ec7b8f32"
+    },
+    {
+      "id": "M132948",
+      "record_sha256": "93ff180f184fe5dbea4ceff995eff572be422f551c0d19b42a152db737da5fae",
+      "patch_sha256": null,
+      "built_source_sha256": "2071d9804a66303eed5b875eaed473c94a2ea6105be6bcf4fbf7f7356462c1b2"
+    },
+    {
+      "id": "M134148",
+      "record_sha256": "a79786ed10bc305966a4ed7bfe936fecff88ba7fb4a12dfe6ef64e51349e2700",
+      "patch_sha256": "998822db5b23cfb3f74caa45442d995236de765db715976d5df16b92cbc200eb",
+      "built_source_sha256": "97a6365a3fb835ab58d78daa775b4a31c607353ebf9a715ebdd0c0820ba9b6c0"
+    },
+    {
+      "id": "M138027",
+      "record_sha256": "34c36eb91585543a52e9df92243c808b8bf02f2206ac506cae61da9f044b2809",
+      "patch_sha256": null,
+      "built_source_sha256": "d3d06dfd9efc6f36127333ff0038fa65080224785a824e00922280ceec232b13"
+    },
+    {
+      "id": "M138584",
+      "record_sha256": "e9dca4b9520a37c22b6e4b65843e42387540645fc98268f5f9bd5c93e6609a7a",
+      "patch_sha256": null,
+      "built_source_sha256": "c4e3a97d4e81bcc6265904e71da12a2b9813f46e9f141efe82ada001424ac250"
+    },
+    {
+      "id": "M138590",
+      "record_sha256": "81592584f61623f619c0f052473cbb97ac36754e34149c307ed19127178ccceb",
+      "patch_sha256": null,
+      "built_source_sha256": "ec187f7359b767a77c40479dd521687e92e0abe5c08fda4541287acf3588e9ac"
+    },
+    {
+      "id": "M170081",
+      "record_sha256": "76a99b85a421d67677587cf7aec738ad1b9b94ccf27e7bf443dbb60b3f7535af",
+      "patch_sha256": null,
+      "built_source_sha256": "bac14cd6376e5d022c39e9e98d7331683d72a55f6fdee5108728ffc6e76fe46a"
+    },
+    {
+      "id": "M171344",
+      "record_sha256": "f0ea08c8c78505e8a0dd0030fa3940f6980abfce22b296409c7f243fd1e008fe",
+      "patch_sha256": null,
+      "built_source_sha256": "3e7cc00d1bd88c51edbf2894c57a8e426bb3a90475ae875a54b7b3b435b95871"
+    },
+    {
+      "id": "M171345",
+      "record_sha256": "013161876899d8492d1205206daa83c45bc05ced603dcd2a7abcf2772ff33a23",
+      "patch_sha256": null,
+      "built_source_sha256": "35acf63fd781a10e61b6edfd398e4c4685ca93953eb46fdc0e296e5675bc4aca"
+    },
+    {
+      "id": "M172691",
+      "record_sha256": "c4178f51739456eb04885b98883a7bed7a650464d50d86c702e76e15ea8181ff",
+      "patch_sha256": null,
+      "built_source_sha256": "606e90ce0831aef4642c275ba0acef8f839611874a65358f34a49dd5dc7782de"
+    },
+    {
+      "id": "M173167",
+      "record_sha256": "028fa2ce3e0a5498db6ac40008c1328cd4fff8ed1a877d45b04bfbb480184451",
+      "patch_sha256": null,
+      "built_source_sha256": "4691d5cb29c44488a6c706ddf83051a8f36fc3b251cfbd100322baa77ad82f41"
+    },
+    {
+      "id": "M173277",
+      "record_sha256": "e92ee046cf315b05188a9a0784f265bf8ed42fb9415e3ef50600e96090faddfe",
+      "patch_sha256": "cbce3c78c787b1f6e838ee724898a9b610746c99b0eb277e0fd4eba1f96d5bb9",
+      "built_source_sha256": "0ba593e42d14faf0a73d985f7a662b1a8d80541aba9d947aac7294e337e55ace"
+    },
+    {
+      "id": "M173924",
+      "record_sha256": "052efde92603d05eb848dafce778b676fcc5051736f36f1aa413b3902c1d223f",
+      "patch_sha256": "783f99b7e657382a0bfe5efd0e13b17f6fd2040e78dd922a2eb6939ae5d27162",
+      "built_source_sha256": "5f2930629044c33e9170cd4958e021512af0e35bb23cadf6db7f6a3ae3aec79d"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M131597",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MulMemSqOfSmulEqZero",
+      "missing_imports": [
+        "M119671",
+        "M120428"
+      ]
+    },
+    {
+      "id": "M131764",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing",
+      "missing_imports": [
+        "M005021"
+      ]
+    },
+    {
+      "id": "M131872",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree",
+      "missing_imports": [
+        "M140454"
+      ]
+    },
+    {
+      "id": "M133286",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DenseCoordinateTorusStatement",
+      "missing_imports": [
+        "M133285"
+      ]
+    },
+    {
+      "id": "M133296",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.DoublingLimitLocalLogarithmStatement",
+      "missing_imports": [
+        "M133295"
+      ]
+    },
+    {
+      "id": "M133354",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsConstAddEquivOfRangeEq",
+      "missing_imports": [
+        "M134362"
+      ]
+    },
+    {
+      "id": "M133390",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ExistsHolomorphicNormalFrameStatement",
+      "missing_imports": [
+        "M133389"
+      ]
+    },
+    {
+      "id": "M133708",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.GapEqWeightSubNext",
+      "missing_imports": [
+        "M139479",
+        "M163509"
+      ]
+    },
+    {
+      "id": "M133750",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrincipleStatement",
+      "missing_imports": [
+        "M133749"
+      ]
+    },
+    {
+      "id": "M133896",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement",
+      "missing_imports": [
+        "M133895"
+      ]
+    },
+    {
+      "id": "M133979",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LocalLogarithmHomomorphismStatement",
+      "missing_imports": [
+        "M133978"
+      ]
+    },
+    {
+      "id": "M134003",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement",
+      "missing_imports": [
+        "M134002"
+      ]
+    },
+    {
+      "id": "M134040",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogSineMobiusTransform",
+      "missing_imports": [
+        "M139471"
+      ]
+    },
+    {
+      "id": "M134090",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MinorRatioRegularOfInverseStatement",
+      "missing_imports": [
+        "M134089"
+      ]
+    },
+    {
+      "id": "M134230",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.PolydiscPoissonSmoothStatement",
+      "missing_imports": [
+        "M134229"
+      ]
+    },
+    {
+      "id": "M134329",
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement",
+      "missing_imports": [
+        "M134328"
+      ]
+    }
+  ],
+  "pruned": [],
+  "already_ported": [],
+  "helper_sha256": {
+    "tracker/port.py": "6db393b476a855e66df4df452a88a9db3ca2af4054b3f4ec4b7d463399f292bb",
+    "tracker/port_build.py": "adc8fe5e60c6db51c13d8d6d01dcfb9d7f2228a83e77e9caf4c42f5891f7ea64",
+    "tracker/validate_ports.py": "5c5912ecd58ca37688e9f00a71cbb5125660e02ca2660e248d51c0358a235428",
+    "scripts/port-ci-build.py": "92b52a7ccaea6763de902eeb001089d4d44a14460402e38e1cd52498b7561086",
+    "port/islattice_audit.lean": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b"
+  },
+  "project_config": {
+    "lean-toolchain": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+    "lakefile.toml": "2ea72011439a7fbab1c0f836f9cf6b0c83a16c8adebb969ef68334bae52f3de3",
+    "lake-manifest.json": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df"
+  }
+}

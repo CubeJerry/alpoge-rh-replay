@@ -1,0 +1,43 @@
+{
+  "M130315": {
+    "notes": "Use Polynomial.coeff_monomial_apply in the seven pointwise coefficient rewrites: Mathlib v4.36.0 coeff_monomial now returns a Finsupp.single, whereas coeff_monomial_apply gives the same if-then-else coefficient formula required by the existing split_ifs/if_neg/if_pos steps. Rename AddSubmonoidClass.coe_finset_sum to AddSubmonoidClass.coe_finsetSum. These are eight identifier substitutions within proofs. All theorem statements, declared types, carrier predicates and polynomial data remain unchanged. In comp and coord, the underlying polynomial values are identical and only their Prop-valued membership witnesses change, so the subtype values are equal by proof irrelevance (Subtype.ext rfl). In gradedRing, only the mul_mem proof changes; all nonproof structure fields remain unchanged.",
+    "nonproof_skeleton_sha256": "b79cc690e44b9fa4bb42a6a2ce74be0a84517870c2e25293bd3785e9ddbc6d4b",
+    "statement_and_definition_text_unchanged": false,
+    "source_sha256": "d2246966c28be0da4adf4c3cccbc8c61330fe0d84aebe26782412de810de950b",
+    "built_source_sha256": "a76889d85a12c5f7dfc3918626393b9fc47d127c66a0782ecc174cd0030fc8fb",
+    "patch_sha256": "58c907b0f47c25352d4f8379230d9bd820713cdbe0196519ee3215c169e08b7b",
+    "review_method": "exact_reviewed_identifier_replacements",
+    "reviewed_replacements": [
+      {
+        "old": "Polynomial.coeff_monomial",
+        "new": "Polynomial.coeff_monomial_apply",
+        "count": 7
+      },
+      {
+        "old": "AddSubmonoidClass.coe_finset_sum",
+        "new": "AddSubmonoidClass.coe_finsetSum",
+        "count": 1
+      }
+    ],
+    "equivalence_note": "The polynomial data in comp and coord are byte-identical; only their subtype membership proofs change, so the resulting subtype values are equal by Subtype.ext rfl and proof irrelevance. In gradedRing, only the mul_mem proof field changes; all data and other instance fields remain byte-identical, so proof irrelevance preserves the instance.",
+    "theorem_statement_text_unchanged": true,
+    "definition_and_instance_data_unchanged": true,
+    "patched_nonproof_skeleton_sha256": "76e38c2e0bd39f5e1f4affd80e205045fe613382a20c36cd6844828bf6528532"
+  },
+  "M131255": {
+    "notes": "Replace the removed IsLocalization.comap_map_of_isPrime_disjoint with IsLocalization.under_map_of_isPrime_disjoint in the proof of local_step. The replacement accepts the same localization, prime-ideal and disjointness arguments. Its conclusion is definitionally identical to the existing hcomap goal because Ideal.under is an abbreviation for Ideal.comap along the algebra map. This is a proof-only lemma rename; every definition and theorem statement remains byte-identical to the pinned source.",
+    "nonproof_skeleton_sha256": "c3eb77341f79a224c2496d3bfffc8c9ca4c2e06d0be0178363cf8f2567936a78",
+    "statement_and_definition_text_unchanged": true,
+    "source_sha256": "e8622a7cc89a844576b92d98d8479d37f7a6b5d4b23ee83514718ade4c7d7e7f",
+    "built_source_sha256": "de5ce974d1c5fa91470d09c47bdfa0ca0d375d24e15354b71e6f2ace2db7a7a0",
+    "patch_sha256": "6899fe17f3bb22e5cdccdcbd0f95abba6afcf70d7828891f9e9253bbfcfd3e4c"
+  },
+  "M132996": {
+    "notes": "Update the named type argument H to X in the proof call to loc_compact_Haus_tot_disc_of_zero_dim. Mathlib v4.36.0 declares the type parameter as X and still returns the same clopen topological basis. This only changes argument binding inside the proof of exists_invariant_form; every definition and theorem statement remains byte-identical to the pinned source.",
+    "nonproof_skeleton_sha256": "15ac68d3aa38b6aa0ec23857d08154fdb816bd11192eb913f115daf1b07b4ce6",
+    "statement_and_definition_text_unchanged": true,
+    "source_sha256": "9a508fe55e9e6cc8f4e0a724b313fb5dd02487772710a374c71c418adee15c32",
+    "built_source_sha256": "90f65417e48f070b185d8dd77568a5fd8f4948dfd9010e72e256caf9d6ea4e45",
+    "patch_sha256": "bd678dd4c405060848f7d0a334746487628c7dfaebf1998d95aea8543b7e2696"
+  }
+}

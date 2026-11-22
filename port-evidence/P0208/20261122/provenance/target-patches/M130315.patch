@@ -1,0 +1,73 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsProperIntegralModel.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsProperIntegralModel.lean
+@@ -51,7 +51,7 @@
+ lemma coe_eq_monomial {n : ℕ} {f : rees o x} (hf : f ∈ grading o x n) :
+     (f : (Polynomial Ω)) = Polynomial.monomial n ((f : (Polynomial Ω)).coeff n) := by
+   ext i
+-  rw [Polynomial.coeff_monomial]
++  rw [Polynomial.coeff_monomial_apply]
+   split_ifs with h
+   · rw [h]
+   · exact hf i (Ne.symm h)
+@@ -59,14 +59,14 @@
+ def comp (i : ℕ) (f : rees o x) : grading o x i :=
+   ⟨⟨Polynomial.monomial i ((f : (Polynomial Ω)).coeff i), by
+       intro k
+-      rw [Polynomial.coeff_monomial]
++      rw [Polynomial.coeff_monomial_apply]
+       split_ifs with h
+       · rw [← h]
+         exact f.2 _
+       · exact Submodule.zero_mem _⟩, by
+     intro k hk
+     change (Polynomial.monomial i ((f : (Polynomial Ω)).coeff i)).coeff k = 0
+-    rw [Polynomial.coeff_monomial, if_neg (Ne.symm hk)]⟩
++    rw [Polynomial.coeff_monomial_apply, if_neg (Ne.symm hk)]⟩
+ 
+ lemma coeff_coeAddMonoidHom (y : DirectSum ℕ fun i => grading o x i) (n : ℕ) :
+     ((DirectSum.coeAddMonoidHom (grading o x) y : rees o x) : (Polynomial Ω)).coeff n =
+@@ -102,7 +102,7 @@
+     rw [map_sum]
+     refine Subtype.ext ?_
+     simp only [DirectSum.coeAddMonoidHom_of]
+-    rw [AddSubmonoidClass.coe_finset_sum]
++    rw [AddSubmonoidClass.coe_finsetSum]
+     exact (Polynomial.as_sum_support (f : (Polynomial Ω))).symm
+ 
+ instance gradedRing : GradedRing (grading o x) where
+@@ -114,7 +114,7 @@
+     intro i j a b ha hb k hk
+     change ((a : (Polynomial Ω)) * (b : (Polynomial Ω))).coeff k = 0
+     rw [coe_eq_monomial ha, coe_eq_monomial hb, Polynomial.monomial_mul_monomial,
+-      Polynomial.coeff_monomial, if_neg (Ne.symm hk)]
++      Polynomial.coeff_monomial_apply, if_neg (Ne.symm hk)]
+   decompose' := (Equiv.ofBijective _ bijective_coeAddMonoidHom).symm
+   left_inv := (Equiv.ofBijective _ bijective_coeAddMonoidHom).apply_symm_apply
+   right_inv := (Equiv.ofBijective _ bijective_coeAddMonoidHom).symm_apply_apply
+@@ -137,7 +137,7 @@
+ lemma ev_of_mem {n : ℕ} {f : rees o x} (hf : f ∈ grading o x n) :
+     ev f = (f : Polynomial Ω).coeff n := by
+   rw [ev_apply, coe_eq_monomial hf, Polynomial.eval_monomial, one_pow, mul_one,
+-    Polynomial.coeff_monomial, if_pos rfl]
++    Polynomial.coeff_monomial_apply, if_pos rfl]
+ 
+ lemma eq_zero_of_ev {n : ℕ} {f : rees o x} (hf : f ∈ grading o x n) (h : ev f = 0) : f = 0 := by
+   rw [ev_of_mem hf] at h
+@@ -148,7 +148,7 @@
+ def coord (c : κ) : rees o x :=
+   ⟨Polynomial.monomial 1 (x c), by
+     intro k
+-    rw [Polynomial.coeff_monomial]
++    rw [Polynomial.coeff_monomial_apply]
+     split_ifs with h
+     · subst h
+       rw [pow_one]
+@@ -158,7 +158,7 @@
+ lemma coord_mem (c : κ) : coord (o := o) (x := x) c ∈ grading o x 1 := by
+   intro i hi
+   change (Polynomial.monomial 1 (x c)).coeff i = 0
+-  rw [Polynomial.coeff_monomial, if_neg (Ne.symm hi)]
++  rw [Polynomial.coeff_monomial_apply, if_neg (Ne.symm hi)]
+ 
+ lemma ev_coord (c : κ) : ev (coord (o := o) (x := x) c) = x c := by
+   rw [ev_apply]

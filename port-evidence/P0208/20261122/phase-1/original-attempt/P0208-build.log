@@ -1,0 +1,53 @@
+Pinned GitHub source mirror; each source verified against tracker/modules.jsonl.gz. No full archive extraction is claimed.
+One shared fresh batch invocation; toolchain: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release); Mathlib: fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+LEAN_NUM_THREADS=4; command: elan run leanprover/lean4:v4.36.0 lake --no-ansi --no-cache build +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique:olean +Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement:olean +Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder:olean +Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar:olean +Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry:olean
+M130308 built_line=True successful=False
+M130315 built_line=False successful=False
+M130338 built_line=True successful=False
+M130356 built_line=True successful=False
+M130366 built_line=True successful=False
+M130382 built_line=True successful=False
+M130443 built_line=True successful=False
+M130458 built_line=True successful=False
+M130720 built_line=True successful=False
+M130746 built_line=True successful=False
+M131100 built_line=True successful=False
+M131172 built_line=True successful=False
+M131186 built_line=True successful=False
+M131193 built_line=True successful=False
+M131210 built_line=True successful=False
+M131213 built_line=True successful=False
+M131214 built_line=True successful=False
+M131255 built_line=False successful=False
+M131257 built_line=True successful=False
+M131394 built_line=True successful=False
+M131396 built_line=True successful=False
+M131415 built_line=True successful=False
+M131739 built_line=True successful=False
+M131755 built_line=True successful=False
+M131849 built_line=True successful=False
+M131856 built_line=True successful=False
+M131860 built_line=True successful=False
+M131897 built_line=True successful=False
+M132049 built_line=True successful=False
+M132121 built_line=True successful=False
+M132228 built_line=True successful=False
+M132281 built_line=True successful=False
+M132301 built_line=True successful=False
+M132392 built_line=True successful=False
+M132411 built_line=True successful=False
+M132453 built_line=True successful=False
+M132510 built_line=True successful=False
+M132602 built_line=True successful=False
+M132683 built_line=True successful=False
+M132758 built_line=True successful=False
+M132797 built_line=True successful=False
+M132864 built_line=True successful=False
+M132983 built_line=True successful=False
+M132996 built_line=False successful=False
+M133005 built_line=True successful=False
+M133020 built_line=True successful=False
+M133031 built_line=True successful=False
+M133247 built_line=True successful=False
+Shared batch exit=1; sorry=False; aggregate audit exit=None
+DONE 0/48 successful

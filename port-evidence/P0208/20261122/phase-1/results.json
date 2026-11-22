@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "M130308",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18409/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsPointLocalizationPrimeStatement (434s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "0ae7b451be0f225c9120cb1b33e45171b829fa0eb529d52c39b270bb24520343",
+    "built_source_sha256": "0ae7b451be0f225c9120cb1b33e45171b829fa0eb529d52c39b270bb24520343",
+    "patch_sha256": null,
+    "olean_sha256": "d0e7fa27f206da33cb8802717617fe351b84501527fa24688b9d2a17d8da1a92",
+    "log_sha256": "3d8711032453c06e1061475c2c3648d42fc2ae7bc61aba1d31eb1bf4eb168d70",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130315",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "retry",
+    "compilation_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "compilation_batch_exit_code": 0,
+    "built_lines": [
+      "⚠ [18425/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel (164s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "d2246966c28be0da4adf4c3cccbc8c61330fe0d84aebe26782412de810de950b",
+    "built_source_sha256": "a76889d85a12c5f7dfc3918626393b9fc47d127c66a0782ecc174cd0030fc8fb",
+    "patch_sha256": "58c907b0f47c25352d4f8379230d9bd820713cdbe0196519ee3215c169e08b7b",
+    "olean_sha256": "9a0606929323d8ffc1567dff6d70d7856380917f45af5705195e7bf60a51baff",
+    "log_sha256": "96472d75b60e2d33f631b6ec71238700537e8d02459ed6b19fd03125b440e00b",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130338",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18420/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsStalkFractionOfGenericStatement (295s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "4bed7989e8a7133f1ae0e15558bfccd76ea535eedc16f45ed6538731c3cfa66e",
+    "built_source_sha256": "4bed7989e8a7133f1ae0e15558bfccd76ea535eedc16f45ed6538731c3cfa66e",
+    "patch_sha256": null,
+    "olean_sha256": "ab0f71d4502fff701dcd5abfb569f4674eeb7ff7fd3471373a0b7ca70b411513",
+    "log_sha256": "9a2ccb0444dae63209228669a89dec938e4334ace481126799b2378122ea25c0",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130356",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18411/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueCentreLocalHom (295s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "313f1712fd3bda142e88bce21d370ab79d3dd83669530d80215b27fb34d137c7",
+    "built_source_sha256": "313f1712fd3bda142e88bce21d370ab79d3dd83669530d80215b27fb34d137c7",
+    "patch_sha256": null,
+    "olean_sha256": "977f5ada3760de4a50c756058219249b4c61808897d736061e7ce72e82048808",
+    "log_sha256": "5501ca5099c4c2fb46735d803f92deb9bad3d7c530cdbea5b9ed153dcfba37e2",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130366",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18406/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber (310s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "3709f29ad763614cfdedade28e3bca4037e0e8c638de11aec3055b6bdb9249ce",
+    "built_source_sha256": "3709f29ad763614cfdedade28e3bca4037e0e8c638de11aec3055b6bdb9249ce",
+    "patch_sha256": null,
+    "olean_sha256": "7368f757b4818143c13ecdac735283823f41a1be9f3773376e21181a422716fe",
+    "log_sha256": "23fbe60d6fe3525962640de8bd4c096defcf5f44e6ddccb03819019d89c77bc7",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130382",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18384/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement (146s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "9649f5e3c663ba47d6d9e2543f5017b42d01fad98031d702798c3f0f986f5786",
+    "built_source_sha256": "9649f5e3c663ba47d6d9e2543f5017b42d01fad98031d702798c3f0f986f5786",
+    "patch_sha256": null,
+    "olean_sha256": "2c2f85d29b4b35231f2f5ca9c5816759a7c2d7d0a61dc85a074562ea92943ad0",
+    "log_sha256": "e2ab968b5bb904687110f921d498c2a04445930f358e9d4809f5cec0a8808dcf",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130443",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18405/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinitePointExtendsSection (358s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "f82480f8d039beff6e7dfd6e1f00034ed8b2fcbad7919c65ff10daec3ef9dffa",
+    "built_source_sha256": "f82480f8d039beff6e7dfd6e1f00034ed8b2fcbad7919c65ff10daec3ef9dffa",
+    "patch_sha256": null,
+    "olean_sha256": "75f97e552d028f7d5a97559febce6fdb0fbdaae043914b39d6620d0e612c0193",
+    "log_sha256": "2152f8cf36c7ca7ddb590bfff58e31fcf567472932535a7685e2c58347e828b4",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130458",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18401/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.FinrankAdjoinVarsField (145s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "a5acf493bcde9c7ec9b9b94bc59c289b54c906c4be2d0056e4f03b575b13e5c0",
+    "built_source_sha256": "a5acf493bcde9c7ec9b9b94bc59c289b54c906c4be2d0056e4f03b575b13e5c0",
+    "patch_sha256": null,
+    "olean_sha256": "673ac5e125246c15501481964d4d31fb16c72843f8146d12e5d0edbb37c70252",
+    "log_sha256": "9077091078a0e75df567f38730560544f57e53282632fef73ddb2c77b6658f12",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130720",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18398/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenericVanishingStalkVanishingStatement (139s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "81884963817c6d49d79e9457e08e97abfe3f5f7f0c82461db6e90333afac0e3d",
+    "built_source_sha256": "81884963817c6d49d79e9457e08e97abfe3f5f7f0c82461db6e90333afac0e3d",
+    "patch_sha256": null,
+    "olean_sha256": "6d7fc29e79dc44cccf0f730eb11f5d4f40d36885f7011fb083f166b2967d375b",
+    "log_sha256": "682d324e48223be6442cfbdb2d8d3368ab998a2a6953a5fccc583689cd9d72f7",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M130746",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18421/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.GermGenPtInjectiveRangeRegAtStatement (250s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "9c01cb35fa6f8e9b0a5fafa72dff426483ad616e4f41c5a6f1cfff165b6bdc90",
+    "built_source_sha256": "9c01cb35fa6f8e9b0a5fafa72dff426483ad616e4f41c5a6f1cfff165b6bdc90",
+    "patch_sha256": null,
+    "olean_sha256": "cff7792d8cf62d8b71417d48de964563afcd14bf90e1e721ddf61e5f1e6c641c",
+    "log_sha256": "fef72bba0d6ab919093e5a5d54c0bdc34ea038623348055e3503eca9c1027e0b",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131100",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18396/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphicStatement (146s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "96151f78c055d9588a8824e8579603c68f5feb86ae5dde7ca061ebe1a7d89bc1",
+    "built_source_sha256": "96151f78c055d9588a8824e8579603c68f5feb86ae5dde7ca061ebe1a7d89bc1",
+    "patch_sha256": null,
+    "olean_sha256": "753c8c3fee769e4450c394c7d04f500146a7811d5fe1058df0d0351c850c47e8",
+    "log_sha256": "b528d7909bd8f21ba25b97f276a756a578114dd20a1a6c37c96fe82f021c5e8d",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131172",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18422/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsClopenSpecializationsGenPtStatement (249s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "b31eeb516a1c8a8d308e621e7d3370409e68b6db2d77649cbfeeb0cb89e743f1",
+    "built_source_sha256": "b31eeb516a1c8a8d308e621e7d3370409e68b6db2d77649cbfeeb0cb89e743f1",
+    "patch_sha256": null,
+    "olean_sha256": "7915116f3108fe5eae93269659e9cb2df164a21b203a66aa09100f79eb66883e",
+    "log_sha256": "b776c3753574b813a20ed7e48c8a12c17143da072c709e769bf58ccd22f1293e",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131186",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18423/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsCptGenResidueFieldGenericStatement (248s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "ebb8439b988ec27527b19c03a40f32a188ce92e5973928c37231ece63c2fd789",
+    "built_source_sha256": "ebb8439b988ec27527b19c03a40f32a188ce92e5973928c37231ece63c2fd789",
+    "patch_sha256": null,
+    "olean_sha256": "f3d15f3bfad5ddc1c5318a99afbe44edb18d42a3c6132d16256b51663bed98b8",
+    "log_sha256": "041ed06d4b92ad00269177b39bd29bb7848e91b7aea47182c3ee864b0930f2d2",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131193",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18403/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsFinOpenSubBaseChange (303s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "044d23676a19118de408cac82b7f4db8e08107a4deae177fdd2f14f2d242efc7",
+    "built_source_sha256": "044d23676a19118de408cac82b7f4db8e08107a4deae177fdd2f14f2d242efc7",
+    "patch_sha256": null,
+    "olean_sha256": "10e254628f8dbb7bd43a82147703319c0ecf7fdd6ea0752aa7bdb785af0fe499",
+    "log_sha256": "841515e1bc4d48e91f6a78503e9a9a7ab06020775ef18c52686eddea38fc49a7",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131210",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18410/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSncPatchRat (295s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "afa4081a6bf82cfcc19fd6d2dd5d6266fb236ec162aaff859b542e865c5eff47",
+    "built_source_sha256": "afa4081a6bf82cfcc19fd6d2dd5d6266fb236ec162aaff859b542e865c5eff47",
+    "patch_sha256": null,
+    "olean_sha256": "c211646d3a4c7e0d8333d5e0072194b654024fe6c87c9168cf3c5ca2a53253ad",
+    "log_sha256": "f63009b06373c1d8864e1e382e8753e4c6c089b728a23e66b0fabe0f6eaf5cdc",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131213",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18413/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitIffUnitAt (331s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "71dbcbf9c2ab2afa7e55df2d9b734c83da1c06c9b8f532e3f76be1205b651950",
+    "built_source_sha256": "71dbcbf9c2ab2afa7e55df2d9b734c83da1c06c9b8f532e3f76be1205b651950",
+    "patch_sha256": null,
+    "olean_sha256": "00271df0a6e345f1e447d3f01e10f37c41308931b43445154f7b394793152f5e",
+    "log_sha256": "2d699f1ad8e8bd00868afa06f1264f7c569b9525f641d0fe3622a9dd0f32093c",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131214",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18414/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsUnitNatCastStalk (300s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "c534453a81f7ceeb2b1ec259a9c22f2ae0ff86eaf538ef79415827582b4989b8",
+    "built_source_sha256": "c534453a81f7ceeb2b1ec259a9c22f2ae0ff86eaf538ef79415827582b4989b8",
+    "patch_sha256": null,
+    "olean_sha256": "95400ea64e79e1f0bb492aadf0ce5260587c0d905bb2b5f01952f4d026fdac70",
+    "log_sha256": "f0fbfb4c17f1e55f2a70d70918186673feb57ee4d129afa53879ca6e12700640",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131255",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "retry",
+    "compilation_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "compilation_batch_exit_code": 0,
+    "built_lines": [
+      "⚠ [18424/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankLocalizationBound (160s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "e8622a7cc89a844576b92d98d8479d37f7a6b5d4b23ee83514718ade4c7d7e7f",
+    "built_source_sha256": "de5ce974d1c5fa91470d09c47bdfa0ca0d375d24e15354b71e6f2ace2db7a7a0",
+    "patch_sha256": "6899fe17f3bb22e5cdccdcbd0f95abba6afcf70d7828891f9e9253bbfcfd3e4c",
+    "olean_sha256": "fa706ff731704d0dc9dd6cb1389a63f8e2d880ff7625f805b699573b17d5e828",
+    "log_sha256": "547f66e5d43084ca6d4bd7c0cd2273477c815260b6cfb5d5728712c19c435c41",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131257",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18397/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree (146s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "8a808d210654445abae2faa1005cf8d2544192b1c85a5bcd436fa614f234f913",
+    "built_source_sha256": "8a808d210654445abae2faa1005cf8d2544192b1c85a5bcd436fa614f234f913",
+    "patch_sha256": null,
+    "olean_sha256": "465d1799dd1f3f84d0ec6b188e2a58328e21dfe23d1f7b67e8c988f7aed5d486",
+    "log_sha256": "dd86bcd22f685d4a33117c661d3cdbc5763bef1e6f0173e3049ef9ffab13c8b6",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131394",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18400/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct (141s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "3689f2e6e42825038be4529f277bfbc8d4b964f95494ad17695f3351c44e8a34",
+    "built_source_sha256": "3689f2e6e42825038be4529f277bfbc8d4b964f95494ad17695f3351c44e8a34",
+    "patch_sha256": null,
+    "olean_sha256": "cece1c903b7a406a8a867a66bd86edc1e1f8fa0016bf3acc27eea7df82d5eee0",
+    "log_sha256": "168851c27f66f77baf49f417b5bb04941c94d59ffb3d6ae8323dad1cac6481dd",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131396",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18402/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement (271s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "b216565b67f0f3e4396a5eceb7d85b8764418c5cf905853960fa8ba2137fa313",
+    "built_source_sha256": "b216565b67f0f3e4396a5eceb7d85b8764418c5cf905853960fa8ba2137fa313",
+    "patch_sha256": null,
+    "olean_sha256": "2f0513a86c0d95f062f9ccb04bb96d42e24f90f7c7d3536e797741eb6ee0f241",
+    "log_sha256": "d014b63fb6827c23a070ad63113124058ee5396f880233277b580c6f99289423",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131415",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18399/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMapStatement (141s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "88b0f94936d4c5e3268a3c90c362c63bfbef1deb73c9d760ff361ec4ef1ec80d",
+    "built_source_sha256": "88b0f94936d4c5e3268a3c90c362c63bfbef1deb73c9d760ff361ec4ef1ec80d",
+    "patch_sha256": null,
+    "olean_sha256": "84eeb4ccb628593f810a080568447a5b6fe7e598f29ae9be73ededc2d8dbdd10",
+    "log_sha256": "a8d8fae4167b250f2beae1da31cd936f4fe136a72499941f3c462d80a4a40020",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131739",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18376/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PolynomialFieldExtensionDegreeStatement (135s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "8f5ce3ebfe7a2c8311580ba7544161e12b0cec340142d8b1900dae4495f49cfd",
+    "built_source_sha256": "8f5ce3ebfe7a2c8311580ba7544161e12b0cec340142d8b1900dae4495f49cfd",
+    "patch_sha256": null,
+    "olean_sha256": "f30a2d28e2ce47c99b1d6939e7918013140443052c19efaca0eff373ec839bad",
+    "log_sha256": "7ff3ef4f010e0eeb3e429373389edeefe294c2ecac1633ab63c03c8503d2af98",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131755",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18415/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint (300s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "952ebb8c36763c7a70311b9d639650084b7400c9750f640bb0a065b24f4da3ed",
+    "built_source_sha256": "952ebb8c36763c7a70311b9d639650084b7400c9750f640bb0a065b24f4da3ed",
+    "patch_sha256": null,
+    "olean_sha256": "16f6f4856807afa8b9990d4ee02333020f93cedb743bfa47258ac6d0a3d0e6b2",
+    "log_sha256": "99a3b02f8f269a778b842c79a63aa7bea0839b0101e4b86bfd279a3757112ad2",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131849",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18416/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIffChartLocalization (451s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "4c52a8a69a6d0a26d9f73cc036daf5c1cb6b7456f956918408b2a2c7d3edafef",
+    "built_source_sha256": "4c52a8a69a6d0a26d9f73cc036daf5c1cb6b7456f956918408b2a2c7d3edafef",
+    "patch_sha256": null,
+    "olean_sha256": "9d1b32ce9015a70e53e4079ed7b4d33bc9476883cee8fcb18cd378df33972d2e",
+    "log_sha256": "b1bbc5d653ada583fdca35bb2fd22497c8b005ad6aaf6061585aab85cfbeb7ac",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131856",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18418/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtNoetherianModelNoetherian (304s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "f3e42264732514954409cb94cd79e650a764ca82635b2f4bccb907ad918432d5",
+    "built_source_sha256": "f3e42264732514954409cb94cd79e650a764ca82635b2f4bccb907ad918432d5",
+    "patch_sha256": null,
+    "olean_sha256": "807a5319362df50cd7e7bdd298ed65fd4eb9f566361c7d4f828af9f36bd415fb",
+    "log_sha256": "ed404685c62c2d96af0af7499d2edece97fffb87719f4b81133ab168a38a37ba",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131860",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18404/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularAtTranslate (303s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "7bd5d289d5d7c3719aab1c5020773a42776bde9ee4ecf45ff8a09590d48d5b55",
+    "built_source_sha256": "7bd5d289d5d7c3719aab1c5020773a42776bde9ee4ecf45ff8a09590d48d5b55",
+    "patch_sha256": null,
+    "olean_sha256": "67bbe158562256f5e337c355e63f66fa5136734ece166f724381a8a029e83337",
+    "log_sha256": "37f5b5fb413b185b5d3aa4c7da2172ddce034745889df0c194e13c61bb2018cf",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M131897",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18377/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement (135s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "3bc42330c16aa62b607dd4329c6aed21a2ce4553fc870bc4073a18e27e3d8592",
+    "built_source_sha256": "3bc42330c16aa62b607dd4329c6aed21a2ce4553fc870bc4073a18e27e3d8592",
+    "patch_sha256": null,
+    "olean_sha256": "a74595abb1bfed71a0c27d3835f6c64c14e470bf1c5602775c6eb92080d9ee62",
+    "log_sha256": "82c5b549531ab79b27405d64f8e18264a35bf526fcb134226709d295ac9425dd",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132049",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18373/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.SiegelLimitImagBoundStatement (151s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "5dc75373d52041f1bac767ebd4b50bbd22004a35895a61a015ed0d037d232782",
+    "built_source_sha256": "5dc75373d52041f1bac767ebd4b50bbd22004a35895a61a015ed0d037d232782",
+    "patch_sha256": null,
+    "olean_sha256": "aa91883236ef648c3ad88b54a937c69baad9ad2ccd50e9a47437ddeb30a5aeee",
+    "log_sha256": "a1a9e3327a79dcdb56912c43dace0067875ce49bc31f87af5b4ff2e041fc7519",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132121",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18425/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk (177s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "0a7b42138db3ad8e3aabc4e57328ebf56fd525bfce456e3aa8009d6f8e397aee",
+    "built_source_sha256": "0a7b42138db3ad8e3aabc4e57328ebf56fd525bfce456e3aa8009d6f8e397aee",
+    "patch_sha256": null,
+    "olean_sha256": "593d6382591c9585277f82d4d5c7aac4ecb90f1b835700e1342b7b5810603d56",
+    "log_sha256": "931eb2080e9c62033c088396f797547b82b20eab5ac6da4c296ac77a7c65f6f2",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132228",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18407/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorsionLiftIsClosedImmersionStatement (272s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "1bea8d55a260e219dd1050bb98e133eca42302d9064096033dc023a9e163e34a",
+    "built_source_sha256": "1bea8d55a260e219dd1050bb98e133eca42302d9064096033dc023a9e163e34a",
+    "patch_sha256": null,
+    "olean_sha256": "2854f736c8765c5cfde609fc072630a653c047e7afa8d4dde9a4b3b644abb2bb",
+    "log_sha256": "6578399340023e85cc8cc72deb2202313c32b9c76bb683ad9364a7f20bcdb46f",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132281",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18408/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionFieldStatement (272s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "2abbfb9a214e5f86efeb923a2b29f57d5fa5376da9cd6edaeb328eb6259bb8c0",
+    "built_source_sha256": "2abbfb9a214e5f86efeb923a2b29f57d5fa5376da9cd6edaeb328eb6259bb8c0",
+    "patch_sha256": null,
+    "olean_sha256": "e392fa59d30bc0c3d1c09ab84fa2f903d46e5cb8177867d3c6ebafba5a539c4d",
+    "log_sha256": "4f10672b060e21d85947bc827026bbeb6187db0109ea309b353656e807d2cb0f",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132301",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18378/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtensionStatement (142s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "11fec9ff69175dbcc3bb639c85f78a96d2762de3a47c4446456412912fab3b39",
+    "built_source_sha256": "11fec9ff69175dbcc3bb639c85f78a96d2762de3a47c4446456412912fab3b39",
+    "patch_sha256": null,
+    "olean_sha256": "b0452ef0b199201c2b74506b06e1008d47f660865d7b4226d62807d1f3a3eea7",
+    "log_sha256": "eb40e627e20f05681a06659710bbf85386e1447fa8648d76b091baacd6503ce6",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132392",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18417/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValAtCompLocalHom (259s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "aedf6904aa1fafeaf39086f2978c6dc17972113b83b88f2bb7d5749938ac9705",
+    "built_source_sha256": "aedf6904aa1fafeaf39086f2978c6dc17972113b83b88f2bb7d5749938ac9705",
+    "patch_sha256": null,
+    "olean_sha256": "1008a754a2d315033149f5cb3de8ee6f59904b454f43bc69e7c817b625d0e596",
+    "log_sha256": "b40fe9f4af96fff6bc3cdb135e76cfbc0af89d9ab194547a3978887350c837c2",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132411",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18419/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ValuativeLiftExistsUnique (260s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "5b22f4a829743b1e91897a693b8768f138ca06376e4ea6841d3e7bffb80ad359",
+    "built_source_sha256": "5b22f4a829743b1e91897a693b8768f138ca06376e4ea6841d3e7bffb80ad359",
+    "patch_sha256": null,
+    "olean_sha256": "8ed2220de02bca9549ca1da0bd43028e959156bc17380bcf85d525746624e871",
+    "log_sha256": "fe363ace30f68c91b6d3ae6fdc73ed6677feafa89daceab741e6a5dcaa4696b2",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132453",
+    "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18424/18425] Built Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations (188s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "daa4be2dd555c4674c2969021cbfd3d620642730298d6b1cea05759d48e5f943",
+    "built_source_sha256": "daa4be2dd555c4674c2969021cbfd3d620642730298d6b1cea05759d48e5f943",
+    "patch_sha256": null,
+    "olean_sha256": "635e5576b75378e7b2169fe7f47f523920b9d140b965ab1927cd8fdb9f0b21ba",
+    "log_sha256": "350f021833a0b10695ca070cfc9dcac7a23c8ae4be58df12e3e7eb1f9e22a74d",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132510",
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18374/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.BlockBasisChangeEntriesStatement (153s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "73cb985d39332bbb8dadb634b941ce4f61997da0faa6445963627c97b91bc160",
+    "built_source_sha256": "73cb985d39332bbb8dadb634b941ce4f61997da0faa6445963627c97b91bc160",
+    "patch_sha256": null,
+    "olean_sha256": "6874de2880a4412f46ead95dba5e9c97f3a354b53704aab3b572839853649339",
+    "log_sha256": "a0c4b757e45b3bf000b04208a090eb43fa8e63c09666638d7870609a7f55fa26",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132602",
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18375/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaLogBoundRightHalfPlaneStatement (146s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "e1702ee8b4ef4f2251ed286aee2835c45d4eb2c0d22a82613629d8e9ad8954a2",
+    "built_source_sha256": "e1702ee8b4ef4f2251ed286aee2835c45d4eb2c0d22a82613629d8e9ad8954a2",
+    "patch_sha256": null,
+    "olean_sha256": "939bd5483ee7ae7ef4f4e2b390ebf619b3c410a0b1bf7e258cbd95b2f662ddb8",
+    "log_sha256": "9391889c3bb00d1bff4007df8df4f9baa8857bb73abb47368e90cb01a3021af1",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132683",
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18371/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement (191s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "f7a47aea2294043ebf842fa186ac583386100a4b9506c961a6168cbfae629e5f",
+    "built_source_sha256": "f7a47aea2294043ebf842fa186ac583386100a4b9506c961a6168cbfae629e5f",
+    "patch_sha256": null,
+    "olean_sha256": "88216db70c41a0659144203113ec4bfd54b5d52cdb8b64647918176934a337ff",
+    "log_sha256": "df65fec0e511f9da45156f6bdcd18a4a201af48d604c1ba691817f39424184ac",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132758",
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18369/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.IwasawaDecompositionUpperTriangularStatement (173s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "fc53c4dd507a3eddcaefe35d49bc2459805e78b84f5000e6014cf7aa9b5b08c7",
+    "built_source_sha256": "fc53c4dd507a3eddcaefe35d49bc2459805e78b84f5000e6014cf7aa9b5b08c7",
+    "patch_sha256": null,
+    "olean_sha256": "0a5d3d297b09499d4a8cdb54f0d9b2311c23e6e06e3352b1c2a8c8130db165bc",
+    "log_sha256": "e4ea222780f0a6837c82bf452a01c4590b06be13d18575cf1890f3ed19bc1b90",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132797",
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18372/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldUniformizerNormPropertiesStatement (158s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "03450e40e6b166570b7b8e6288877d61261595e9697aff54f1cc776406ab9684",
+    "built_source_sha256": "03450e40e6b166570b7b8e6288877d61261595e9697aff54f1cc776406ab9684",
+    "patch_sha256": null,
+    "olean_sha256": "092c8ed2651f34e4b3b9ec6d4566450b1f59b3d2ac9533fdb49db8c32f75f5a6",
+    "log_sha256": "da6874d49bd39fa3081fa6f4ef705952d7b58a703715ef0d1e73eb5c7943ab54",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132864",
+    "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18370/18425] Built Development.AutomorphicSpectrum.Proofs.GlobalProofs.PrimePowerNotDvdDifferent (179s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "5ada74b1773237ceb3cb96b73b144459ffde471de4defe2bfab2ea3b96963ed7",
+    "built_source_sha256": "5ada74b1773237ceb3cb96b73b144459ffde471de4defe2bfab2ea3b96963ed7",
+    "patch_sha256": null,
+    "olean_sha256": "9ce884ea51119a6cf3be78d6137251a22075ec5c465d833f4b4e42b31845d978",
+    "log_sha256": "e97850c49370612f0076e9e4088d5e2aca87397064596817459880c5c383a1f7",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132983",
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18365/18425] Built Development.AutomorphicSpectrum.Proofs.MembershipProofs.AdelicCharacterRationalDualImports (158s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "05822777ba0df5ce790f68c925d9a20373612f2b91dd3addd86e1117124ebfd0",
+    "built_source_sha256": "05822777ba0df5ce790f68c925d9a20373612f2b91dd3addd86e1117124ebfd0",
+    "patch_sha256": null,
+    "olean_sha256": "d59acadd74f5b487e14e979669edfcc7ab546c3d1e943ea698cf86c3f0f75596",
+    "log_sha256": "d3096302f8bf37d3f3e9c472db0e64e924979d563ebd4202f8d0a2138318aa7a",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M132996",
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "retry",
+    "compilation_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "compilation_batch_exit_code": 0,
+    "built_lines": [
+      "⚠ [18423/18425] Built Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm (160s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "9a508fe55e9e6cc8f4e0a724b313fb5dd02487772710a374c71c418adee15c32",
+    "built_source_sha256": "90f65417e48f070b185d8dd77568a5fd8f4948dfd9010e72e256caf9d6ea4e45",
+    "patch_sha256": "bd678dd4c405060848f7d0a334746487628c7dfaebf1998d95aea8543b7e2696",
+    "olean_sha256": "f73b8a93e75954111343573614c57876b2c0764a0b8230c0a672db0fcde10e7d",
+    "log_sha256": "a99bea35aea14abd7abe22223f5298762887afe023c4728b52895068d1036928",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M133005",
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18362/18425] Built Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot (178s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "0a2a4a305c7f9f94a61d28cdf42e1f9e05bdb3b70ee539e6ddcd7308b8131967",
+    "built_source_sha256": "0a2a4a305c7f9f94a61d28cdf42e1f9e05bdb3b70ee539e6ddcd7308b8131967",
+    "patch_sha256": null,
+    "olean_sha256": "67d7a92a9725895bdfcf8cf8c791005f1ce20e625cdbf6ef37591ca159f94f64",
+    "log_sha256": "0945300240dd40f66dac5859723cafe9968a9a72a7c56a619c451019a216ca46",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M133020",
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18366/18425] Built Development.AutomorphicSpectrum.Proofs.MembershipProofs.SplitQuadraticAlgebraOrder (162s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "99efed1a5125d4eb0f031ca1efdda19b770546aaf6a0c4d056cdc9ec92bf80d6",
+    "built_source_sha256": "99efed1a5125d4eb0f031ca1efdda19b770546aaf6a0c4d056cdc9ec92bf80d6",
+    "patch_sha256": null,
+    "olean_sha256": "e54b5856f64ec30d9c68bac00b0274a6aeb911e709729b4042d44718b9707075",
+    "log_sha256": "12a0c9116f38390ad8bd43913d94bc43ec39558d15ced96e0f00237b8e016d3d",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M133031",
+    "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18368/18425] Built Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumStarAndSchAStar (191s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "abf384c98045f7dbffa641bfb986627f9de3802419e617822ec2b780840926d9",
+    "built_source_sha256": "abf384c98045f7dbffa641bfb986627f9de3802419e617822ec2b780840926d9",
+    "patch_sha256": null,
+    "olean_sha256": "269f210c109a594bec8eca9362db1858466638a31e53906e1f67110a4b0715df",
+    "log_sha256": "35bf4dec8190d1297b53610d08a96b20dfbd2c682a6591ba61e597b07289f1e8",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  },
+  {
+    "id": "M133247",
+    "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry",
+    "successful": true,
+    "build_mode": "shared_repaired_batch",
+    "compilation_attempt": "original",
+    "compilation_log_sha256": "71013d8248af38f63fdaa0ca25a2edbbe6495bf36cdc50c42f3cceaf8e0f80e1",
+    "compilation_batch_exit_code": 1,
+    "built_lines": [
+      "⚠ [18364/18425] Built Development.AutomorphicSpectrum.Proofs.MetricProofs.ContDiffAtFrameEntry (167s)"
+    ],
+    "shared_build_exit_code": 0,
+    "shared_log_sha256": "90244cf2a5c33dbf9a9bf2177576a849419095165708057249832f3b08b30c93",
+    "source_sha256": "c293a111edc58374481b946b87037f90c717d302c6e198e4d610adf899f8cf10",
+    "built_source_sha256": "c293a111edc58374481b946b87037f90c717d302c6e198e4d610adf899f8cf10",
+    "patch_sha256": null,
+    "olean_sha256": "d3ae4f7647ff968636ceb36e6baf764669a0781c4374ac3b930c473cfcf4b146",
+    "log_sha256": "90e3ed115f9f3d0af7d86de3065d8dcce517b42abed2d9e97d26922045d027c9",
+    "source_changed_during_build": false,
+    "patch_changed_during_build": false,
+    "sorry_diagnostic": false,
+    "reused_names": [],
+    "islattice_audit": {
+      "scope": "all 48 selected modules together",
+      "exit_code": 0,
+      "successful": true,
+      "log_sha256": "421e33a5542ebe1cb73028429a66226b1140057f9093222172e8628a9f02061a"
+    }
+  }
+]
