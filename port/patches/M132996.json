@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+  "source_sha256": "9a508fe55e9e6cc8f4e0a724b313fb5dd02487772710a374c71c418adee15c32",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update the named type argument H to X in the proof call to loc_compact_Haus_tot_disc_of_zero_dim. Mathlib v4.36.0 declares the type parameter as X and still returns the same clopen topological basis. This only changes argument binding inside the proof of exists_invariant_form; every definition and theorem statement remains byte-identical to the pinned source.",
+  "evidence": "https://raw.githubusercontent.com/CubeJerry/alpoge-rh-replay/3a07fd19987816912721a91527fde35a4303d6f9/port-evidence/P0208/20261122/phase-1/P0208-receipt.json"
+}

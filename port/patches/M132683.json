@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.GeneralLinearIntegralCompactOpenStatement",
+  "source_sha256": "f7a47aea2294043ebf842fa186ac583386100a4b9506c961a6168cbfae629e5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://raw.githubusercontent.com/CubeJerry/alpoge-rh-replay/3a07fd19987816912721a91527fde35a4303d6f9/port-evidence/P0208/20261122/phase-1/P0208-receipt.json"
+}

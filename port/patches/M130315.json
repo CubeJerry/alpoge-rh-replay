@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsProperIntegralModel",
+  "source_sha256": "d2246966c28be0da4adf4c3cccbc8c61330fe0d84aebe26782412de810de950b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Polynomial.coeff_monomial_apply in the seven pointwise coefficient rewrites: Mathlib v4.36.0 coeff_monomial now returns a Finsupp.single, whereas coeff_monomial_apply gives the same if-then-else coefficient formula required by the existing split_ifs/if_neg/if_pos steps. Rename AddSubmonoidClass.coe_finset_sum to AddSubmonoidClass.coe_finsetSum. These are eight identifier substitutions within proofs. All theorem statements, declared types, carrier predicates and polynomial data remain unchanged. In comp and coord, the underlying polynomial values are identical and only their Prop-valued membership witnesses change, so the subtype values are equal by proof irrelevance (Subtype.ext rfl). In gradedRing, only the mul_mem proof changes; all nonproof structure fields remain unchanged.",
+  "evidence": "https://raw.githubusercontent.com/CubeJerry/alpoge-rh-replay/3a07fd19987816912721a91527fde35a4303d6f9/port-evidence/P0208/20261122/phase-1/P0208-receipt.json"
+}

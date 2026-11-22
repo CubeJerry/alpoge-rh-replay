@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueEquivStatement",
+  "source_sha256": "b216565b67f0f3e4396a5eceb7d85b8764418c5cf905853960fa8ba2137fa313",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://raw.githubusercontent.com/CubeJerry/alpoge-rh-replay/3a07fd19987816912721a91527fde35a4303d6f9/port-evidence/P0208/20261122/phase-1/P0208-receipt.json"
+}

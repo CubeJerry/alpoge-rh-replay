@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimitiveDerivationPairing",
+  "source_sha256": "6e54cbb0fbd6e056155e66328795bcc7402538b658013da311e307cb5098d79f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the two obsolete zero alternatives from tensor-product inductions. Mathlib v4.36.0 registers TensorProduct.inductionOn with only tmul and add cases; its zero case follows from tmul 0 0, so the existing pure-tensor and addition proofs cover the same proposition. One deletion is inside dualDer: its Derivation.mk' linear-map argument remains byte-identical, and only the Prop-valued Leibniz-law proof changes. Derivation.mk' retains that exact linear map as its data and derives only proof fields from the law, so proof irrelevance (or derivation extensionality) gives the same derivation. The other deletion is inside the proof of isCocomm_quot. All theorem statements, declared types, and nonproof definition data remain unchanged.",
+  "evidence": "https://raw.githubusercontent.com/CubeJerry/alpoge-rh-replay/3a07fd19987816912721a91527fde35a4303d6f9/port-evidence/P0208/20261122/phase-2/P0208-extension-receipt.json"
+}
