@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022374 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLeStatement` | volunteer-build-reviewed |
 | M022375 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSeminormBallLePowMulSmaller` | volunteer-build-reviewed |
 | M022378 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSeminormBallMulLeConvexityStatement` | volunteer-build-reviewed |
 | M022380 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSeminormBallPowLeRadiusChangeStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M022985 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocycles` | wave-reused |
 | M022986 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocyclesStatement` | wave-reused |
 | M022987 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyStalkLocalClasses` | build-observed |
-| M022988 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyStalkLocalClassesStatement` | build-observed |

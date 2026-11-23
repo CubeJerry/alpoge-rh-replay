@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021083 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetFactorDepthInChartIndependentClosedField` | build-observed |
 | M021086 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetFlagTangentConjugateMatrixChangeEqOneStatement` | volunteer-build-reviewed |
 | M021088 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetFrameChangeBalancedTensorsCmTypeStatement` | volunteer-build-reviewed |
 | M021089 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetGNeZero` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M021712 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleCompatibleStatement` | volunteer-build-reviewed |
 | M021713 | P2695 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleFirst` | volunteer-build-reviewed |
 | M021715 | P2714 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleSecond` | volunteer-build-reviewed |
-| M021718 | P2611 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerUnramifiedStatement` | volunteer-build-reviewed |

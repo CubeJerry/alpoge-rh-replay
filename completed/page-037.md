@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024873 | P2840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionTargetGenericCorrespondenceStatement` | volunteer-build-reviewed |
 | M024874 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrFactorPointPadicAlgClosure` | volunteer-build-reviewed |
 | M024875 | P2508 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrFactorPointPadicAlgClosureStatement` | volunteer-build-reviewed |
 | M024876 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrLiftOfGeometricPoint` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M025410 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePlaceVacuumAnyDarbouxCoordinatesStatement` | volunteer-build-reviewed |
 | M025411 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePlaceVacuumOfHeisenbergLattice` | volunteer-build-reviewed |
 | M025412 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePlaceVacuumOfHeisenbergLatticeStatement` | volunteer-build-reviewed |
-| M025415 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePointsRegularDivAffineOpen` | volunteer-build-reviewed |

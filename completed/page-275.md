@@ -1,0 +1,57 @@
+# Completed parts
+
+| Part ID | Packet | Module | Evidence |
+|---|---|---|---|
+| M175132 | P0345 | `ReciprocityTheory.SemistableReduction.SemiDegF` | wave-reused |
+| M175133 | P0391 | `ReciprocityTheory.SemistableReduction.SemiDegG` | wave-reused |
+| M175134 | P0514 | `ReciprocityTheory.SemistableReduction.SemiDegH` | wave-reused |
+| M175135 | P0548 | `ReciprocityTheory.SemistableReduction.SemiDegI` | wave-reused |
+| M175136 | P0581 | `ReciprocityTheory.SemistableReduction.SemiDegM` | wave-reused |
+| M175137 | P0614 | `ReciprocityTheory.SemistableReduction.SemiDegN` | wave-reused |
+| M175138 | P0647 | `ReciprocityTheory.SemistableReduction.SemiDegQ` | wave-reused |
+| M175139 | P0474 | `ReciprocityTheory.SemistableReduction.SemiDegR` | wave-reused |
+| M175140 | P0236 | `ReciprocityTheory.SemistableReduction.SemiDegSt` | wave-reused |
+| M175141 | P0434 | `ReciprocityTheory.SemistableReduction.SemiDegT` | wave-reused |
+| M175142 | P0677 | `ReciprocityTheory.SemistableReduction.SemiDegW` | wave-reused |
+| M175143 | P0704 | `ReciprocityTheory.SemistableReduction.SemiDegZ` | wave-reused |
+| M175144 | P0730 | `ReciprocityTheory.SemistableReduction.SemiDegZA` | wave-reused |
+| M175145 | P0581 | `ReciprocityTheory.SemistableReduction.ShareBall` | wave-reused |
+| M175146 | P0474 | `ReciprocityTheory.SemistableReduction.ShareBallA` | wave-reused |
+| M175147 | P0514 | `ReciprocityTheory.SemistableReduction.ShareBallB` | wave-reused |
+| M175148 | P0548 | `ReciprocityTheory.SemistableReduction.ShareBallC` | wave-reused |
+| M175149 | P0236 | `ReciprocityTheory.SemistableReduction.ShareDetA` | volunteer-build-reviewed |
+| M175150 | P0434 | `ReciprocityTheory.SemistableReduction.ShareSt` | wave-reused |
+| M175151 | P0236 | `ReciprocityTheory.SemistableReduction.SjHolds` | wave-reused |
+| M175152 | P0093 | `ReciprocityTheory.SemistableReduction.SphereLogIntegrableStatement` | wave-reused |
+| M175153 | P0292 | `ReciprocityTheory.SemistableReduction.SphereTorus` | wave-reused |
+| M175154 | P0171 | `ReciprocityTheory.SemistableReduction.SphereTorusA` | wave-reused |
+| M175155 | P0236 | `ReciprocityTheory.SemistableReduction.SphereTorusB` | wave-reused |
+| M175156 | P0171 | `ReciprocityTheory.SemistableReduction.SphereTorusC` | wave-reused |
+| M175157 | P0171 | `ReciprocityTheory.SemistableReduction.TorsionNonvanish` | wave-reused |
+| M175158 | P0093 | `ReciprocityTheory.SemistableReduction.TorsionNonvanishStatement` | wave-reused |
+| M175159 | P0391 | `ReciprocityTheory.SemistableReduction.TorusL2CauchyInequality` | wave-reused |
+| M175160 | P0292 | `ReciprocityTheory.SemistableReduction.TorusLex` | wave-reused |
+| M175161 | P0171 | `ReciprocityTheory.SemistableReduction.TorusLexA` | wave-reused |
+| M175162 | P0171 | `ReciprocityTheory.SemistableReduction.TorusLexB` | wave-reused |
+| M175163 | P0236 | `ReciprocityTheory.SemistableReduction.TorusLexC` | wave-reused |
+| M175164 | P0345 | `ReciprocityTheory.SemistableReduction.TorusMean` | wave-reused |
+| M175165 | P0093 | `ReciprocityTheory.SemistableReduction.TorusMeanA` | wave-reused |
+| M175166 | P0171 | `ReciprocityTheory.SemistableReduction.TorusMeanB` | wave-reused |
+| M175167 | P0236 | `ReciprocityTheory.SemistableReduction.TorusMeanC` | wave-reused |
+| M175168 | P0292 | `ReciprocityTheory.SemistableReduction.TorusMeanD` | wave-reused |
+| M175169 | P0292 | `ReciprocityTheory.SemistableReduction.Unipotent` | wave-reused |
+| M175170 | P0093 | `ReciprocityTheory.SemistableReduction.UnipotentA` | wave-reused |
+| M175171 | P0236 | `ReciprocityTheory.SemistableReduction.UnipotentB` | wave-reused |
+| M175172 | P0292 | `ReciprocityTheory.ThetaQuasiPeriods.Change` | wave-reused |
+| M175173 | P0236 | `ReciprocityTheory.ThetaQuasiPeriods.NormInvSmulMemSphere` | volunteer-build-reviewed |
+| M175174 | P0093 | `ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice` | wave-reused |
+| M175175 | P0171 | `ReciprocityTheory.ThetaQuasiPeriods.ThetaQuasiPeriodStatement` | wave-reused |
+| M175176 | P0236 | `ReciprocityTheory.ThetaQuasiPeriods.Transl` | wave-reused |
+| M175178 | P0093 | `ReciprocityTheory.ThetaSummability.RealCoinvariants.GlRelZero` | volunteer-build-reviewed |
+| M175179 | P0093 | `ReciprocityTheory.ThetaSummability.RealCoinvariants.Numbers` | volunteer-build-reviewed |
+| M175181 | P0093 | `ReciprocityTheory.ThetaSummability.TailSumEstimates.ConeDefs` | volunteer-build-reviewed |
+| M175183 | P0093 | `ReciprocityTheory.ThetaSummability.TailSumEstimates.LatSumPi` | volunteer-build-reviewed |
+| M175184 | P0093 | `Statements` | build-observed |
+| M175185 | P2855 | `Supplements.Kernels.MainTheorems` | volunteer-build-reviewed |
+| M175186 | P2857 | `Supplements.Kernels.MainTheoremsAll` | volunteer-build-reviewed |
+| M175187 | P2856 | `Supplements.Kernels.MainTheoremsCritical` | volunteer-build-reviewed |

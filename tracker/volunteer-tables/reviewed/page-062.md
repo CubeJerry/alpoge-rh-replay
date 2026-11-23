@@ -15,3 +15,9 @@
 | [@JamCh01](https://github.com/JamCh01) | [M104114](https://github.com/rohanarun/alpoge-rh-replay/issues/34599#issuecomment-7082865585) | 1 | [Build evidence verified](../../../evidence/volunteers/M104114.json) |
 | [@JamCh01](https://github.com/JamCh01) | [M099981](https://github.com/rohanarun/alpoge-rh-replay/issues/34592#issuecomment-7082870312) | 1 | [Build evidence verified](../../../evidence/volunteers/M099981.json) |
 | [@JamCh01](https://github.com/JamCh01) | [M099961](https://github.com/rohanarun/alpoge-rh-replay/issues/34591#issuecomment-7082869113) | 1 | [Build evidence verified](../../../evidence/volunteers/M099961.json) |
+| [@hipotures](https://github.com/hipotures) | [M164960](https://github.com/rohanarun/alpoge-rh-replay/issues/34586#issuecomment-7082841493) | 1 | [Build evidence verified](../../../evidence/volunteers/M164960.json) |
+| [@JamCh01](https://github.com/JamCh01) | [M099070](https://github.com/rohanarun/alpoge-rh-replay/issues/34585#issuecomment-7082834381) | 1 | [Build evidence verified](../../../evidence/volunteers/M099070.json) |
+| [@hipotures](https://github.com/hipotures) | [P2105](https://github.com/rohanarun/alpoge-rh-replay/issues/32213#issuecomment-7079033098) | 64 | [Build evidence verified](../../../evidence/volunteers/P2105.json) |
+| [@hipotures](https://github.com/hipotures) | [P2077](https://github.com/rohanarun/alpoge-rh-replay/issues/32148#issuecomment-7078841023) | 64 | [Build evidence verified](../../../evidence/volunteers/P2077.json) |
+| [@JamCh01](https://github.com/JamCh01) | [P2814](https://github.com/rohanarun/alpoge-rh-replay/issues/32081#issuecomment-7078705646) | 11 | [Build evidence verified](../../../evidence/volunteers/P2814.json) |
+| [@RhizoNymph](https://github.com/RhizoNymph) | [P2748](https://github.com/rohanarun/alpoge-rh-replay/issues/25103#issuecomment-7085656907) | 64 | [Build evidence verified](../../../evidence/volunteers/P2748.json) |

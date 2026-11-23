@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022988 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyStalkLocalClassesStatement` | build-observed |
 | M022989 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCoveringMap` | volunteer-build-reviewed |
 | M022990 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCoveringMapStatement` | volunteer-build-reviewed |
 | M022991 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceDescentLocalEquivalence` | build-observed |
@@ -401,4 +402,3 @@
 | M023611 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeRetract` | wave-reused |
 | M023612 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeRetractStatement` | wave-reused |
 | M023615 | P2421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeSemiAbelianCubicalPolarisedData` | volunteer-build-reviewed |
-| M023616 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeSemiAbelianCubicalPolarisedDataStatement` | volunteer-build-reviewed |

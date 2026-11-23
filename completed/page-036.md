@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024281 | P2422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteNormalGaloisCoverOfFinite` | volunteer-build-reviewed |
 | M024282 | P2450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteNormalGaloisCoverOfFiniteStatement` | volunteer-build-reviewed |
 | M024283 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteNormalIntegralClosureUnitDegree` | volunteer-build-reviewed |
 | M024284 | P2422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteNormalIntegralClosureUnitDegreeStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M024870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal` | volunteer-build-reviewed |
 | M024871 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocalStatement` | volunteer-build-reviewed |
 | M024872 | P2839 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionTargetGenericCorrespondence` | volunteer-build-reviewed |
-| M024873 | P2840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionTargetGenericCorrespondenceStatement` | volunteer-build-reviewed |

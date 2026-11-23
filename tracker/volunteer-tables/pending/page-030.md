@@ -4,10 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@hipotures](https://github.com/hipotures) | [M071462](https://github.com/rohanarun/alpoge-rh-replay/issues/34105#issuecomment-7081780369) | Pending review |
-| [@JamCh01](https://github.com/JamCh01) | [M072829](https://github.com/rohanarun/alpoge-rh-replay/issues/34106#issuecomment-7081800752) | Pending review |
-| [@JamCh01](https://github.com/JamCh01) | [M072870](https://github.com/rohanarun/alpoge-rh-replay/issues/34107#issuecomment-7081789968) | Pending review |
-| [@JamCh01](https://github.com/JamCh01) | [M072928](https://github.com/rohanarun/alpoge-rh-replay/issues/34108#issuecomment-7081792088) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M090296](https://github.com/rohanarun/alpoge-rh-replay/issues/34109#issuecomment-7081761392) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M072944](https://github.com/rohanarun/alpoge-rh-replay/issues/34110#issuecomment-7081805152) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M072975](https://github.com/rohanarun/alpoge-rh-replay/issues/34111#issuecomment-7081802940) | Pending review |
@@ -254,3 +250,7 @@
 | [@hipotures](https://github.com/hipotures) | [M122953](https://github.com/rohanarun/alpoge-rh-replay/issues/34359#issuecomment-7082342105) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M162415](https://github.com/rohanarun/alpoge-rh-replay/issues/34360#issuecomment-7082340514) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M123497](https://github.com/rohanarun/alpoge-rh-replay/issues/34361#issuecomment-7082330612) | Pending review |
+| [@emsi](https://github.com/emsi) | [M094720](https://github.com/rohanarun/alpoge-rh-replay/issues/34362#issuecomment-7082425037) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M052316](https://github.com/rohanarun/alpoge-rh-replay/issues/34363#issuecomment-7082346947) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [M123495](https://github.com/rohanarun/alpoge-rh-replay/issues/34364#issuecomment-7082354887) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M173532](https://github.com/rohanarun/alpoge-rh-replay/issues/34365#issuecomment-7082345279) | Pending review |

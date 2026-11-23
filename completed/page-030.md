@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020379 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DBaseApply` | volunteer-build-reviewed |
 | M020381 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DHRealAdSmul` | volunteer-build-reviewed |
 | M020382 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries` | volunteer-build-reviewed |
 | M020383 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMDetbPEqZero` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M021077 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThreeStatement` | volunteer-build-reviewed |
 | M021078 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqProdDiagOfHeight` | volunteer-build-reviewed |
 | M021079 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetFactorDepthEqChartValueAndSum` | volunteer-build-reviewed |
-| M021083 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetFactorDepthInChartIndependentClosedField` | build-observed |

@@ -2,6 +2,22 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027934 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOfValILeOne` | wave-reused |
+| M027935 | P2596 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOmegaComparisonNearZero` | volunteer-build-reviewed |
+| M027936 | P2612 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOmegaComparisonNearZeroStatement` | volunteer-build-reviewed |
+| M027938 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneFormsCocycleRestrictSubCoboundary` | wave-reused |
+| M027939 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneFormsCocycleRestrictSubCoboundaryStatement` | wave-reused |
+| M027940 | P2737 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneModMaximalMemOtherMaximalsOverNat` | volunteer-build-reviewed |
+| M027941 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneModMaximalMemOtherMaximalsOverNatStatement` | volunteer-build-reviewed |
+| M027944 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneTmulEq` | volunteer-build-reviewed |
+| M027945 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneTmulOfSurjective` | wave-reused |
+| M027946 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenAffineHilbertChartBasicLocus` | build-observed |
+| M027947 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenAffineHilbertChartBasicLocusStatement` | build-observed |
+| M027948 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenCompactIntegralMatrixAddSubgroup` | volunteer-build-reviewed |
+| M027950 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenCompactLevelOfStandardCongruenceLevel` | volunteer-build-reviewed |
+| M027951 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenCompactLevelOfStandardCongruenceLevelStatement` | volunteer-build-reviewed |
+| M027954 | P2732 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenCompactificationGenericSubsetModuli` | volunteer-build-reviewed |
+| M027955 | P2737 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenCompactificationGenericSubsetModuliStatement` | volunteer-build-reviewed |
 | M027956 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenComplexPointsCoveringGenericDegree` | volunteer-build-reviewed |
 | M027957 | P2557 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenComplexPointsCoveringGenericDegreeStatement` | volunteer-build-reviewed |
 | M027958 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenConjStableSubgroupOfSplitLevel` | volunteer-build-reviewed |
@@ -25,9 +41,11 @@
 | M027991 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenNbhdSectionFibreIsPreirreducible` | build-observed |
 | M027992 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenNbhdSectionFibreIsPreirreducibleStatement` | build-observed |
 | M027993 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenNonemptyCrystallineTrait` | volunteer-build-reviewed |
+| M027994 | P2748 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenNonemptyCrystallineTraitStatement` | volunteer-build-reviewed |
 | M027995 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenOfSaturatedLocalSchemeBaseChange` | volunteer-build-reviewed |
 | M027996 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenOfSaturatedLocalSchemeBaseChangeStatement` | volunteer-build-reviewed |
 | M027997 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenPreimageEqBaseChangeSqZeroAugmentation` | volunteer-build-reviewed |
+| M028001 | P2748 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenSectionNonvanishingClosedFibre` | volunteer-build-reviewed |
 | M028002 | P2753 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenSectionNonvanishingClosedFibreStatement` | volunteer-build-reviewed |
 | M028003 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenSubgroupCompactInterFinite` | volunteer-build-reviewed |
 | M028004 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOpenSubgroupCompactInterFiniteStatement` | volunteer-build-reviewed |
@@ -51,6 +69,7 @@
 | M028031 | P2737 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeIsotropicPair` | volunteer-build-reviewed |
 | M028032 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeIsotropicPairStatement` | volunteer-build-reviewed |
 | M028033 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeSubmoduleImprovedModPrimeOfNeConj` | volunteer-build-reviewed |
+| M028034 | P2748 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeSubmoduleImprovedModPrimeOfNeConjStatement` | volunteer-build-reviewed |
 | M028035 | P2737 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeSubmoduleImprovedModPrimeOfOrthogo` | volunteer-build-reviewed |
 | M028036 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeSubmoduleImprovedModPrimeOfOrthogoStatement` | volunteer-build-reviewed |
 | M028037 | P2759 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOppositeTransversalIsotropic` | volunteer-build-reviewed |
@@ -277,6 +296,7 @@
 | M028385 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowerSeriesOfNoPoleAwayUniformizerX` | volunteer-build-reviewed |
 | M028386 | P2291 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowerSeriesOfNoPoleAwayUniformizerXStatement` | volunteer-build-reviewed |
 | M028387 | P2624 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPreChain` | volunteer-build-reviewed |
+| M028388 | P2814 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPreChartSiegelNormalizedBlowup` | volunteer-build-reviewed |
 | M028390 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPreUniformisationEvenTorusCompleteNormal` | volunteer-build-reviewed |
 | M028393 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPreimageOfLocalPreimagesInjectiveStatement` | volunteer-build-reviewed |
 | M028394 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPresentationBaseChange` | volunteer-build-reviewed |
@@ -382,23 +402,3 @@
 | M028553 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushSectionsCanonicalModificationStatement` | volunteer-build-reviewed |
 | M028554 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushforwardRegularIdeal` | volunteer-build-reviewed |
 | M028555 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutData` | build-observed |
-| M028556 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutDataStatement` | build-observed |
-| M028558 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutOfNilpotentThickenings` | build-observed |
-| M028559 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutOfNilpotentThickeningsStatement` | build-observed |
-| M028560 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutTorsorNTorsionCharacter` | volunteer-build-reviewed |
-| M028561 | P2578 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutTorsorNTorsionCharacterStatement` | volunteer-build-reviewed |
-| M028563 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPushoutTorsorSectionEveryPointStatement` | volunteer-build-reviewed |
-| M028564 | P2646 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQWAutomorphismEighthPowerLatticeLabels` | volunteer-build-reviewed |
-| M028566 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQkPointExtensionOfDividedData` | volunteer-build-reviewed |
-| M028568 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQkZeroOver` | volunteer-build-reviewed |
-| M028569 | P2291 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuad` | volunteer-build-reviewed |
-| M028570 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiInv` | volunteer-build-reviewed |
-| M028572 | P2663 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiInverseIsogeny` | volunteer-build-reviewed |
-| M028574 | P1172 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiLogRed` | build-observed |
-| M028575 | P1196 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiLogRedStatement` | build-observed |
-| M028576 | P2737 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiLogarithmLieAddPSmul` | volunteer-build-reviewed |
-| M028577 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiLogarithmLieAddPSmulStatement` | volunteer-build-reviewed |
-| M028578 | P1249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiLogarithmOfDualCharacter` | build-observed |
-| M028579 | P1276 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiLogarithmOfDualCharacterStatement` | build-observed |
-| M028580 | P2830 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiProjectiveHarrisTaylorFamily` | volunteer-build-reviewed |
-| M028581 | P2831 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsQuasiProjectiveHarrisTaylorFamilyStatement` | volunteer-build-reviewed |

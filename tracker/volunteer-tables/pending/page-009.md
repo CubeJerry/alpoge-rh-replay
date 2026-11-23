@@ -4,7 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@loremcdmx](https://github.com/loremcdmx) | [M044814](https://github.com/rohanarun/alpoge-rh-replay/issues/15789#issuecomment-7058856292) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M010070](https://github.com/rohanarun/alpoge-rh-replay/issues/15790#issuecomment-7058821484) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M066717](https://github.com/rohanarun/alpoge-rh-replay/issues/15791#issuecomment-7058822464) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M119841](https://github.com/rohanarun/alpoge-rh-replay/issues/15792#issuecomment-7058823440) | Pending review |
@@ -254,3 +253,4 @@
 | [@dhudakk](https://github.com/dhudakk) | [M016867](https://github.com/rohanarun/alpoge-rh-replay/issues/17832#issuecomment-7059887124) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M115448](https://github.com/rohanarun/alpoge-rh-replay/issues/17846#issuecomment-7059891341) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M145528](https://github.com/rohanarun/alpoge-rh-replay/issues/17860#issuecomment-7059893930) | Pending review |
+| [@dhudakk](https://github.com/dhudakk) | [M124455](https://github.com/rohanarun/alpoge-rh-replay/issues/17873#issuecomment-7059898247) | Pending review |

@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021718 | P2611 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerUnramifiedStatement` | volunteer-build-reviewed |
 | M021720 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEmbeddingContinuousRationalStatement` | volunteer-build-reviewed |
 | M021722 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEmbeddingStabilizers` | volunteer-build-reviewed |
 | M021723 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEmbeddingStabilizersStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M022364 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbedsInRegularRepresentationCopiesOfFreePermute` | volunteer-build-reviewed |
 | M022372 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardMulLeOfQuotEmbed` | volunteer-build-reviewed |
 | M022373 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLe` | volunteer-build-reviewed |
-| M022374 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLeStatement` | volunteer-build-reviewed |

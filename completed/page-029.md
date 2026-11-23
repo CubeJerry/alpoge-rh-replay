@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M019690 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficient` | volunteer-build-reviewed |
 | M019691 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficientStatement` | volunteer-build-reviewed |
 | M019692 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMetaplecticSchwartzActionProd` | build-observed |
 | M019693 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMetaplecticSchwartzActionProdStatement` | build-observed |
@@ -401,4 +402,3 @@
 | M020376 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10OfRealEqMulLog` | build-observed |
 | M020377 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10ProductRuleSymmetric` | build-observed |
 | M020378 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10ProductRuleSymmetricStatement` | build-observed |
-| M020379 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DBaseApply` | volunteer-build-reviewed |

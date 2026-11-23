@@ -4,10 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@emsi](https://github.com/emsi) | [M094720](https://github.com/rohanarun/alpoge-rh-replay/issues/34362#issuecomment-7082425037) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M052316](https://github.com/rohanarun/alpoge-rh-replay/issues/34363#issuecomment-7082346947) | Pending review |
-| [@hipotures](https://github.com/hipotures) | [M123495](https://github.com/rohanarun/alpoge-rh-replay/issues/34364#issuecomment-7082354887) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M173532](https://github.com/rohanarun/alpoge-rh-replay/issues/34365#issuecomment-7082345279) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [M123847](https://github.com/rohanarun/alpoge-rh-replay/issues/34367#issuecomment-7082396958) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M005412](https://github.com/rohanarun/alpoge-rh-replay/issues/34368#issuecomment-7082358238) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [M125063](https://github.com/rohanarun/alpoge-rh-replay/issues/34369#issuecomment-7082383425) | Pending review |
@@ -214,8 +210,6 @@
 | [@JamCh01](https://github.com/JamCh01) | [M096196](https://github.com/rohanarun/alpoge-rh-replay/issues/34582#issuecomment-7082822882) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M098840](https://github.com/rohanarun/alpoge-rh-replay/issues/34583#issuecomment-7082826233) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M098856](https://github.com/rohanarun/alpoge-rh-replay/issues/34584#issuecomment-7082835920) | Pending review |
-| [@JamCh01](https://github.com/JamCh01) | [M099070](https://github.com/rohanarun/alpoge-rh-replay/issues/34585#issuecomment-7082834381) | Pending review |
-| [@hipotures](https://github.com/hipotures) | [M164960](https://github.com/rohanarun/alpoge-rh-replay/issues/34586#issuecomment-7082841493) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M099267](https://github.com/rohanarun/alpoge-rh-replay/issues/34587#issuecomment-7082876786) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M099331](https://github.com/rohanarun/alpoge-rh-replay/issues/34588#issuecomment-7082867161) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M099376](https://github.com/rohanarun/alpoge-rh-replay/issues/34589#issuecomment-7082860760) | Pending review |
@@ -254,3 +248,9 @@
 | [@JamCh01](https://github.com/JamCh01) | [M132340](https://github.com/rohanarun/alpoge-rh-replay/issues/34633#issuecomment-7082937411) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M067266](https://github.com/rohanarun/alpoge-rh-replay/issues/34634#issuecomment-7082901929) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [M132401](https://github.com/rohanarun/alpoge-rh-replay/issues/34635#issuecomment-7082980981) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [M174663](https://github.com/rohanarun/alpoge-rh-replay/issues/34636#issuecomment-7082953714) | Pending review |
+| [@JamCh01](https://github.com/JamCh01) | [M133112](https://github.com/rohanarun/alpoge-rh-replay/issues/34637#issuecomment-7082987403) | Pending review |
+| [@emsi](https://github.com/emsi) | [M041503](https://github.com/rohanarun/alpoge-rh-replay/issues/34638#issuecomment-7083011833) | Pending review |
+| [@JamCh01](https://github.com/JamCh01) | [M140780](https://github.com/rohanarun/alpoge-rh-replay/issues/34639#issuecomment-7082982548) | Pending review |
+| [@JamCh01](https://github.com/JamCh01) | [M140783](https://github.com/rohanarun/alpoge-rh-replay/issues/34640#issuecomment-7082992145) | Pending review |
+| [@JamCh01](https://github.com/JamCh01) | [M140785](https://github.com/rohanarun/alpoge-rh-replay/issues/34641#issuecomment-7082965931) | Pending review |

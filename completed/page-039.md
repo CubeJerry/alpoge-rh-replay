@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M026039 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHaarSpecialUnitaryLyingOverFlagDomain` | build-observed |
 | M026040 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHaarSpecialUnitaryLyingOverFlagDomainStatement` | build-observed |
 | M026041 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHalfAbstract` | volunteer-build-reviewed |
 | M026042 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHalfDilatedReductionResidueMatrices` | volunteer-build-reviewed |
@@ -395,10 +396,9 @@
 | M026639 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsONBasis` | volunteer-build-reviewed |
 | M026644 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPreDividedPowersOfGenerators` | wave-reused |
 | M026647 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegCompOfFirstTop` | volunteer-build-reviewed |
+| M026648 | P2748 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegCompOfFirstTopStatement` | volunteer-build-reviewed |
 | M026649 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegIdSameCoordinates` | volunteer-build-reviewed |
+| M026650 | P2748 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegIdSameCoordinatesStatement` | volunteer-build-reviewed |
 | M026652 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegRescaleBothSides` | volunteer-build-reviewed |
+| M026653 | P2748 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegRescaleBothSidesStatement` | volunteer-build-reviewed |
 | M026654 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullDegWholeSpectrum` | volunteer-build-reviewed |
-| M026656 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullbackBaseChange` | volunteer-build-reviewed |
-| M026658 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsRec` | volunteer-build-reviewed |
-| M026662 | P2578 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsStdMulShift` | volunteer-build-reviewed |
-| M026666 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsTensorEtaleSheafComplexPairing` | wave-reused |

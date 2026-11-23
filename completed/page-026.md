@@ -198,6 +198,7 @@
 | M017800 | P2780 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassicalTraitPeriodsBoundedBelowClosedPointStatement` | volunteer-build-reviewed |
 | M017801 | P2782 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassicalTraitsFourierTermsAllLevels` | volunteer-build-reviewed |
 | M017802 | P2784 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassicalTraitsFourierTermsAllLevelsStatement` | volunteer-build-reviewed |
+| M017803 | P2814 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassifiedOfSmall` | volunteer-build-reviewed |
 | M017805 | P2784 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassifiedOnOpenOfSpecialisesToClassified` | volunteer-build-reviewed |
 | M017806 | P2786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassifiedOnOpenOfSpecialisesToClassifiedStatement` | volunteer-build-reviewed |
 | M017809 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClearingIntegerShortSeriesIntegralCoprimeLevel` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
 | M018255 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffQuasiLogarithmIntegralLowDegree` | build-observed |
 | M018256 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffQuasiLogarithmIntegralLowDegreeStatement` | build-observed |
-| M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |

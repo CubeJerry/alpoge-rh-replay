@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025415 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePointsRegularDivAffineOpen` | volunteer-build-reviewed |
 | M025416 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePointsRegularDivAffineOpenStatement` | volunteer-build-reviewed |
 | M025417 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePresentationModelOfIsColimit` | build-observed |
 | M025418 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinitePresentationModelOfIsColimitStatement` | build-observed |
@@ -401,4 +402,3 @@
 | M026034 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHaarIntegralEqUnitriangularChart` | build-observed |
 | M026037 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHaarProd` | volunteer-build-reviewed |
 | M026038 | P2742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHaarSmul` | volunteer-build-reviewed |
-| M026039 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHaarSpecialUnitaryLyingOverFlagDomain` | build-observed |

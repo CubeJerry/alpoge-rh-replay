@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |
 | M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
 | M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
 | M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
@@ -401,4 +402,3 @@
 | M018985 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedCompareStatement` | volunteer-build-reviewed |
 | M018986 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedEqual` | volunteer-build-reviewed |
 | M018987 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedEqualStatement` | volunteer-build-reviewed |
-| M018988 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedFold` | volunteer-build-reviewed |
