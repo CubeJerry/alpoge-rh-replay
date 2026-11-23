@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M019661 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIsBigORpowLipschitzProductKernelStatement` | volunteer-build-reviewed |
+| M019662 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedFDerivApply` | volunteer-build-reviewed |
+| M019666 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedRealLineDerivUnitaryAdelicStatement` | volunteer-build-reviewed |
+| M019667 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousKernelIntegralProd` | volunteer-build-reviewed |
+| M019668 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousKernelIntegralProdStatement` | volunteer-build-reviewed |
+| M019673 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeftTranslateBoundedDerivFunctional` | build-observed |
+| M019674 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeftTranslateBoundedDerivFunctionalStatement` | build-observed |
+| M019676 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeviIdeleHomExists` | volunteer-build-reviewed |
+| M019679 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeviStatement` | volunteer-build-reviewed |
+| M019680 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLiftV` | volunteer-build-reviewed |
+| M019681 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLinearHeightForm` | volunteer-build-reviewed |
+| M019682 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLinearHeightFormStatement` | volunteer-build-reviewed |
+| M019684 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLogHomIsMultipleOfLogAbs` | volunteer-build-reviewed |
+| M019687 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatPair` | volunteer-build-reviewed |
+| M019689 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoeffInfinitePlacesWeightRepStatement` | volunteer-build-reviewed |
 | M019690 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficient` | volunteer-build-reviewed |
 | M019691 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficientStatement` | volunteer-build-reviewed |
 | M019692 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMetaplecticSchwartzActionProd` | build-observed |
@@ -290,6 +305,7 @@
 | M020189 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputationsStatement` | build-observed |
 | M020190 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClosedPointIsCentreOfPlace` | volunteer-build-reviewed |
 | M020191 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClosedPointIsCentreOfPlaceStatement` | volunteer-build-reviewed |
+| M020192 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeDataOutsideSet` | volunteer-build-reviewed |
 | M020193 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeDataOutsideSetStatement` | volunteer-build-reviewed |
 | M020194 | P1859 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeNonnegZmodFibreOfNefOnFiniteFieldFibr` | build-observed |
 | M020195 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeNonnegZmodFibreOfNefOnFiniteFieldFibrStatement` | volunteer-build-reviewed |
@@ -386,19 +402,3 @@
 | M020358 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffInterpolationUniformLimit` | build-observed |
 | M020359 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffInterpolationUniformLimitStatement` | build-observed |
 | M020361 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffPolynomialConjugationDerivMemShapeSpan` | volunteer-build-reviewed |
-| M020363 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant` | volunteer-build-reviewed |
-| M020364 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicGeneratorsInvariantTop` | wave-reused |
-| M020365 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicGeneratorsInvariantTopStatement` | wave-reused |
-| M020366 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicTorsorEtale` | wave-reused |
-| M020367 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr` | volunteer-build-reviewed |
-| M020368 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicPrimitiveRootsFilteredColimit` | wave-reused |
-| M020369 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicPrimitiveRootsFilteredColimitStatement` | wave-reused |
-| M020370 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzero` | volunteer-build-reviewed |
-| M020371 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzeroStatement` | wave-reused |
-| M020372 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D01CompHolomorphicMap` | build-observed |
-| M020373 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D01CompHolomorphicMapStatement` | build-observed |
-| M020374 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10D01PullbackHolomorphic` | build-observed |
-| M020375 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10D01PullbackHolomorphicStatement` | build-observed |
-| M020376 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10OfRealEqMulLog` | build-observed |
-| M020377 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10ProductRuleSymmetric` | build-observed |
-| M020378 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.D10ProductRuleSymmetricStatement` | build-observed |

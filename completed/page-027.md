@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018244 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPlaceValuationResidueFieldCardEqZeroOfNotMeStatement` | volunteer-build-reviewed |
+| M018245 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowEqZeroOfDegreeLt` | volunteer-build-reviewed |
+| M018247 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZero` | wave-reused |
+| M018248 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZeroStatement` | wave-reused |
+| M018249 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSinglePair` | build-observed |
+| M018250 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSinglePairStatement` | build-observed |
+| M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
+| M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |
+| M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |
+| M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
+| M018255 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffQuasiLogarithmIntegralLowDegree` | build-observed |
+| M018256 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffQuasiLogarithmIntegralLowDegreeStatement` | build-observed |
 | M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |
 | M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
 | M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
@@ -95,6 +107,7 @@
 | M018420 | P2623 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombMatMulVecIntCast` | volunteer-build-reviewed |
 | M018421 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombRSingleNil` | volunteer-build-reviewed |
 | M018426 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombineApply` | volunteer-build-reviewed |
+| M018431 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombinedMetrizedBundleNefAntitone` | volunteer-build-reviewed |
 | M018432 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CombinedMetrizedBundleNefAntitoneStatement` | volunteer-build-reviewed |
 | M018437 | P2753 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComesFromBaseStableUnderPullbackOfData` | volunteer-build-reviewed |
 | M018438 | P2759 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComesFromBaseStableUnderPullbackOfDataStatement` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M018964 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaIntegralUnfold` | volunteer-build-reviewed |
 | M018965 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaIntegralUnfoldStatement` | volunteer-build-reviewed |
 | M018966 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaLiftCompatible` | volunteer-build-reviewed |
-| M018967 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaLiftCompatibleStatement` | volunteer-build-reviewed |
-| M018968 | P2662 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaLiftRecursion` | volunteer-build-reviewed |
-| M018971 | P2420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaLiftVanishingStatement` | volunteer-build-reviewed |
-| M018976 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaUnramified` | volunteer-build-reviewed |
-| M018977 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaUnramifiedStatement` | volunteer-build-reviewed |
-| M018978 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaVanishing` | volunteer-build-reviewed |
-| M018979 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaVanishingStatement` | volunteer-build-reviewed |
-| M018980 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleCompatibility` | volunteer-build-reviewed |
-| M018983 | P2706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleEigenFactorStatement` | volunteer-build-reviewed |
-| M018984 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedCompare` | volunteer-build-reviewed |
-| M018985 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedCompareStatement` | volunteer-build-reviewed |
-| M018986 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedEqual` | volunteer-build-reviewed |
-| M018987 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedEqualStatement` | volunteer-build-reviewed |

@@ -33,10 +33,11 @@ Thank you to all volunteers and agent contributors who helped replay and port th
 
 <!-- active-volunteers-start -->
 
-[43 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[42 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
+| [@maugomez77](https://github.com/maugomez77) | [M118930](https://github.com/rohanarun/alpoge-rh-replay/issues/25886) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M131258](https://github.com/rohanarun/alpoge-rh-replay/issues/25970) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M051277](https://github.com/rohanarun/alpoge-rh-replay/issues/26977) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M079827](https://github.com/rohanarun/alpoge-rh-replay/issues/26978) | Claimed |
@@ -56,7 +57,6 @@ Thank you to all volunteers and agent contributors who helped replay and port th
 | [@user42245](https://github.com/user42245) | [M164325](https://github.com/rohanarun/alpoge-rh-replay/issues/28949) | Claimed |
 | [@user42245](https://github.com/user42245) | [M163709](https://github.com/rohanarun/alpoge-rh-replay/issues/28973) | Claimed |
 | [@user42245](https://github.com/user42245) | [M168805](https://github.com/rohanarun/alpoge-rh-replay/issues/28987) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [P2771](https://github.com/rohanarun/alpoge-rh-replay/issues/30424) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -101,11 +101,10 @@ Thank you to all volunteers and agent contributors who helped replay and port th
 
 <!-- volunteers-start -->
 
-[15,267 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
+[15,268 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
 
 | Contributor | Task | Modules | Review |
 |---|---|---:|---|
-| [@emsi](https://github.com/emsi) | [M067676](https://github.com/rohanarun/alpoge-rh-replay/issues/34757#issuecomment-7083225293) | 1 | [Build evidence verified](evidence/volunteers/M067676.json) |
 | [@JamCh01](https://github.com/JamCh01) | [M042507](https://github.com/rohanarun/alpoge-rh-replay/issues/34756#issuecomment-7083203610) | 1 | [Build evidence verified](evidence/volunteers/M042507.json) |
 | [@JamCh01](https://github.com/JamCh01) | [M037921](https://github.com/rohanarun/alpoge-rh-replay/issues/34753#issuecomment-7083211648) | 1 | [Build evidence verified](evidence/volunteers/M037921.json) |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M123501](https://github.com/rohanarun/alpoge-rh-replay/issues/34752#issuecomment-7083139794) | 1 | [Build evidence verified](evidence/volunteers/M123501.json) |
@@ -125,6 +124,7 @@ Thank you to all volunteers and agent contributors who helped replay and port th
 | [@hipotures](https://github.com/hipotures) | [P2077](https://github.com/rohanarun/alpoge-rh-replay/issues/32148#issuecomment-7078841023) | 64 | [Build evidence verified](evidence/volunteers/P2077.json) |
 | [@JamCh01](https://github.com/JamCh01) | [P2814](https://github.com/rohanarun/alpoge-rh-replay/issues/32081#issuecomment-7078705646) | 11 | [Build evidence verified](evidence/volunteers/P2814.json) |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2748](https://github.com/rohanarun/alpoge-rh-replay/issues/25103#issuecomment-7085656907) | 64 | [Build evidence verified](evidence/volunteers/P2748.json) |
+| [@UnityChaos](https://github.com/UnityChaos) | [P2771](https://github.com/rohanarun/alpoge-rh-replay/issues/30424#issuecomment-7088754643) | 64 | [Build evidence verified](evidence/volunteers/P2771.json) |
 
 <!-- volunteers-end -->
 
@@ -140,9 +140,9 @@ Thank you to all volunteers and agent contributors who helped replay and port th
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
-| Volunteer build evidence reviewed | 65,869 |
+| Volunteer build evidence reviewed | 65,933 |
 | Worker target kernel replay reviewed | 72 |
-| **Total with recorded module evidence** | **109,653 / 175,187** |
+| **Total with recorded module evidence** | **109,717 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

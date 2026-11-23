@@ -2,11 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M015797 | P2805 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelNefOfAmple` | volunteer-build-reviewed |
+| M015799 | P2807 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelOfPrincipalisation` | volunteer-build-reviewed |
 | M015800 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelRankDegreeShareLe` | volunteer-build-reviewed |
 | M015802 | P2782 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelSmallSectionsChangeOfMetric` | volunteer-build-reviewed |
 | M015803 | P2784 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelSmallSectionsChangeOfMetricStatement` | volunteer-build-reviewed |
 | M015810 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithIntersectionCalculusCycleHeightsOfAnalytic` | volunteer-build-reviewed |
 | M015817 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithIntersectionFormsOfArchimedeanStatements` | volunteer-build-reviewed |
+| M015818 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithIntersectionFormsOfArchimedeanStatementsStatement` | volunteer-build-reviewed |
 | M015819 | P2736 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithIntersectionNumberExistsOfMixedHeights` | volunteer-build-reviewed |
 | M015820 | P2741 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithIntersectionNumberExistsOfMixedHeightsStatement` | volunteer-build-reviewed |
 | M015821 | P2791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithKleimanHeightNefOfIsNef` | volunteer-build-reviewed |
@@ -42,6 +45,7 @@
 | M015878 | P1086 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDegreePrimeRemoval` | build-observed |
 | M015880 | P2706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDegreeSecondChernFlagStatement` | volunteer-build-reviewed |
 | M015881 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDegreeVandermondeSum` | volunteer-build-reviewed |
+| M015882 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDegreeVandermondeSumStatement` | volunteer-build-reviewed |
 | M015883 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDensityPushforwardIntegral` | volunteer-build-reviewed |
 | M015886 | P2623 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticFormPullbackClosedStatement` | volunteer-build-reviewed |
 | M015889 | P2736 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticFunctionLimit` | volunteer-build-reviewed |
@@ -190,6 +194,7 @@
 | M016221 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasePlaceCharacterFactorStatement` | volunteer-build-reviewed |
 | M016222 | P2623 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasePointAndExponentialHolomorphicInPeriods` | volunteer-build-reviewed |
 | M016223 | P2635 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasePointAndExponentialHolomorphicInPeriodsStatement` | volunteer-build-reviewed |
+| M016224 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseRigidityTangentVectorConstant` | volunteer-build-reviewed |
 | M016225 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseRigidityTangentVectorConstantStatement` | volunteer-build-reviewed |
 | M016226 | P2303 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseRingUnitsInvertP` | build-observed |
 | M016227 | P2320 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseRingUnitsInvertPStatement` | build-observed |
@@ -397,8 +402,3 @@
 | M016595 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryNormZeroIffOpenCompl` | volunteer-build-reviewed |
 | M016596 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryNormZeroIffOpenComplStatement` | volunteer-build-reviewed |
 | M016598 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPartOfLowCenterStatement` | volunteer-build-reviewed |
-| M016601 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialPsh` | build-observed |
-| M016602 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialPshStatement` | build-observed |
-| M016603 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionAtlas` | volunteer-build-reviewed |
-| M016604 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionAtlasStatement` | build-observed |
-| M016605 | P1644 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionBound` | build-observed |

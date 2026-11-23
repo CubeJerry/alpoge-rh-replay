@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016601 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialPsh` | build-observed |
+| M016602 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialPshStatement` | build-observed |
+| M016603 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionAtlas` | volunteer-build-reviewed |
+| M016604 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionAtlasStatement` | build-observed |
+| M016605 | P1644 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionBound` | build-observed |
 | M016606 | P1667 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionBoundStatement` | build-observed |
 | M016607 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSmoothOffDivisor` | volunteer-build-reviewed |
 | M016608 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSmoothOffDivisorStatement` | volunteer-build-reviewed |
@@ -90,6 +95,7 @@
 | M016755 | P2726 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CPtEqOfNormValLtOne` | volunteer-build-reviewed |
 | M016756 | P1618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CTSubmatrixMul` | volunteer-build-reviewed |
 | M016770 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalChartResidueFieldDimension` | volunteer-build-reviewed |
+| M016771 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalChartResidueFieldDimensionStatement` | volunteer-build-reviewed |
 | M016773 | P2780 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalDataRigidAlongStratumStatement` | volunteer-build-reviewed |
 | M016775 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalExistence` | volunteer-build-reviewed |
 | M016777 | P2764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyBaseEqOfMatchingPullbacks` | volunteer-build-reviewed |
@@ -98,6 +104,7 @@
 | M016781 | P2764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyBaseValueMemDescendedPoint` | volunteer-build-reviewed |
 | M016782 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyBaseValueMemDescendedPointStatement` | volunteer-build-reviewed |
 | M016783 | P2662 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyBundleBirigidSymmetric` | volunteer-build-reviewed |
+| M016785 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyHasPointRigidCoordinates` | volunteer-build-reviewed |
 | M016786 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyHasPointRigidCoordinatesStatement` | volunteer-build-reviewed |
 | M016787 | P2790 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyIsPointRigidTautologicalChart` | volunteer-build-reviewed |
 | M016788 | P2791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalFamilyIsPointRigidTautologicalChartStatement` | volunteer-build-reviewed |
@@ -245,6 +252,7 @@
 | M017053 | P2714 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleConditionLogDerivativeTransition` | volunteer-build-reviewed |
 | M017055 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleEqCoboundaryAddLogDerivativesAffine` | volunteer-build-reviewed |
 | M017057 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleEqCoboundaryAddLogDerivativesMod` | volunteer-build-reviewed |
+| M017058 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleEqCoboundaryAddLogDerivativesModStatement` | volunteer-build-reviewed |
 | M017060 | P2726 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleIsCoboundaryOfClassEqZeroStatement` | volunteer-build-reviewed |
 | M017062 | P2726 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleIsCoboundaryOfIsCoboundarySubcoverStatement` | volunteer-build-reviewed |
 | M017063 | P2741 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechCocycleMemCoboundaryAddMaximalSmul` | volunteer-build-reviewed |
@@ -372,7 +380,9 @@
 | M017328 | P2654 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainQuasicoherentCoverCompatStatement` | volunteer-build-reviewed |
 | M017329 | P2645 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainQuasicoherentCoverUnique` | volunteer-build-reviewed |
 | M017330 | P2654 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainQuasicoherentCoverUniqueStatement` | volunteer-build-reviewed |
+| M017331 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainStatementOfPrismatic` | volunteer-build-reviewed |
 | M017332 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainStatementOfPrismaticStatement` | volunteer-build-reviewed |
+| M017333 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainStatementOfPublishedInputs` | volunteer-build-reviewed |
 | M017334 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainStatementOfPublishedInputsStatement` | volunteer-build-reviewed |
 | M017335 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasic` | wave-reused |
 | M017336 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasicStatement` | wave-reused |
@@ -392,13 +402,3 @@
 | M017362 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAbsPowerLocallyConstant` | volunteer-build-reviewed |
 | M017363 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAbsPowerLocallyConstantStatement` | volunteer-build-reviewed |
 | M017369 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceQuotientActionTopStatement` | volunteer-build-reviewed |
-| M017370 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmul` | volunteer-build-reviewed |
-| M017371 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmulStatement` | volunteer-build-reviewed |
-| M017372 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterCompatibilityStandardKernelDataTrueColu` | volunteer-build-reviewed |
-| M017374 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterComponentDegreeLowerBound` | volunteer-build-reviewed |
-| M017379 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterExpansionWeightCompatStatement` | volunteer-build-reviewed |
-| M017380 | P2654 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupEqEighthPowerLatticeOverTrait` | volunteer-build-reviewed |
-| M017381 | P2662 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupEqEighthPowerLatticeOverTraitStatement` | volunteer-build-reviewed |
-| M017382 | P2726 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupFinrankLeMinSignatureUnitaryTrait` | volunteer-build-reviewed |
-| M017383 | P2731 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupFinrankLeMinSignatureUnitaryTraitStatement` | volunteer-build-reviewed |
-| M017385 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupSubsingletonOfBoundedRamificationStatement` | volunteer-build-reviewed |

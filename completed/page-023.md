@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014990 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzL2WordBoundExists` | volunteer-build-reviewed |
+| M014991 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzL2WordBoundExistsStatement` | volunteer-build-reviewed |
 | M014992 | P1921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzMemL2` | volunteer-build-reviewed |
 | M014994 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzPointValuesAdmitted` | volunteer-build-reviewed |
 | M014995 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzPointValuesAdmittedStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M015788 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelBoundOfQuotedTheoremsStatement` | volunteer-build-reviewed |
 | M015793 | P2786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelLowerBoundNefPlusAmple` | volunteer-build-reviewed |
 | M015796 | P2793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelLowerBoundSemiPosNefOnFibresStatement` | volunteer-build-reviewed |
-| M015797 | P2805 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelNefOfAmple` | volunteer-build-reviewed |
-| M015799 | P2807 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithHilbertSamuelOfPrincipalisation` | volunteer-build-reviewed |

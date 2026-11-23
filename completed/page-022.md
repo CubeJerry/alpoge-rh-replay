@@ -90,6 +90,7 @@
 | M014305 | P2654 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeDifferentialsFromGlobalFormsStatement` | volunteer-build-reviewed |
 | M014306 | P2710 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeDualNumberEndoEqTranslation` | volunteer-build-reviewed |
 | M014307 | P2714 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeDualNumberEndoEqTranslationStatement` | volunteer-build-reviewed |
+| M014308 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeDualRepresentableAffineBase` | volunteer-build-reviewed |
 | M014309 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeDualRepresentableAffineBaseStatement` | volunteer-build-reviewed |
 | M014314 | P2695 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeExistsCompEqNsmulOfKernelKilled` | volunteer-build-reviewed |
 | M014318 | P2794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianSchemeFirstDeRhamStructure` | volunteer-build-reviewed |
@@ -134,6 +135,7 @@
 | M014416 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyCechVanishingAboveDegree` | volunteer-build-reviewed |
 | M014418 | P2710 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyDegreePolynomialMapEqCharpolyRatio` | volunteer-build-reviewed |
 | M014419 | P2714 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyDegreePolynomialMapEqCharpolyRatioStatement` | volunteer-build-reviewed |
+| M014420 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyDieudonneIntegralityFactorisation` | volunteer-build-reviewed |
 | M014421 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyDieudonneIntegralityFactorisationStatement` | volunteer-build-reviewed |
 | M014424 | P2759 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyEndCharpolySpec` | volunteer-build-reviewed |
 | M014425 | P2764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbelianVarietyEndCharpolySpecStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M014983 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzFixedBySchroedingerOpenFiniteSubgrStatement` | volunteer-build-reviewed |
 | M014988 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzHaarWeil` | volunteer-build-reviewed |
 | M014989 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzHaarWeilStatement` | volunteer-build-reviewed |
-| M014990 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzL2WordBoundExists` | volunteer-build-reviewed |
-| M014991 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzL2WordBoundExistsStatement` | volunteer-build-reviewed |

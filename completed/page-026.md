@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017370 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmul` | volunteer-build-reviewed |
+| M017371 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmulStatement` | volunteer-build-reviewed |
+| M017372 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterCompatibilityStandardKernelDataTrueColu` | volunteer-build-reviewed |
+| M017374 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterComponentDegreeLowerBound` | volunteer-build-reviewed |
+| M017379 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterExpansionWeightCompatStatement` | volunteer-build-reviewed |
+| M017380 | P2654 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupEqEighthPowerLatticeOverTrait` | volunteer-build-reviewed |
+| M017381 | P2662 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupEqEighthPowerLatticeOverTraitStatement` | volunteer-build-reviewed |
+| M017382 | P2726 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupFinrankLeMinSignatureUnitaryTrait` | volunteer-build-reviewed |
+| M017383 | P2731 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupFinrankLeMinSignatureUnitaryTraitStatement` | volunteer-build-reviewed |
+| M017385 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterGroupSubsingletonOfBoundedRamificationStatement` | volunteer-build-reviewed |
 | M017386 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterInvariantAdelicFormEqMulEvalZero` | volunteer-build-reviewed |
 | M017387 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterInvariantAdelicFormEqMulEvalZeroStatement` | volunteer-build-reviewed |
 | M017396 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterLineBundleAdditiveOfEquivariantGeneratoStatement` | volunteer-build-reviewed |
@@ -34,6 +44,7 @@
 | M017450 | P2797 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyDeRhamHomologyEndomorphismEqMapLadic` | volunteer-build-reviewed |
 | M017451 | P2798 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyDeRhamHomologyEndomorphismEqMapLadicStatement` | volunteer-build-reviewed |
 | M017453 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyDvdPowOfAevalEqZero` | volunteer-build-reviewed |
+| M017454 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqMinpolyPow` | volunteer-build-reviewed |
 | M017456 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfHermitianMultiplicationModelStatement` | volunteer-build-reviewed |
 | M017457 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfIntertwined` | wave-reused |
 | M017458 | P2768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfIsogenyIntertwines` | volunteer-build-reviewed |
@@ -219,6 +230,7 @@
 | M017841 | P2726 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreCechCocyclesCombinationCoefficientNon` | volunteer-build-reviewed |
 | M017842 | P2731 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreCechCocyclesCombinationCoefficientNonStatement` | volunteer-build-reviewed |
 | M017849 | P2714 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreIsAbelianSchemeRelDimOfFrame` | volunteer-build-reviewed |
+| M017851 | P2771 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreLiftCommTranslationSectionRatios` | volunteer-build-reviewed |
 | M017852 | P2774 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreLiftCommTranslationSectionRatiosStatement` | volunteer-build-reviewed |
 | M017857 | P2736 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreProjectiveEmbeddingFactorsProper` | volunteer-build-reviewed |
 | M017858 | P2741 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFibreProjectiveEmbeddingFactorsProperStatement` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M018241 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPLogarithmsEqInvFrobeniusMatrix` | build-observed |
 | M018242 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPLogarithmsEqInvFrobeniusMatrixStatement` | build-observed |
 | M018243 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPlaceValuationResidueFieldCardEqZeroOfNotMe` | volunteer-build-reviewed |
-| M018244 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPlaceValuationResidueFieldCardEqZeroOfNotMeStatement` | volunteer-build-reviewed |
-| M018245 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowEqZeroOfDegreeLt` | volunteer-build-reviewed |
-| M018247 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZero` | wave-reused |
-| M018248 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZeroStatement` | wave-reused |
-| M018249 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSinglePair` | build-observed |
-| M018250 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSinglePairStatement` | build-observed |
-| M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
-| M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |
-| M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |
-| M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
-| M018255 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffQuasiLogarithmIntegralLowDegree` | build-observed |
-| M018256 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffQuasiLogarithmIntegralLowDegreeStatement` | build-observed |

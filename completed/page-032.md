@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021687 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledWeilInertPlaceVacuumEigenfunctionStatement` | volunteer-build-reviewed |
+| M021688 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledWeilOperatorDiagonalIntegralHeisenbergPoi` | volunteer-build-reviewed |
+| M021690 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledWeilRepFixesIntegralUnipotentInertPlace` | volunteer-build-reviewed |
+| M021693 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledWeilRepFixesVacuumTensorSiegelParabolicInStatement` | volunteer-build-reviewed |
+| M021694 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledWeilRepresentationLocalityFinitePlace` | volunteer-build-reviewed |
+| M021695 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubledWeilRepresentationLocalityFinitePlaceStatement` | volunteer-build-reviewed |
+| M021696 | P2662 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationEigenIntegral` | volunteer-build-reviewed |
+| M021698 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationHaarIntegralUnfolding` | volunteer-build-reviewed |
+| M021699 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationHaarIntegralUnfoldingStatement` | volunteer-build-reviewed |
+| M021700 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationHaarUnfoldingSecond` | volunteer-build-reviewed |
+| M021702 | P2624 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationLeviIntegral` | volunteer-build-reviewed |
+| M021703 | P1446 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationLeviIntegralImports` | volunteer-build-reviewed |
+| M021704 | P2635 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingConfigurationLeviIntegralStatement` | volunteer-build-reviewed |
+| M021705 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingDarbouxPairSetting` | volunteer-build-reviewed |
+| M021706 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingDarbouxPairSettingStatement` | volunteer-build-reviewed |
+| M021708 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerGlobalFactorStatement` | volunteer-build-reviewed |
+| M021709 | P2706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerLocalFactor` | volunteer-build-reviewed |
+| M021710 | P2710 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerLocalFactorStatement` | volunteer-build-reviewed |
+| M021711 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleCompatible` | volunteer-build-reviewed |
+| M021712 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleCompatibleStatement` | volunteer-build-reviewed |
+| M021713 | P2695 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleFirst` | volunteer-build-reviewed |
+| M021715 | P2714 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerTripleSecond` | volunteer-build-reviewed |
 | M021718 | P2611 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEigenIntertwinerUnramifiedStatement` | volunteer-build-reviewed |
 | M021720 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEmbeddingContinuousRationalStatement` | volunteer-build-reviewed |
 | M021722 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoublingEmbeddingStabilizers` | volunteer-build-reviewed |
@@ -380,25 +402,3 @@
 | M022324 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModelStatement` | volunteer-build-reviewed |
 | M022325 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceOfInputs` | volunteer-build-reviewed |
 | M022326 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceOfInputsStatement` | volunteer-build-reviewed |
-| M022328 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticWeakSolWordDerivLeConstMulSupStatement` | volunteer-build-reviewed |
-| M022329 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbAApply` | volunteer-build-reviewed |
-| M022330 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbAtSurj` | volunteer-build-reviewed |
-| M022331 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbBBijective` | volunteer-build-reviewed |
-| M022333 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLInlZeroRight` | volunteer-build-reviewed |
-| M022334 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLLMem` | volunteer-build-reviewed |
-| M022335 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbOverSumInjective` | volunteer-build-reviewed |
-| M022340 | P2611 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddedPartPointsOverClosedProjPointClosedStatement` | volunteer-build-reviewed |
-| M022341 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorEighth` | volunteer-build-reviewed |
-| M022343 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorNinth` | volunteer-build-reviewed |
-| M022345 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingEvaluationCompatible` | volunteer-build-reviewed |
-| M022346 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingEvaluationCompatibleStatement` | volunteer-build-reviewed |
-| M022347 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingMatrixIndependent` | wave-reused |
-| M022348 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingModelsCompatibleEval` | volunteer-build-reviewed |
-| M022349 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingReducedResidueFieldBijectiveUnramified` | build-observed |
-| M022350 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingReducedResidueFieldBijectiveUnramifiedStatement` | build-observed |
-| M022353 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingSumDegreeFormula` | volunteer-build-reviewed |
-| M022355 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingsCurveFieldAboveFiniteNonempty` | volunteer-build-reviewed |
-| M022356 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingsCurveFieldAboveFiniteNonemptyStatement` | volunteer-build-reviewed |
-| M022364 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbedsInRegularRepresentationCopiesOfFreePermute` | volunteer-build-reviewed |
-| M022372 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardMulLeOfQuotEmbed` | volunteer-build-reviewed |
-| M022373 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLe` | volunteer-build-reviewed |
